@@ -88,6 +88,7 @@
     <Compile Include="Assets/SolClovser/EasyMultipleHealthbar/Demo/Scripts/DemoEnemy.cs" />
     <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/ZombieSO.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Unit/Zombie.cs" />
+    <Compile Include="Assets/Spawner.cs" />
     <Compile Include="Assets/ZombieGameUI.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Unit/Altar.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/TargetAltarDieTransition.cs" />

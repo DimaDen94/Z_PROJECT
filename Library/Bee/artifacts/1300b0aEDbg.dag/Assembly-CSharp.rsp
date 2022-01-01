@@ -354,6 +354,7 @@
 "Assets/SolClovser/EasyMultipleHealthbar/Demo/Scripts/DemoEnemy.cs"
 "Assets/SolClovser/EasyMultipleHealthbar/Scripts/EasyMultipleHealthbar.cs"
 "Assets/SolClovser/EasyMultipleHealthbar/Scripts/HealthbarController.cs"
+"Assets/Spawner.cs"
 "Assets/ZombieGameUI.cs"
 "Assets/ZombiesGameBar.cs"
 "Assets/_FreedomForZombie/ScriptableObjects/ZombieSO.cs"

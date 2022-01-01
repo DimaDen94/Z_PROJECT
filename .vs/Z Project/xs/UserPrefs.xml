@@ -1,17 +1,18 @@
 ﻿<Properties StartupConfiguration="{2F161492-41F6-49ED-7E1C-AC11E52EA722}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_FreedomForZombie/Scripts/StateMachine/States/IdleState.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Spawner.cs">
     <Files>
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/MoveState.cs" Line="19" Column="13" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/MoveState.cs" Line="17" Column="9" />
       <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitFromAreaTransition.cs" />
       <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitChecker.cs" />
       <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/EnemyDistanceToEnemyTransition.cs" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/EnemyEntranceChecker.cs" Line="18" Column="1" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/EnemyEntranceChecker.cs" />
       <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/TargetDieTransition.cs" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/TargetAltarDieTransition.cs" Line="1" Column="1" />
-      <File FileName="Assets/ZombiesGameBar.cs" Line="19" Column="13" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/AttackState.cs" Line="28" Column="33" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/IdleState.cs" Line="12" Column="72" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/SpawnEndTransition.cs" Line="11" Column="8" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/TargetAltarDieTransition.cs" />
+      <File FileName="Assets/ZombiesGameBar.cs" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/AttackState.cs" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/IdleState.cs" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/SpawnEndTransition.cs" />
+      <File FileName="Assets/Spawner.cs" Line="64" Column="74" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,7 +24,7 @@
                 <Node name="Scripts" expanded="True">
                   <Node name="StateMachine" expanded="True">
                     <Node name="States" expanded="True">
-                      <Node name="IdleState.cs" selected="True" />
+                      <Node name="MoveState.cs" selected="True" />
                     </Node>
                     <Node name="Transitions" expanded="True" />
                   </Node>
@@ -44,7 +45,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c162c0bb-1524-4316-b59f-697c21badb1a" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e33b5574-117c-4d43-ae6a-9d519755a5ed" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/Dmitry/Unity/Z Project/Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitChecker.cs" relfile="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitChecker.cs" line="13" column="1" />
