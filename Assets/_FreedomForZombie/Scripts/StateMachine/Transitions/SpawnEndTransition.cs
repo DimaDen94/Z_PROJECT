@@ -8,7 +8,7 @@ public class SpawnEndTransition : Transition
      void Update()
     {
         
-        if (_animator.GetCurrentAnimatorStateInfo(0).IsName("Z_idle_A"))
+        if (!_animator.GetCurrentAnimatorStateInfo(0).IsName("Emerge"))
         {
             NeedTransit = true;
         }

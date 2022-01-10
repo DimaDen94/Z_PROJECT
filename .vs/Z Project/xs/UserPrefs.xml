@@ -1,18 +1,27 @@
 ﻿<Properties StartupConfiguration="{2F161492-41F6-49ED-7E1C-AC11E52EA722}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Spawner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_FreedomForZombie/Scripts/StateMachine/EnemyEntranceChecker.cs">
     <Files>
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/MoveState.cs" Line="17" Column="9" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitFromAreaTransition.cs" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitChecker.cs" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/EnemyDistanceToEnemyTransition.cs" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/EnemyEntranceChecker.cs" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/TargetDieTransition.cs" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/TargetAltarDieTransition.cs" />
-      <File FileName="Assets/ZombiesGameBar.cs" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/AttackState.cs" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/IdleState.cs" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/SpawnEndTransition.cs" />
-      <File FileName="Assets/Spawner.cs" Line="64" Column="74" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/SearchEnemyTransition.cs" Line="7" Column="39" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/MoveState.cs" Line="12" Column="9" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitFromAreaTransition.cs" Line="18" Column="32" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitChecker.cs" Line="16" Column="6" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/EnemyDistanceToEnemyTransition.cs" Line="19" Column="58" />
+      <File FileName="Assets/Spawner.cs" Line="58" Column="1" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/ZombieSpawnArea.cs" Line="35" Column="59" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/EnemyStateMachine.cs" Line="5" Column="40" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/SpawningState.cs" Line="1" Column="1" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/ZombieStateMachine.cs" Line="7" Column="5" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/Unit/Unit.cs" Line="18" Column="51" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/StateMachine.cs" Line="21" Column="9" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/IdleState.cs" Line="16" Column="67" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/Unit/Zombie.cs" Line="9" Column="26" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/SpawnEndTransition.cs" Line="14" Column="10" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/AttackState.cs" Line="18" Column="11" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/State.cs" Line="11" Column="28" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/Unit/Enemy.cs" Line="6" Column="24" />
+      <File FileName="Assets/ZombieGameUI.cs" Line="21" Column="1" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/ZombieEntranceChecker.cs" Line="6" Column="53" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/EnemyEntranceChecker.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,10 +32,9 @@
                 <Node name="ScriptableObjects" expanded="True" />
                 <Node name="Scripts" expanded="True">
                   <Node name="StateMachine" expanded="True">
-                    <Node name="States" expanded="True">
-                      <Node name="MoveState.cs" selected="True" />
-                    </Node>
+                    <Node name="States" expanded="True" />
                     <Node name="Transitions" expanded="True" />
+                    <Node name="EnemyEntranceChecker.cs" selected="True" />
                   </Node>
                   <Node name="UI" expanded="True" />
                   <Node name="Unit" expanded="True" />
@@ -41,20 +49,21 @@
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e33b5574-117c-4d43-ae6a-9d519755a5ed" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c3886ab9-5e2d-4c4d-95a9-5fd8e5de3117" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/Dmitry/Unity/Z Project/Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitChecker.cs" relfile="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitChecker.cs" line="13" column="1" />
       <Breakpoint file="/Users/Dmitry/Unity/Z Project/Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitFromAreaTransition.cs" relfile="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitFromAreaTransition.cs" line="20" column="1" />
       <Breakpoint file="/Users/Dmitry/Unity/Z Project/Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/EnemyDistanceToEnemyTransition.cs" relfile="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/EnemyDistanceToEnemyTransition.cs" line="21" column="1" />
       <Breakpoint file="/Users/Dmitry/Unity/Z Project/Assets/_FreedomForZombie/Scripts/ZombieSpawnArea.cs" relfile="Assets/_FreedomForZombie/Scripts/ZombieSpawnArea.cs" line="44" column="1" />
-      <Breakpoint file="/Users/Dmitry/Unity/Z Project/Assets/ZombieGameUI.cs" relfile="Assets/ZombieGameUI.cs" line="26" column="1" />
-      <Breakpoint file="/Users/Dmitry/Unity/Z Project/Assets/ZombieGameUI.cs" relfile="Assets/ZombieGameUI.cs" line="21" column="1" />
-      <Breakpoint file="/Users/Dmitry/Unity/Z Project/Assets/ZombieGameUI.cs" relfile="Assets/ZombieGameUI.cs" line="23" column="1" />
+      <Breakpoint file="/Users/Dmitry/Unity/Z Project/Assets/_FreedomForZombie/Scripts/StateMachine/StateMachine.cs" relfile="Assets/_FreedomForZombie/Scripts/StateMachine/StateMachine.cs" line="22" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

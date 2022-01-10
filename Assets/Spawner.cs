@@ -13,6 +13,7 @@ public class Spawner : MonoBehaviour
     [SerializeField] private SpawnState _currentState = SpawnState.COUNTING;
 
     [SerializeField] private int _currentWaweIndex = 0;
+    [SerializeField] private Unit _targetAltar;
 
 
     private void Start()
@@ -62,11 +63,13 @@ public class Spawner : MonoBehaviour
     }
     private void SpawnEnemy(Unit enemy, SpawnPosition spawnPosition) {
         //Spawn Enemy
+        Vector3 spawnLocation;
         if(spawnPosition == SpawnPosition.DOWN)
-            Instantiate(enemy,_spawnPointDown.position, Quaternion.identity);
+            spawnLocation = _spawnPointDown.position;
         else
-            Instantiate(enemy, _spawnPointUp.position, Quaternion.identity);
-
+            spawnLocation = _spawnPointUp.position;
+        Unit spawnedEnemy = Instantiate(enemy, spawnLocation, Quaternion.identity);
+        spawnedEnemy.SetTargetAltarPosition(_targetAltar);
     }
 
     [System.Serializable]

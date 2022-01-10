@@ -9,7 +9,7 @@ public class ZombieSpawnArea : MonoBehaviour
     private Vector3 _worldPosition;
     private int _maxDistance = 1000;
     private Camera _mainCamera;
-    [SerializeField] private Enemy targetAltar;
+    [SerializeField] private Enemy _targetAltar;
     [SerializeField] private Zombie _tempZombie;
     [SerializeField] private ZombieSO _currentZombie;
     [SerializeField] private Mana _mana;
@@ -31,8 +31,8 @@ public class ZombieSpawnArea : MonoBehaviour
                 _worldPosition = hit.point;
                 if (_mana.TryUseMana(_currentZombie.DefaultManaCost)) {
 
-                    Zombie spawnedZombie = Instantiate(_currentZombie.Prefab, _worldPosition, Quaternion.LookRotation(targetAltar.transform.position));
-                    spawnedZombie.SetTargetAltarPosition(targetAltar);
+                    Zombie spawnedZombie = Instantiate(_currentZombie.Prefab, _worldPosition, Quaternion.LookRotation(_targetAltar.transform.position));
+                    spawnedZombie.SetTargetAltarPosition(_targetAltar);
                 }
                 // TODO play sound and animation
             }

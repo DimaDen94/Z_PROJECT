@@ -12,9 +12,6 @@ public class Zombie :  Unit
 
 
     private NavMeshAgent _agent;
-    private Unit _targetEnemy;
-
-    public Unit TargetEnemy => _targetEnemy;
     public State CurrentState => _currentState; 
 
     private State _currentState;
@@ -26,10 +23,7 @@ public class Zombie :  Unit
         _agent = GetComponent<NavMeshAgent>();
     }
 
-    internal void SetTargetAltarPosition(Unit enemy)
-    {
-        _targetEnemy = enemy;
-    }
+   
     public void TakeDamage(int damage)
     {
         _health -= damage;

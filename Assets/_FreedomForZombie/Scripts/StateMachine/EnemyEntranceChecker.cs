@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class EnemyEntranceChecker : MonoBehaviour
+public class EnemyEntranceChecker : EntranceChecker
 {
-    public UnityAction<Unit> CollisionEnter;
 
 
     private void OnCollisionEnter(Collision collision)
@@ -19,6 +18,15 @@ public class EnemyEntranceChecker : MonoBehaviour
         if (target != null) {
             CollisionEnter?.Invoke(target);
             Debug.Log(target.gameObject.name);
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        Zombie target;
+        other.gameObject.TryGetComponent<Zombie>(out target);
+        if (target != null)
+        {
+            _allDetectedEnemy.Remove(target);
         }
     }
 }

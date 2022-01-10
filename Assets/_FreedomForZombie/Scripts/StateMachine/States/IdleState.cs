@@ -9,6 +9,13 @@ public class IdleState : State
  
     private void OnEnable()
     {
-        _animator.SetTrigger("Idle");
+        
+    }
+    private void Update()
+    {
+        if (!_animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
+        {
+            _animator.SetTrigger("Idle");
+        }
     }
 }

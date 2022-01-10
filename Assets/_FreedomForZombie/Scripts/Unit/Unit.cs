@@ -8,7 +8,7 @@ public abstract class Unit : MonoBehaviour
     [SerializeField] protected float _health;
     [SerializeField] protected float _maxHealth;
 
-    private Unit _targetEnemy;
+    [SerializeField]private Unit _targetEnemy;
     public Unit TargetEnemy => _targetEnemy;
 
     public event UnityAction<float, float> DamageReceived;
@@ -18,5 +18,9 @@ public abstract class Unit : MonoBehaviour
         DamageReceived?.Invoke(_maxHealth, _health);
         if (_health <= 0 && gameObject != null)
             Destroy(gameObject);
+    }
+    public void SetTargetAltarPosition(Unit enemy)
+    {
+        _targetEnemy = enemy;
     }
 }

@@ -15,8 +15,8 @@ public class ExitFromAreaTransition : Transition
         checker.CollisionExit -= SetTarget;
     }
 
-    private void SetTarget(Zombie zombie) {
-        GetComponent<EnemyStateMachine>().TargetEnemyAltar = zombie;
+    private void SetTarget(Unit zombie) {
+        GetComponent<StateMachine>().TargetEnemy = zombie;
         NeedTransit = true;
     }
 

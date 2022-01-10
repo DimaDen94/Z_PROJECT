@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Altar : MonoBehaviour
+public class Altar : Unit
 {
     // Start is called before the first frame update
     void Start()
