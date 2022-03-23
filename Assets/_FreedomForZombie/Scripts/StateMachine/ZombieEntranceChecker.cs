@@ -17,6 +17,8 @@ public class ZombieEntranceChecker : EntranceChecker
         other.gameObject.TryGetComponent<Enemy>(out target);
         if (target != null) {
             CollisionEnter?.Invoke(target);
+            _allDetectedEnemy.Add(target);
+            target.Dying.AddListener(RemoveUnit);
             Debug.Log(target.gameObject.name);
         }
     }

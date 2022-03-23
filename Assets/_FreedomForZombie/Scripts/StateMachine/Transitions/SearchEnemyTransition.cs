@@ -9,11 +9,8 @@ public class SearchEnemyTransition : Transition
     {
         if (checker.AllDetectedEnemy.Count != 0)
         {
+            Debug.Log("Enemy was faund " + checker.AllDetectedEnemy.Count) ;
             GetComponent<StateMachine>().TargetEnemy = checker.AllDetectedEnemy[0];
-            NeedTransit = true;
-        } 
-        else {
-            GetComponent<StateMachine>().ResetTarget();
             NeedTransit = true;
         }
     }

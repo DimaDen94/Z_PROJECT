@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8511b73bea48e42b9a119764d0119393, type: 3}
   m_Name: Bold Zombie
   m_EditorClassIdentifier: 
-  _prefab: {fileID: 6685318907720150788, guid: 460cf62bdf4744f459db01607a2dfde6, type: 3}
-  _preview: {fileID: 21300000, guid: ee8dee9c2ea97485499add11489ecb6f, type: 3}
+  _prefab: {fileID: 6685318907720150788, guid: 2661dc795e14e43dd858c06cb4ac17f1, type: 3}
+  _preview: {fileID: 21300000, guid: b8fb37171d988470b935dbcdbd2fe334, type: 3}
   _name: Bob
   _descripription: Slow but strong zombie
   _defaultManaCost: 7
   _defaultManyCost: 100
-  _defaultDamage: 5
-  _defaultHealth: 70
+  _defaultDamage: 8
+  _defaultHealth: 120
+  _defaultAtackSpeed: 6
+  _defaultSpeed: 2

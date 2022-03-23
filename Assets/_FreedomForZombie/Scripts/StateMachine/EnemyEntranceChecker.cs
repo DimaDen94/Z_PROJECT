@@ -17,6 +17,8 @@ public class EnemyEntranceChecker : EntranceChecker
         other.gameObject.TryGetComponent<Zombie>(out target);
         if (target != null) {
             CollisionEnter?.Invoke(target);
+            _allDetectedEnemy.Add(target);
+            target.Dying.AddListener(RemoveUnit); 
             Debug.Log(target.gameObject.name);
         }
     }
@@ -29,4 +31,5 @@ public class EnemyEntranceChecker : EntranceChecker
             _allDetectedEnemy.Remove(target);
         }
     }
+    
 }

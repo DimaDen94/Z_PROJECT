@@ -9,7 +9,7 @@ public class IdleState : State
  
     private void OnEnable()
     {
-        
+        _animator.SetTrigger("Idle");
     }
     private void Update()
     {

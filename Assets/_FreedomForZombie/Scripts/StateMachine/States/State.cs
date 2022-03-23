@@ -7,16 +7,16 @@ public abstract class State : MonoBehaviour
 {
     [SerializeField] private List<Transition> _transitions;
 
-    public Unit Target {get;protected set;}
+    [SerializeField]public Unit Target {get;protected set;}
     public Unit TargetAltar {get;protected set;}
 
-    public void Enter(Unit target, Unit targetEnemyAltar) {
+    public void Enter(Unit target, Unit targetEnemyAltar, Unit nativeAltar) {
         Target = target;
         TargetAltar = targetEnemyAltar;
         enabled = true;
         foreach (var transition in _transitions) {
             transition.enabled = true;
-            transition.Init(Target, TargetAltar);
+            transition.Init(Target, TargetAltar,nativeAltar);
         }
     }
 

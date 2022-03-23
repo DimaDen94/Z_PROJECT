@@ -20,3 +20,5 @@ MonoBehaviour:
   _defaultManyCost: 100
   _defaultDamage: 4
   _defaultHealth: 50
+  _defaultAtackSpeed: 10
+  _defaultSpeed: 10

@@ -6,7 +6,11 @@ using UnityEngine.Events;
 public class EntranceChecker : MonoBehaviour
 {
     public UnityAction<Unit> CollisionEnter;
-    protected List<Unit> _allDetectedEnemy = new List<Unit>();
+    [SerializeField]protected List<Unit> _allDetectedEnemy = new List<Unit>();
 
     public List<Unit> AllDetectedEnemy => _allDetectedEnemy;
+    protected void RemoveUnit(Unit unit)
+    {
+        AllDetectedEnemy.Remove(unit);
+    }
 }

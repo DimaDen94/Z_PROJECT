@@ -10,32 +10,16 @@ public class Zombie :  Unit
 {
     [SerializeField] private float _damage;
 
+    public State CurrentState => _currentState;
 
-    private NavMeshAgent _agent;
-    public State CurrentState => _currentState; 
-
+    public float Damage  => _damage; 
     private State _currentState;
 
-    public event UnityAction Dying;
-
-    private void Awake()
+    internal void SetDefaultParams(int defaultDamage, int defaultHealth, float defaultSpeed)
     {
-        _agent = GetComponent<NavMeshAgent>();
+        _damage = defaultDamage;
+        _maxHealth = defaultHealth;
+        _health = defaultHealth;
+        GetComponent<NavMeshAgent>().speed = defaultSpeed;
     }
-
-   
-    public void TakeDamage(int damage)
-    {
-        _health -= damage;
-        if (_health <= 0)
-            Die();
-    }
-
-    private void Die()
-    {
-        Debug.Log(gameObject.name + " die");
-        Destroy(gameObject);
-    }
-
-   
 }

@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Regular Zombie
   m_EditorClassIdentifier: 
   _prefab: {fileID: 6685318907720150788, guid: b14953694d54eea4eb66f453e525024c, type: 3}
-  _preview: {fileID: 21300000, guid: b926804ab64c64a3ca6b370d48627a3a, type: 3}
+  _preview: {fileID: 21300000, guid: bcd162cce02ab41f7b1f76834a4cbee7, type: 3}
   _name: Frank
   _descripription: Simple and reliable zombie
   _defaultManaCost: 6
   _defaultManyCost: 100
   _defaultDamage: 4
   _defaultHealth: 50
+  _defaultAtackSpeed: 10
+  _defaultSpeed: 3.5

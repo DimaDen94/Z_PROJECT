@@ -6,6 +6,7 @@ public class StateMachine : MonoBehaviour
 {
     [SerializeField] protected Unit _targetEnemy;
     protected Unit _targetEnemyAltar;
+    protected Unit _nativeAltar;
 
     protected State _currentState;
 
@@ -15,12 +16,7 @@ public class StateMachine : MonoBehaviour
 
     public Unit TargetEnemy { get => _targetEnemy; set => _targetEnemy = value; }
 
-    private void Start()
-    {
-        _targetEnemyAltar = GetComponent<Unit>().TargetEnemy;
-        _targetEnemy = GetComponent<Unit>().TargetEnemy;
-        Reset(_firstState);
-    }
+   
     public void ResetTarget() {
         _targetEnemy = _targetEnemyAltar;
     }
@@ -28,7 +24,7 @@ public class StateMachine : MonoBehaviour
     {
         _currentState = startState;
         if (_currentState != null)
-            _currentState.Enter(_targetEnemy,_targetEnemyAltar);
+            _currentState.Enter(_targetEnemy,_targetEnemyAltar, _nativeAltar);
     }
     protected void Update()
     {
@@ -48,7 +44,7 @@ public class StateMachine : MonoBehaviour
         _currentState = nextState;
         if (_currentState != null)
         {
-            _currentState.Enter(_targetEnemy,_targetEnemyAltar);
+            _currentState.Enter(_targetEnemy,_targetEnemyAltar,_nativeAltar);
         }
     }
 }

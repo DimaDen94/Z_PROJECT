@@ -11,16 +11,31 @@ public abstract class Unit : MonoBehaviour
     [SerializeField]private Unit _targetEnemy;
     public Unit TargetEnemy => _targetEnemy;
 
+    [SerializeField] private Unit _nativeAltar;
+    public Unit NativeAltar => _nativeAltar;
+
     public event UnityAction<float, float> DamageReceived;
+
+
+    public UnityEvent<Unit> Dying;
+    [SerializeField] Animator animator;
+ 
     public void ApplyDamage(float damage)
     {
         _health -= damage;
         DamageReceived?.Invoke(_maxHealth, _health);
         if (_health <= 0 && gameObject != null)
-            Destroy(gameObject);
+        {
+            Dying?.Invoke(this);
+            //Destroy(gameObject);
+        }
     }
-    public void SetTargetAltarPosition(Unit enemy)
+    public void SetTargetAltar(Unit enemy)
     {
         _targetEnemy = enemy;
+    }
+    public void SetNativeAltar(Unit altar)
+    {
+        _nativeAltar = altar;
     }
 }
