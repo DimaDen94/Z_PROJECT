@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/_FreedomForZombie/Scene/MainGameScene.unity
+- path: Assets/_FreedomForZombie/Scene/UpgradeScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

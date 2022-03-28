@@ -10,6 +10,7 @@ public class MapPoint : MonoBehaviour
     private void Start()
     {
         _pointNumberText.text = _pointNumber.ToString();
+        
     }
     private void OnMouseUpAsButton()
     {

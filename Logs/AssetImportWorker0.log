@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64703
+50869
 Successfully changed project path to: /Users/Dmitry/Unity/Z Project
 /Users/Dmitry/Unity/Z Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/Dmitry/Unity/Z Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 108.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 107.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.2f1 (5e2b1e92c7f8)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -70,45 +70,45 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56971
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001318 seconds.
+Registered in 0.001474 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 109.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 104.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.961 seconds
+- Completed reload, in  0.942 seconds
 Domain Reload Profiling:
-	ReloadAssembly (961ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (943ms)
+		BeginReloadAssembly (81ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (727ms)
-			LoadAssemblies (114ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (748ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (163ms)
+			SetupTypeCache (162ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (440ms)
+			SetupLoadedEditorAssemblies (463ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (109ms)
+				RefreshPlugins (105ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (242ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002687 seconds.
+Registered in 0.002739 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -116,44 +116,44 @@ Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.714 seconds
+- Completed reload, in  1.741 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1716ms)
-		BeginReloadAssembly (270ms)
+	ReloadAssembly (1742ms)
+		BeginReloadAssembly (275ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1304ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1322ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (370ms)
+			SetupTypeCache (382ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (600ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (586ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (451ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (441ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3219 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (469.6 KB). Loaded Objects now: 3709.
-Memory consumption went from 313.2 MB to 312.7 MB.
-Total: 4.947273 ms (FindLiveObjects: 0.332120 ms CreateObjectMapping: 0.218809 ms MarkObjects: 4.052450 ms  DeleteObjects: 0.342551 ms)
+Unloading 3233 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (476.1 KB). Loaded Objects now: 3723.
+Memory consumption went from 316.0 MB to 315.5 MB.
+Total: 5.538957 ms (FindLiveObjects: 0.484119 ms CreateObjectMapping: 0.549992 ms MarkObjects: 4.145229 ms  DeleteObjects: 0.358449 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,685 +167,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 233306.069428 seconds.
-  path: Assets/_FreedomForZombie/ScriptableObjects/ZombieSO.cs
-  artifactKey: Guid(8511b73bea48e42b9a119764d0119393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/ScriptableObjects/ZombieSO.cs using Guid(8511b73bea48e42b9a119764d0119393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8103c7301919b2f037d79902502bde3') in 4.071545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 679.714504 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Regular Zombie.png
-  artifactKey: Guid(bcd162cce02ab41f7b1f76834a4cbee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Regular Zombie.png using Guid(bcd162cce02ab41f7b1f76834a4cbee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'd669913154564cfc2ed0f66a629f087a') in 1.274379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.144627 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Regular Zombie.png
-  artifactKey: Guid(bcd162cce02ab41f7b1f76834a4cbee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Regular Zombie.png using Guid(bcd162cce02ab41f7b1f76834a4cbee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'c19e5a1d4fb245985bb5a09bb614c97e') in 0.088726 seconds 
+  Time since last request: 97962.908791 seconds.
+  path: Assets/_FreedomForZombie/Scene/MapScene.unity
+  artifactKey: Guid(56c5f29d4d2e54e97bbed0b40f3dde71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FreedomForZombie/Scene/MapScene.unity using Guid(56c5f29d4d2e54e97bbed0b40f3dde71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e4acf8852b20b2650080776c3116c7') in 0.020846 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002756 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.852 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1853ms)
-		BeginReloadAssembly (188ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (90ms)
-		EndReloadAssembly (1528ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (352ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (798ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (608ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (416.1 KB). Loaded Objects now: 3746.
-Memory consumption went from 350.8 MB to 350.4 MB.
-Total: 6.402073 ms (FindLiveObjects: 0.510732 ms CreateObjectMapping: 0.501340 ms MarkObjects: 5.076662 ms  DeleteObjects: 0.311852 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 421.169914 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Quick Zombie.png
-  artifactKey: Guid(603701cd3b71b40d093f53a4415e878c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Quick Zombie.png using Guid(603701cd3b71b40d093f53a4415e878c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '9d0cbbb118c1c035e7b16d5f499252f4') in 0.067306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.063816 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Bold Zombie.png
-  artifactKey: Guid(b8fb37171d988470b935dbcdbd2fe334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Bold Zombie.png using Guid(b8fb37171d988470b935dbcdbd2fe334) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '8225e96d6a0c7a50021f775d72f1b271') in 0.018417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.271742 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Healer Zombie.png
-  artifactKey: Guid(e22bed3dd13be4ec9ab8310a65273269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Healer Zombie.png using Guid(e22bed3dd13be4ec9ab8310a65273269) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '4b171f0b1b8cc6ab5c4f12781f6234a5') in 0.011686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.784488 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Healer Zombie.png
-  artifactKey: Guid(e22bed3dd13be4ec9ab8310a65273269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Healer Zombie.png using Guid(e22bed3dd13be4ec9ab8310a65273269) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '9820e161e7aa6deaa514456dcd9f5ebc') in 0.073249 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003089 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.786 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1787ms)
-		BeginReloadAssembly (189ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (88ms)
-		EndReloadAssembly (1464ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (356ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (724ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (567ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3200 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (447.8 KB). Loaded Objects now: 3807.
-Memory consumption went from 353.1 MB to 352.7 MB.
-Total: 4.973099 ms (FindLiveObjects: 0.391922 ms CreateObjectMapping: 0.281451 ms MarkObjects: 3.957685 ms  DeleteObjects: 0.340509 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 100.330703 seconds.
-  path: Assets/_FreedomForZombie/ScriptableObjects/Zombies/Prist big radius Zombie.asset
-  artifactKey: Guid(2ca7261a703734d27b74e4b1f7262271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/ScriptableObjects/Zombies/Prist big radius Zombie.asset using Guid(2ca7261a703734d27b74e4b1f7262271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d251cb1cffbfd9a20ea2d2c3d55c68') in 1.549222 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002980 seconds.
+Registered in 0.003435 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.778 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1779ms)
-		BeginReloadAssembly (197ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (94ms)
-		EndReloadAssembly (1434ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (381ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (656ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (495ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (449.1 KB). Loaded Objects now: 3809.
-Memory consumption went from 357.5 MB to 357.1 MB.
-Total: 5.385990 ms (FindLiveObjects: 0.368459 ms CreateObjectMapping: 0.248266 ms MarkObjects: 4.383375 ms  DeleteObjects: 0.384429 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 86.781674 seconds.
-  path: Assets/_FreedomForZombie/ScriptableObjects/Zombies/Bold Zombie.asset
-  artifactKey: Guid(c41793a13ca764e47a1baaaac91a31b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/ScriptableObjects/Zombies/Bold Zombie.asset using Guid(c41793a13ca764e47a1baaaac91a31b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f24f89d04a3d1ab57f51cc305c5c3ef') in 0.125500 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003151 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.860 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1862ms)
-		BeginReloadAssembly (202ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (99ms)
-		EndReloadAssembly (1527ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (354ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (768ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (592ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (417.8 KB). Loaded Objects now: 3811.
-Memory consumption went from 357.7 MB to 357.3 MB.
-Total: 5.735428 ms (FindLiveObjects: 0.517069 ms CreateObjectMapping: 0.397483 ms MarkObjects: 4.480575 ms  DeleteObjects: 0.338666 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 33.085430 seconds.
-  path: Assets/_FreedomForZombie/ScriptableObjects/Zombies/Bold Zombie.asset
-  artifactKey: Guid(c41793a13ca764e47a1baaaac91a31b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/ScriptableObjects/Zombies/Bold Zombie.asset using Guid(c41793a13ca764e47a1baaaac91a31b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3714adaae6a398a1f37ff1222ecd5a8e') in 0.134417 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003191 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.921 seconds
+- Completed reload, in  1.694 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1922ms)
-		BeginReloadAssembly (203ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (99ms)
-		EndReloadAssembly (1586ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (376ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (799ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (602ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (449.2 KB). Loaded Objects now: 3813.
-Memory consumption went from 357.9 MB to 357.5 MB.
-Total: 5.611341 ms (FindLiveObjects: 0.360576 ms CreateObjectMapping: 0.257646 ms MarkObjects: 4.503777 ms  DeleteObjects: 0.487819 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 98.754969 seconds.
-  path: Assets/_FreedomForZombie/ScriptableObjects/Zombies/Quick Zombie.asset
-  artifactKey: Guid(acc3ea81f54bb4aa2a34dfb483330a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/ScriptableObjects/Zombies/Quick Zombie.asset using Guid(acc3ea81f54bb4aa2a34dfb483330a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600263c6009e0fd79dc57eb4d7dd2a7b') in 0.375460 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002897 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.698 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1700ms)
-		BeginReloadAssembly (282ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (142ms)
-		EndReloadAssembly (1234ms)
-			LoadAssemblies (111ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (381ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (458ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (342ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (449.5 KB). Loaded Objects now: 3815.
-Memory consumption went from 358.6 MB to 358.1 MB.
-Total: 4.450994 ms (FindLiveObjects: 0.336918 ms CreateObjectMapping: 0.226175 ms MarkObjects: 3.573804 ms  DeleteObjects: 0.313067 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003644 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.901 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1902ms)
-		BeginReloadAssembly (208ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (89ms)
-		EndReloadAssembly (1551ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (397ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (711ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (544ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (416.2 KB). Loaded Objects now: 3817.
-Memory consumption went from 358.7 MB to 358.3 MB.
-Total: 5.816764 ms (FindLiveObjects: 0.351662 ms CreateObjectMapping: 0.242377 ms MarkObjects: 4.600570 ms  DeleteObjects: 0.620428 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 51.274463 seconds.
-  path: Assets/_FreedomForZombie/ScriptableObjects/Zombies/Damage Up Zombie.asset
-  artifactKey: Guid(b196e9ea743894a1aad62b21662e4695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/ScriptableObjects/Zombies/Damage Up Zombie.asset using Guid(b196e9ea743894a1aad62b21662e4695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29389ef4b45fa3084a8c2d1f053b213c') in 0.138456 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003210 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.904 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1905ms)
+	ReloadAssembly (1695ms)
 		BeginReloadAssembly (205ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (88ms)
-		EndReloadAssembly (1566ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (1336ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (400ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (728ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (546ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (417.7 KB). Loaded Objects now: 3819.
-Memory consumption went from 358.9 MB to 358.5 MB.
-Total: 4.813395 ms (FindLiveObjects: 0.340823 ms CreateObjectMapping: 0.245504 ms MarkObjects: 3.833339 ms  DeleteObjects: 0.392498 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 382.892481 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Bold Zombie.png
-  artifactKey: Guid(b8fb37171d988470b935dbcdbd2fe334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Bold Zombie.png using Guid(b8fb37171d988470b935dbcdbd2fe334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cd1ea3fa5185af038cf0b3fef9361c') in 0.124922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.705806 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Quick Zombie.png
-  artifactKey: Guid(603701cd3b71b40d093f53a4415e878c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Quick Zombie.png using Guid(603701cd3b71b40d093f53a4415e878c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12eaff3ab7b3d39923386d492341c12d') in 0.026201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 681.447834 seconds.
-  path: Assets/GUI Kit Cartoon Millitary/Sprite/Message/picture_defualt.png
-  artifactKey: Guid(626b4e4a558d547ca9efd65638ebcce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Kit Cartoon Millitary/Sprite/Message/picture_defualt.png using Guid(626b4e4a558d547ca9efd65638ebcce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '3bee3e80bd61b6b56c3cb9228d393d64') in 0.032058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.591030 seconds.
-  path: Assets/GUI Kit Cartoon Millitary/Sprite/Message/picture_defualt.png
-  artifactKey: Guid(626b4e4a558d547ca9efd65638ebcce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Kit Cartoon Millitary/Sprite/Message/picture_defualt.png using Guid(626b4e4a558d547ca9efd65638ebcce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'a20031accdc423c8cad171aa076b42cb') in 0.042022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.557878 seconds.
-  path: Assets/GUI Kit Cartoon Millitary/Sprite/Message/picture_defualt.png
-  artifactKey: Guid(626b4e4a558d547ca9efd65638ebcce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Kit Cartoon Millitary/Sprite/Message/picture_defualt.png using Guid(626b4e4a558d547ca9efd65638ebcce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '35539cc5d33fd714bd99d75b29c00ffa') in 0.041236 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003470 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.984 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1985ms)
-		BeginReloadAssembly (194ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (87ms)
-		EndReloadAssembly (1656ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (405ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (760ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (568ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (447.8 KB). Loaded Objects now: 3894.
-Memory consumption went from 361.2 MB to 360.8 MB.
-Total: 4.453094 ms (FindLiveObjects: 0.363329 ms CreateObjectMapping: 0.250910 ms MarkObjects: 3.527396 ms  DeleteObjects: 0.309982 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 354.115247 seconds.
-  path: Assets/_FreedomForZombie/ScriptableObjects/Zombies/Regular Zombie.asset
-  artifactKey: Guid(087a73942a76344a0acc3c0e7138fa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/ScriptableObjects/Zombies/Regular Zombie.asset using Guid(087a73942a76344a0acc3c0e7138fa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844f0ca66858b6b5976dc07c44f85de7') in 0.135313 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002913 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.814 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1815ms)
-		BeginReloadAssembly (186ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (85ms)
-		EndReloadAssembly (1491ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (379ms)
+			SetupTypeCache (363ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (693ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (606ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (21ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (520ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (446ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (449.3 KB). Loaded Objects now: 3896.
-Memory consumption went from 361.4 MB to 361.0 MB.
-Total: 6.270926 ms (FindLiveObjects: 0.369770 ms CreateObjectMapping: 0.319316 ms MarkObjects: 5.204973 ms  DeleteObjects: 0.375492 ms)
+Unloading 3206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (449.0 KB). Loaded Objects now: 3725.
+Memory consumption went from 313.5 MB to 313.0 MB.
+Total: 5.760767 ms (FindLiveObjects: 0.405430 ms CreateObjectMapping: 0.320767 ms MarkObjects: 4.598960 ms  DeleteObjects: 0.434144 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -859,436 +230,62 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 58.018385 seconds.
-  path: Assets/_FreedomForZombie/ScriptableObjects/Zombies/Healer Zombie.asset
-  artifactKey: Guid(c4ad1610ab11b430b820f54d2cbc7808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/ScriptableObjects/Zombies/Healer Zombie.asset using Guid(c4ad1610ab11b430b820f54d2cbc7808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c956908c1c32398b0cbdf1dfbbcb4190') in 0.123118 seconds 
+  Time since last request: 328.036241 seconds.
+  path: Assets/_FreedomForZombie/Scene/MapScene.unity
+  artifactKey: Guid(56c5f29d4d2e54e97bbed0b40f3dde71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FreedomForZombie/Scene/MapScene.unity using Guid(56c5f29d4d2e54e97bbed0b40f3dde71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d57c1240554f8dc76109e57e34ee0e') in 0.026477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.106111 seconds.
+  path: Assets/_FreedomForZombie/Scene/ShopScene.unity
+  artifactKey: Guid(56f1986aeb70f4dfa875023c567834ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FreedomForZombie/Scene/ShopScene.unity using Guid(56f1986aeb70f4dfa875023c567834ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b8950a7510fee53253b9d155f537f9') in 0.007004 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002721 seconds.
+Registered in 0.002863 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.772 seconds
+- Completed reload, in  1.580 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1773ms)
-		BeginReloadAssembly (193ms)
+	ReloadAssembly (1582ms)
+		BeginReloadAssembly (184ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (81ms)
-		EndReloadAssembly (1434ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (1262ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (378ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (641ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (489ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (418.3 KB). Loaded Objects now: 3898.
-Memory consumption went from 361.8 MB to 361.4 MB.
-Total: 4.536420 ms (FindLiveObjects: 0.338481 ms CreateObjectMapping: 0.227913 ms MarkObjects: 3.579490 ms  DeleteObjects: 0.389188 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 37.321218 seconds.
-  path: Assets/_FreedomForZombie/ScriptableObjects/Zombies/Healer Zombie.asset
-  artifactKey: Guid(c4ad1610ab11b430b820f54d2cbc7808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/ScriptableObjects/Zombies/Healer Zombie.asset using Guid(c4ad1610ab11b430b820f54d2cbc7808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9aba6d27193bc6253a211d8e551ba9') in 0.122119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.139611 seconds.
-  path: Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_22_soldier.prefab
-  artifactKey: Guid(f6513a924d8de46569354aa4fd48e3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_22_soldier.prefab using Guid(f6513a924d8de46569354aa4fd48e3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'd6106990e7ad918dd2b809e97bf791d4') in 0.627095 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.794658 seconds.
-  path: Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_F_10_farmer.prefab
-  artifactKey: Guid(fca68701d5b894660871dd834318381b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_F_10_farmer.prefab using Guid(fca68701d5b894660871dd834318381b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'bbb5b839404ec34d08827d942bcf9917') in 0.050752 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 310.688048 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Regular Zombie.png
-  artifactKey: Guid(bcd162cce02ab41f7b1f76834a4cbee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Regular Zombie.png using Guid(bcd162cce02ab41f7b1f76834a4cbee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a23f09407d9860a875b4215553ac1e4') in 0.051628 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 119.437569 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Regular Zombie.png
-  artifactKey: Guid(bcd162cce02ab41f7b1f76834a4cbee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Regular Zombie.png using Guid(bcd162cce02ab41f7b1f76834a4cbee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79705c9ed355b63f03dee72a7ff87b1') in 0.040088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.612530 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Vilage Zombie.png
-  artifactKey: Guid(a033549171e53463d80443343b7b7d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Vilage Zombie.png using Guid(a033549171e53463d80443343b7b7d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'df380f66fa599f63462f2aa680f06a2b') in 0.016452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.940609 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Vilage Zombie.png
-  artifactKey: Guid(a033549171e53463d80443343b7b7d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Vilage Zombie.png using Guid(a033549171e53463d80443343b7b7d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'b52f9a3d19e2e87f8e930dd92a5e1df0') in 0.048952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41.790086 seconds.
-  path: Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_21_priest.prefab
-  artifactKey: Guid(4c1540707eda24ab0a97bff93e2b57e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_21_priest.prefab using Guid(4c1540707eda24ab0a97bff93e2b57e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '6ce40577fa90b9c647a07c7134846e60') in 0.045053 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.351022 seconds.
-  path: Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_19_nurse.prefab
-  artifactKey: Guid(68d948c2fdcab4f8298228d8fe2baf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_19_nurse.prefab using Guid(68d948c2fdcab4f8298228d8fe2baf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'cef23723cad19d68490dc45440d4169b') in 0.043669 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.854091 seconds.
-  path: Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_15_punk.prefab
-  artifactKey: Guid(32af30b6ae2e248ac967cd3bcf9aa7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_15_punk.prefab using Guid(32af30b6ae2e248ac967cd3bcf9aa7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '6139174c55f974b81d443639d26a326e') in 0.043546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.981891 seconds.
-  path: Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_11_farmer.prefab
-  artifactKey: Guid(8d97ce7b0e25840bba6fc04db7c121ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_11_farmer.prefab using Guid(8d97ce7b0e25840bba6fc04db7c121ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '864d9b86e479b3e28dfec397da9c9439') in 0.038539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.975237 seconds.
-  path: Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_09_broken.prefab
-  artifactKey: Guid(95b2d79b4840b4fa7b2556a0770f4f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_09_broken.prefab using Guid(95b2d79b4840b4fa7b2556a0770f4f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '1662c45f37e703a839a534b5f4c7548e') in 0.033861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.119475 seconds.
-  path: Assets/_FreedomForZombie/ScriptableObjects/Zombies/Expensive Zombie.asset
-  artifactKey: Guid(44614a02f2b944cdf9202f3c772e66c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/ScriptableObjects/Zombies/Expensive Zombie.asset using Guid(44614a02f2b944cdf9202f3c772e66c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f3e3fe48a3ccd8e5e03ccdd431602f') in 0.039467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 83.140914 seconds.
-  path: Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_20_butcher.prefab
-  artifactKey: Guid(a871b559cecdd44c0b285d9822fc8797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_20_butcher.prefab using Guid(a871b559cecdd44c0b285d9822fc8797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'dd21b71209aa21619920bfff020ffe42') in 0.048449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 346.448491 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Punk Zombie.png
-  artifactKey: Guid(243efa3b17c9448cabb420516fe6fcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Punk Zombie.png using Guid(243efa3b17c9448cabb420516fe6fcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '03bfaad265963d57aceca8dc64f2e525') in 0.019869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.694207 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Punk Zombie.png
-  artifactKey: Guid(243efa3b17c9448cabb420516fe6fcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Punk Zombie.png using Guid(243efa3b17c9448cabb420516fe6fcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'b043d3a9e63e2c23a27ecd63176d78ac') in 0.049263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.179135 seconds.
-  path: Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_01.prefab
-  artifactKey: Guid(19fb24c0e3935411aba27da2f8b31e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_01.prefab using Guid(19fb24c0e3935411aba27da2f8b31e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '366ff2033787d26747132be0a8a13aaf') in 0.025350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.148829 seconds.
-  path: Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_05.prefab
-  artifactKey: Guid(a458953921da14edc864eff7657fe0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_05.prefab using Guid(a458953921da14edc864eff7657fe0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '4558c49e0848dd490bfd48645b56950c') in 0.030684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.340148 seconds.
-  path: Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_F_17_nun.prefab
-  artifactKey: Guid(4b9e7e2ae588a454086946479a924707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_F_17_nun.prefab using Guid(4b9e7e2ae588a454086946479a924707) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'bc92b83c67c7defa74d74ada42744bdc') in 0.032990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.932308 seconds.
-  path: Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_F_14_nurse.prefab
-  artifactKey: Guid(2d16f79dde93e4850ae87d70605e08e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_F_14_nurse.prefab using Guid(2d16f79dde93e4850ae87d70605e08e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '9593f6d4c0e5cacd28e3741b3d85e953') in 0.034337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.713049 seconds.
-  path: Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_15_punk.prefab
-  artifactKey: Guid(32af30b6ae2e248ac967cd3bcf9aa7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_15_punk.prefab using Guid(32af30b6ae2e248ac967cd3bcf9aa7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'b03bb568cfe5bff1b30bf02f16136e08') in 0.043299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 306.820770 seconds.
-  path: Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_20_butcher.prefab
-  artifactKey: Guid(a871b559cecdd44c0b285d9822fc8797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Prefabs/Units/Zombies/Models/TT_zombie_M_20_butcher.prefab using Guid(a871b559cecdd44c0b285d9822fc8797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'a7d73cdef8f23e96571d9f4baed42f21') in 0.034178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 311.422151 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Meat Zombie.png
-  artifactKey: Guid(4c238142e8f824d70aac4641001b76b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Meat Zombie.png using Guid(4c238142e8f824d70aac4641001b76b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '31a0a091288f3e875a3b0178cb4cf284') in 0.019415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.044692 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Meat Zombie.png
-  artifactKey: Guid(4c238142e8f824d70aac4641001b76b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Meat Zombie.png using Guid(4c238142e8f824d70aac4641001b76b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'e9d804a3fd9cdce03bd18d768a47bdb9') in 0.028780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.443885 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Regular Zombie.psd
-  artifactKey: Guid(f6bb98347f2c642668d699d9c7c7ef58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Regular Zombie.psd using Guid(f6bb98347f2c642668d699d9c7c7ef58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '31103ea20d1afcf234f79e495f2b3256') in 0.420599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.930333 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Regular Zombie.psd
-  artifactKey: Guid(f6bb98347f2c642668d699d9c7c7ef58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Regular Zombie.psd using Guid(f6bb98347f2c642668d699d9c7c7ef58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'cc39cdaa03296725f7897597cda5eef5') in 0.046081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.496761 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Saint Zombie.png
-  artifactKey: Guid(e8853aeab93434dc1afbc5cb7dab4d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Saint Zombie.png using Guid(e8853aeab93434dc1afbc5cb7dab4d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '993771aaba8947f635dbc53e4d6db07d') in 0.012098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.025885 seconds.
-  path: Assets/_FreedomForZombie/Sprits/preview/Saint Zombie.png
-  artifactKey: Guid(e8853aeab93434dc1afbc5cb7dab4d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Sprits/preview/Saint Zombie.png using Guid(e8853aeab93434dc1afbc5cb7dab4d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'ca548cf742fea4564b6923b6324aedef') in 0.027783 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003455 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.772 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1773ms)
-		BeginReloadAssembly (203ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (100ms)
-		EndReloadAssembly (1434ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (358ms)
+			SetupTypeCache (343ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (637ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (568ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (487ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (27ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3202 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (449.6 KB). Loaded Objects now: 4078.
-Memory consumption went from 387.8 MB to 387.4 MB.
-Total: 4.902084 ms (FindLiveObjects: 0.403356 ms CreateObjectMapping: 0.350767 ms MarkObjects: 3.791848 ms  DeleteObjects: 0.354317 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1152.379602 seconds.
-  path: Assets/_FreedomForZombie/Prefabs/UI/Zombie Item.prefab
-  artifactKey: Guid(4ab160bd1a4044e52936c970092210e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Prefabs/UI/Zombie Item.prefab using Guid(4ab160bd1a4044e52936c970092210e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf9fc8c34765f5bd1b7955241c4ff3c') in 0.164678 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003316 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.840 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1842ms)
-		BeginReloadAssembly (204ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (96ms)
-		EndReloadAssembly (1493ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (361ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (692ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (521ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (439ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (418.4 KB). Loaded Objects now: 4082.
-Memory consumption went from 387.9 MB to 387.5 MB.
-Total: 4.982651 ms (FindLiveObjects: 0.391857 ms CreateObjectMapping: 0.235070 ms MarkObjects: 3.991069 ms  DeleteObjects: 0.363238 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 24.105520 seconds.
-  path: Assets/_FreedomForZombie/Prefabs/UI/Zombie Item.prefab
-  artifactKey: Guid(4ab160bd1a4044e52936c970092210e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FreedomForZombie/Prefabs/UI/Zombie Item.prefab using Guid(4ab160bd1a4044e52936c970092210e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedf015b956d42d0feb4622c5756babb') in 0.144298 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003212 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.717 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1719ms)
-		BeginReloadAssembly (193ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (86ms)
-		EndReloadAssembly (1394ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (363ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (615ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (481ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (418.0 KB). Loaded Objects now: 4084.
-Memory consumption went from 388.2 MB to 387.8 MB.
-Total: 5.160905 ms (FindLiveObjects: 0.420359 ms CreateObjectMapping: 0.305708 ms MarkObjects: 4.080159 ms  DeleteObjects: 0.353351 ms)
+Unloading 3206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (449.1 KB). Loaded Objects now: 3727.
+Memory consumption went from 313.8 MB to 313.3 MB.
+Total: 6.100998 ms (FindLiveObjects: 0.370760 ms CreateObjectMapping: 0.304448 ms MarkObjects: 4.932924 ms  DeleteObjects: 0.491452 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1303,7 +300,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004369 seconds.
+Registered in 0.003642 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -1311,155 +308,41 @@ Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.710 seconds
+- Completed reload, in  1.640 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1711ms)
-		BeginReloadAssembly (195ms)
+	ReloadAssembly (1641ms)
+		BeginReloadAssembly (206ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (91ms)
-		EndReloadAssembly (1384ms)
-			LoadAssemblies (88ms)
+		EndReloadAssembly (1281ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (366ms)
+			SetupTypeCache (382ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (578ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (436ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (448.2 KB). Loaded Objects now: 4086.
-Memory consumption went from 388.4 MB to 388.0 MB.
-Total: 6.009692 ms (FindLiveObjects: 0.452346 ms CreateObjectMapping: 0.297695 ms MarkObjects: 4.716489 ms  DeleteObjects: 0.541726 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003611 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.668 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1670ms)
-		BeginReloadAssembly (194ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (88ms)
-		EndReloadAssembly (1341ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (392ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (534ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (553ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (390ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (27ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (448.1 KB). Loaded Objects now: 4088.
-Memory consumption went from 388.6 MB to 388.1 MB.
-Total: 5.195064 ms (FindLiveObjects: 0.417184 ms CreateObjectMapping: 0.266286 ms MarkObjects: 4.147432 ms  DeleteObjects: 0.362756 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003307 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.705 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1706ms)
-		BeginReloadAssembly (202ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (88ms)
-		EndReloadAssembly (1365ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (360ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (570ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
 				ProcessInitializeOnLoadAttributes (422ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (27ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (416.7 KB). Loaded Objects now: 4090.
-Memory consumption went from 388.7 MB to 388.3 MB.
-Total: 5.511941 ms (FindLiveObjects: 0.378421 ms CreateObjectMapping: 0.268839 ms MarkObjects: 4.488512 ms  DeleteObjects: 0.374733 ms)
+Unloading 3206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (449.3 KB). Loaded Objects now: 3729.
+Memory consumption went from 314.0 MB to 313.5 MB.
+Total: 5.381231 ms (FindLiveObjects: 0.450487 ms CreateObjectMapping: 0.345919 ms MarkObjects: 4.042889 ms  DeleteObjects: 0.539981 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

@@ -56,6 +56,7 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/SceneSwitchButton.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/ZombieSpawnArea.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Scenes.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/States/CelebrationState.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="Assets/StarContainer.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ZombieDistanceToEnemyTransition.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/SearchEnemyTransition.cs" />
+    <Compile Include="Assets/AudioButton.cs" />
     <Compile Include="Assets/SceneLoader.cs" />
     <Compile Include="Assets/ZombieAttackTrigger.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/States/AttackState.cs" />
@@ -82,8 +84,10 @@
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/StateMachine.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/ZombieEntranceChecker.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/TargetDieTransition.cs" />
+    <Compile Include="Assets/_FreedomForZombie/Scripts/MusicNoDeadScript.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/DistanceTransition.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/ZombiesGameBar.cs" />
+    <Compile Include="Assets/CloseDialogButton.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/Transition.cs" />
     <Compile Include="Assets/SolClovser/EasyMultipleHealthbar/Scripts/EasyMultipleHealthbar.cs" />
     <Compile Include="Assets/WaveBar.cs" />
@@ -106,6 +110,8 @@
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/ZombieGameUI.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Unit/Altar.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/TargetAltarDieTransition.cs" />
+    <Compile Include="Assets/RepeatButton.cs" />
+    <Compile Include="Assets/PauseDialog.cs" />
     <Compile Include="Assets/BrokenVector/LowPolyFencePack/Scripts/DoorToggle.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/States/State.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitChecker.cs" />
@@ -121,10 +127,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Toon Gas Station/ToonShading/Shaders/ToonBasicOutline.shader" />
+    <None Include="Assets/Free Pack/Tropical Moments/Tropical Moments readme.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/Free Pack/Rock Stingers Pack/Unity Readme.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/Free Pack/Door SFX Pack/Readme.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+    <None Include="Assets/Free Pack/Metal Loop Pack/readme Unity.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+    <None Include="Assets/Free Pack/Rock Loops Pack/Unity Readme.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/Toon Gas Station/ToonShading/Shaders/ToonBasic.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
@@ -136,8 +147,10 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+    <None Include="Assets/BrokenVector/LowPolyShaders/Shaders/LowPolyUnlitShader.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
     <None Include="Assets/Toon Gas Station/ToonShading/Shaders/ToonLitOutline.shader" />
+    <None Include="Assets/BrokenVector/LowPolyShaders/Shaders/LowPolyPBRShader.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
     <None Include="Assets/SolClovser/EasyMultipleHealthbar/Documentation/fallback.txt" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
@@ -149,7 +162,10 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/FlexibleCelShader/Shaders/CelNoOutline.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/FlexibleCelShader/Shaders/CelSilhouette.shader" />
+    <None Include="Assets/FlexibleCelShader/Shaders/CelOutline.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
     <None Include="Assets/Toon Gas Station/Documentation/Toon Gas Station Documentation.txt" />
   </ItemGroup>
