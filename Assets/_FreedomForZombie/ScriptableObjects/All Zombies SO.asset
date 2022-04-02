@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63fc8f8574f884dee83477e664274b38, type: 3}
+  m_Name: All Zombies SO
+  m_EditorClassIdentifier: 
+  _zombies:
+  - {fileID: 11400000, guid: 087a73942a76344a0acc3c0e7138fa3e, type: 2}
+  - {fileID: 11400000, guid: acc3ea81f54bb4aa2a34dfb483330a76, type: 2}
+  - {fileID: 11400000, guid: c41793a13ca764e47a1baaaac91a31b3, type: 2}
+  - {fileID: 11400000, guid: c4ad1610ab11b430b820f54d2cbc7808, type: 2}
+  - {fileID: 11400000, guid: 357d9ab79df8f45edbb86c9594d4619a, type: 2}
+  - {fileID: 11400000, guid: 38f4834a6ee534512a1c356a64344611, type: 2}
+  - {fileID: 11400000, guid: b196e9ea743894a1aad62b21662e4695, type: 2}
+  - {fileID: 11400000, guid: 2ca7261a703734d27b74e4b1f7262271, type: 2}
+  - {fileID: 11400000, guid: 2ca7261a703734d27b74e4b1f7262271, type: 2}
+  - {fileID: 11400000, guid: 44614a02f2b944cdf9202f3c772e66c7, type: 2}

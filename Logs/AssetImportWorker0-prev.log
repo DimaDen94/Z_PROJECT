@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50705
+58678
 Successfully changed project path to: /Users/Dmitry/Unity/Z Project
 /Users/Dmitry/Unity/Z Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/Dmitry/Unity/Z Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 118.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 113.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.2f1 (5e2b1e92c7f8)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -70,90 +70,90 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56757
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56729
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002087 seconds.
+Registered in 0.001378 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 145.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 101.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.047 seconds
+- Completed reload, in  0.933 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1048ms)
-		BeginReloadAssembly (90ms)
+	ReloadAssembly (933ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (821ms)
+		EndReloadAssembly (719ms)
 			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (195ms)
+			SetupTypeCache (170ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (479ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (425ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (145ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (102ms)
 				BeforeProcessingInitializeOnLoad (2ms)
 				ProcessInitializeOnLoadAttributes (238ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003470 seconds.
+Registered in 0.002802 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.080 seconds
+- Completed reload, in  1.723 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2082ms)
-		BeginReloadAssembly (279ms)
+	ReloadAssembly (1724ms)
+		BeginReloadAssembly (245ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1644ms)
-			LoadAssemblies (96ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1328ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (434ms)
+			SetupTypeCache (387ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (113ms)
-			SetupLoadedEditorAssemblies (776ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (599ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (594ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (459ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3233 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (472.9 KB). Loaded Objects now: 3723.
-Memory consumption went from 315.8 MB to 315.3 MB.
-Total: 5.587188 ms (FindLiveObjects: 0.338054 ms CreateObjectMapping: 0.298055 ms MarkObjects: 4.585220 ms  DeleteObjects: 0.364332 ms)
+Unloading 3264 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (471.3 KB). Loaded Objects now: 3754.
+Memory consumption went from 317.1 MB to 316.6 MB.
+Total: 4.141883 ms (FindLiveObjects: 0.346090 ms CreateObjectMapping: 0.252741 ms MarkObjects: 3.181473 ms  DeleteObjects: 0.360630 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,904 +167,36 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 96394.325911 seconds.
-  path: Assets/Toon Gas Station/Terrain/NewBrush.brush
-  artifactKey: Guid(fc41c1bb05c77408f9b5149d79fbb2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Terrain/NewBrush.brush using Guid(fc41c1bb05c77408f9b5149d79fbb2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '0e35fb5a8508caa183747079c8ab58ea') in 1.240134 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 122.462643 seconds.
-  path: Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/dirt_desatured_rocks_right.terrainlayer
-  artifactKey: Guid(623b445a6e0248847a90129992558440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/dirt_desatured_rocks_right.terrainlayer using Guid(623b445a6e0248847a90129992558440) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '74b3874f7109d1403866c13d4d55de99') in 0.477895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 317.619310 seconds.
-  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_flower_02.fbx
-  artifactKey: Guid(7710c12951e94d24eb1b65f105f6823e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_flower_02.fbx using Guid(7710c12951e94d24eb1b65f105f6823e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7fc3b8ed62a3d9ddb6e4bb5b8926f6') in 0.334181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002648 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Rocks/Stone_1_6.fbx
-  artifactKey: Guid(ab234004d48963a429e70f1efeb4fed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Rocks/Stone_1_6.fbx using Guid(ab234004d48963a429e70f1efeb4fed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ab0e72f6e70910f9465e5dcd182f0a') in 0.036816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Low Poly Graveyard/Models/tombstonesign.FBX
-  artifactKey: Guid(2c718e3a5b145ac4fb36a2563ae9289b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Graveyard/Models/tombstonesign.FBX using Guid(2c718e3a5b145ac4fb36a2563ae9289b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f055826ba140f7b88f873d073893563e') in 0.357576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003228 seconds.
-  path: Assets/Toon Gas Station/Models/Trees_6A.fbx
-  artifactKey: Guid(feaa2fb5acb574a42bdd05d8d919847d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Trees_6A.fbx using Guid(feaa2fb5acb574a42bdd05d8d919847d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'a8aa28f430cbdc587b5f4617c0d05f0d') in 0.031604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Trees/Stump_3_3.fbx
-  artifactKey: Guid(7f2597e426734984c926bbc4245463cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Trees/Stump_3_3.fbx using Guid(7f2597e426734984c926bbc4245463cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2640c9d4f4ef0de97e1d0e6add1118d') in 0.047475 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_ladder_01.fbx
-  artifactKey: Guid(5a5a8e9d7228e204a91c0fb79c12479b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_ladder_01.fbx using Guid(5a5a8e9d7228e204a91c0fb79c12479b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21fbeb1f69523ceb63a153c3a1b13db3') in 0.021140 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Tree1.fbx
-  artifactKey: Guid(05781e34d19387b4bb9c0e1c42f03352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Tree1.fbx using Guid(05781e34d19387b4bb9c0e1c42f03352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42163a6e2534327bfbb0b4039b7c963d') in 0.027790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000861 seconds.
-  path: Assets/SimpleLowPolyNature/Models/TreeDead1.fbx
-  artifactKey: Guid(0b3d8d7f8b41322499664c115aa6ca90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/TreeDead1.fbx using Guid(0b3d8d7f8b41322499664c115aa6ca90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d97004fd07cdb72ea410685fd8fdd6') in 0.019951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Rocks/Stone_1_7.fbx
-  artifactKey: Guid(ae775fcd625e8a045ac31febb23d8e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Rocks/Stone_1_7.fbx using Guid(ae775fcd625e8a045ac31febb23d8e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88c5b4e612875768a66766fa1c69d88') in 0.023908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Rocks/Stone_3_1.fbx
-  artifactKey: Guid(74989c66617739641b291075ad5e032c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Rocks/Stone_3_1.fbx using Guid(74989c66617739641b291075ad5e032c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc76928a9eaf58fe43db6700fd48c3f') in 0.020699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_vase_01.fbx
-  artifactKey: Guid(9bd069d17b875254f9fc1eeccdd647b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_vase_01.fbx using Guid(9bd069d17b875254f9fc1eeccdd647b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e154788e32a4665e9a8b06445e83d6') in 0.023902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Rocks/Stone_3_3.fbx
-  artifactKey: Guid(045eb8e3072712e44994a60cf95c3e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Rocks/Stone_3_3.fbx using Guid(045eb8e3072712e44994a60cf95c3e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7e0b8ac5f77e7ed2e7a6875ceda0c8') in 0.022183 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Low Poly Graveyard/Models/BigTomb.FBX
-  artifactKey: Guid(063116c25d480f24087ab73b47ce40d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Graveyard/Models/BigTomb.FBX using Guid(063116c25d480f24087ab73b47ce40d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b997d81e6607073582d0d66dc05d42a') in 0.034812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Tree3.fbx
-  artifactKey: Guid(c7e1cca0da1433e4dbc6264118a69146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Tree3.fbx using Guid(c7e1cca0da1433e4dbc6264118a69146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c56081807a85ea3a816eca2268708e3') in 0.023028 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_grass_small_01b.fbx
-  artifactKey: Guid(60f048e3ccfd7d0498e095661396963b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_grass_small_01b.fbx using Guid(60f048e3ccfd7d0498e095661396963b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9935f6709aa318c6f8f8ef410ea09b9') in 0.025369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_trough_01.fbx
-  artifactKey: Guid(8b3f67c33dd9e9c4ea594b19207b4fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_trough_01.fbx using Guid(8b3f67c33dd9e9c4ea594b19207b4fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c46692ca2b267c94a954df41d1e907') in 0.022012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Toon Gas Station/Models/Streetsign_3E.fbx
-  artifactKey: Guid(6f91b78d7d005c24a95908d9be12bdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Streetsign_3E.fbx using Guid(6f91b78d7d005c24a95908d9be12bdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '56632afad7cb4c4166fbb78c4aa1b112') in 0.030552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_plant_02.fbx
-  artifactKey: Guid(2ef20853860a4694c9c08c312d121b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_plant_02.fbx using Guid(2ef20853860a4694c9c08c312d121b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b9608c7df0ff06f8af0dcc2634faeb') in 0.023226 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Toon Gas Station/Models/Tree_7A.fbx
-  artifactKey: Guid(e3f8b6cdc58ee6a4781c400b50cc8a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Tree_7A.fbx using Guid(e3f8b6cdc58ee6a4781c400b50cc8a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '5e23fdc95e85f1e054388d7e87c2354a') in 0.136600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_table_01.fbx
-  artifactKey: Guid(16c4b1c9bf28bc44eab122106a0e4864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_table_01.fbx using Guid(16c4b1c9bf28bc44eab122106a0e4864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03fc83b59da5238a52b6d393d8b6ef4') in 0.030638 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Toon Gas Station/Models/Tree_7B.fbx
-  artifactKey: Guid(70f40ec1c5ab7444bbc25ab733461650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Tree_7B.fbx using Guid(70f40ec1c5ab7444bbc25ab733461650) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '48946cf4604123df67bda62435f74014') in 0.047715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_hanger_wood_01.fbx
-  artifactKey: Guid(dc53ddfef4a2d414f83c0332e80bfbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_hanger_wood_01.fbx using Guid(dc53ddfef4a2d414f83c0332e80bfbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6bb52fd81a1db2024087c6633b22f9') in 0.019758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Toon Gas Station/Models/Streetsign_2J.fbx
-  artifactKey: Guid(1e75a60b1cd934842850141ac9ad879c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Streetsign_2J.fbx using Guid(1e75a60b1cd934842850141ac9ad879c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'eb2e7e1b9c491238e06759bf73635e4a') in 0.034928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Toon Gas Station/Models/Tree_6C.fbx
-  artifactKey: Guid(084225910f6fe6844b723535d702af6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Tree_6C.fbx using Guid(084225910f6fe6844b723535d702af6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '26ecacbbe402e5923928b0323b55b81f') in 0.026996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/SimpleLowPolyNature/Models/TreeStump1.fbx
-  artifactKey: Guid(71e7cb600453b0a4791c471c86dcb60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/TreeStump1.fbx using Guid(71e7cb600453b0a4791c471c86dcb60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78b13db886ee5900d5017ae0f986a01') in 0.031046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000535 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Trees/Tree_2_4.FBX
-  artifactKey: Guid(1733abe710a7dbf4ba75c427d1c3a3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Trees/Tree_2_4.FBX using Guid(1733abe710a7dbf4ba75c427d1c3a3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8e0f32d17c5c374fc6d6a9c496b672') in 0.022214 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000490 seconds.
-  path: Assets/SimpleLowPolyNature/Models/TreeDead2.fbx
-  artifactKey: Guid(b54382c620f8b7242b02940a41e44c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/TreeDead2.fbx using Guid(b54382c620f8b7242b02940a41e44c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7d76580d7edd945e5a0dfc50631fa2') in 0.038106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Low Poly Graveyard/Models/vase.FBX
-  artifactKey: Guid(dd68f2016fce4124cab3c25991572b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Graveyard/Models/vase.FBX using Guid(dd68f2016fce4124cab3c25991572b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc2ffcd7d001215bb3b4b1a7b4f453b') in 0.037634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001306 seconds.
-  path: Assets/Toon Gas Station/Models/Tree_6A.fbx
-  artifactKey: Guid(b823b12a32852d74184ea84741978d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Tree_6A.fbx using Guid(b823b12a32852d74184ea84741978d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'ef2ea91ae4592d53ab0b0cc1562fc10c') in 0.027506 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Tiny_Toony_City_Demo/Meshes/Demo_Block.fbx
-  artifactKey: Guid(3c7d5dece75cf9845ad850601668e7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny_Toony_City_Demo/Meshes/Demo_Block.fbx using Guid(3c7d5dece75cf9845ad850601668e7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC4X4 UNorm format is not supported, decompressing texture
- -> (artifact id: '09d9fe2f40bd942ccfbac64c4141b629') in 0.334847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003115 seconds.
-  path: Assets/Toon Gas Station/Models/Tree_7F.fbx
-  artifactKey: Guid(48abe579b846a624581d4139874c4016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Tree_7F.fbx using Guid(48abe579b846a624581d4139874c4016) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'e398e3ca364cf6a9f0798252481e4aef') in 0.031284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000589 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Tree2.fbx
-  artifactKey: Guid(18e0a23f11756454e801ad6f484ca310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Tree2.fbx using Guid(18e0a23f11756454e801ad6f484ca310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ac3a275456d4f02fd63b075646bfd2') in 0.022533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Rocks/Stone_3_2.fbx
-  artifactKey: Guid(b9fdfcd2a330b694fa6e90d86b5193d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Rocks/Stone_3_2.fbx using Guid(b9fdfcd2a330b694fa6e90d86b5193d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa88f62e9d9675a3425eb888978708f5') in 0.027227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Toon Gas Station/Models/Tree_7G.fbx
-  artifactKey: Guid(4ec47309bc0a54f42894615d9a153523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Tree_7G.fbx using Guid(4ec47309bc0a54f42894615d9a153523) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'acb0cb658168c037de5e626ab4563eee') in 0.026441 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rock_02.fbx
-  artifactKey: Guid(d1fd41beb70267947bc1c996df07593d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rock_02.fbx using Guid(d1fd41beb70267947bc1c996df07593d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc611267098832df2218588f0c7d7011') in 0.018842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_shield_wall_01b.fbx
-  artifactKey: Guid(ea48d15a3d30c4943927bc8edcd3ff96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_shield_wall_01b.fbx using Guid(ea48d15a3d30c4943927bc8edcd3ff96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61107cdf074d6981c30396c73914f85') in 0.025115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_tree_02.fbx
-  artifactKey: Guid(7dca68918011bd644a4dc268eea79b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_tree_02.fbx using Guid(7dca68918011bd644a4dc268eea79b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8705aa6c19dd01d1a51e7ab771a89f') in 0.018541 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_log_wood_01.fbx
-  artifactKey: Guid(83ca3216726525148a325296526fcfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_log_wood_01.fbx using Guid(83ca3216726525148a325296526fcfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbb14c97b2fa9e22e9af68cc4a87761') in 0.019633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_sky_01.fbx
-  artifactKey: Guid(092e8eab260eaf84e890e2e5dbc513b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_sky_01.fbx using Guid(092e8eab260eaf84e890e2e5dbc513b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5ac16c7f572897ab2dc52575d01253') in 0.019328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Toon Gas Station/Models/Streetsign_3D.fbx
-  artifactKey: Guid(eb92fba294c92e449b630611e433070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Streetsign_3D.fbx using Guid(eb92fba294c92e449b630611e433070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'd37c66e134fc4dfa0c8b7f505c4e81ea') in 0.029641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_sand_01.fbx
-  artifactKey: Guid(b75a02a185084be49bc0ead09438de21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_sand_01.fbx using Guid(b75a02a185084be49bc0ead09438de21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8b1b0802ce42ea812ada49cd3f0976') in 0.019217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_wood_path_01b.fbx
-  artifactKey: Guid(f867a2534aa85914d9e6b62f681cdf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_wood_path_01b.fbx using Guid(f867a2534aa85914d9e6b62f681cdf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7c6e312a431225c4441d8e2c678b1a') in 0.019004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Toon Gas Station/Models/Tree_6B.fbx
-  artifactKey: Guid(06efb7991cc97094f86be73aab9e2878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Tree_6B.fbx using Guid(06efb7991cc97094f86be73aab9e2878) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '6e309748df0286cd70b74e2af67a4346') in 0.024275 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Rocks/Stone_1_8.fbx
-  artifactKey: Guid(20a85cd84b0050544baabc69311092b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Rocks/Stone_1_8.fbx using Guid(20a85cd84b0050544baabc69311092b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a671a276ab3ed6d0669d79aad30842e9') in 0.020904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Trees/Tree_6_4.fbx
-  artifactKey: Guid(99984e873e2bda64490399d98153ac19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Trees/Tree_6_4.fbx using Guid(99984e873e2bda64490399d98153ac19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbf508d16fea0c6fc39b5b5bb30b4cc') in 0.021427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rock_03.fbx
-  artifactKey: Guid(455995b8866658b42b3da7b1cab18535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rock_03.fbx using Guid(455995b8866658b42b3da7b1cab18535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee54300bc21e78c8f5d8ba4b5e33a82') in 0.024330 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rock_01.fbx
-  artifactKey: Guid(305f277e1529222439b495a441de2f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rock_01.fbx using Guid(305f277e1529222439b495a441de2f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fcb1db191a82e2e282657bc75d286c') in 0.020782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_hill_small_01.fbx
-  artifactKey: Guid(3602432658d7f1540978cbbd6875ad2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_hill_small_01.fbx using Guid(3602432658d7f1540978cbbd6875ad2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0954a5ad3aeab255b30e836063c900') in 0.023107 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_wagon_01.fbx
-  artifactKey: Guid(f34a4e9b86005de4da2625205407868e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_wagon_01.fbx using Guid(f34a4e9b86005de4da2625205407868e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2ccbed97d47805947a221a9fcd022a') in 0.035390 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Low Poly Graveyard/Models/vaseshelf.FBX
-  artifactKey: Guid(fe301a98b331bc4448e7d0ccc2f8f993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Graveyard/Models/vaseshelf.FBX using Guid(fe301a98b331bc4448e7d0ccc2f8f993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f754f812f0cecd1c954572f41a6918ca') in 0.034798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Low Poly Graveyard/Models/tombstone4.FBX
-  artifactKey: Guid(8aae458780c283a439285deda19b0c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Graveyard/Models/tombstone4.FBX using Guid(8aae458780c283a439285deda19b0c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe7f0205e76a62ecd6d5bdad4c1d7c7') in 0.026168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_package_01.fbx
-  artifactKey: Guid(4a9eb490516647a4d8765165bfb9cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_package_01.fbx using Guid(4a9eb490516647a4d8765165bfb9cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefb880b9dfdba677ee818f8bcf9dd87') in 0.023126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_grass_small_01a.fbx
-  artifactKey: Guid(c191cc4231bc1a940986671275027664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_grass_small_01a.fbx using Guid(c191cc4231bc1a940986671275027664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc772925f473334378e6613d1f501cf') in 0.022079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rock_small_02.fbx
-  artifactKey: Guid(7110966a22a1bd74c894def7bbb4b8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rock_small_02.fbx using Guid(7110966a22a1bd74c894def7bbb4b8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ff5673b6e804fac2bfa37af02fa706') in 0.025593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_shield_wall_01a.fbx
-  artifactKey: Guid(6db1e633533718d49bd0b8329bc37412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_shield_wall_01a.fbx using Guid(6db1e633533718d49bd0b8329bc37412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb080a32a8f075678686805dd244d4f0') in 0.021354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.055440 seconds.
-  path: Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_03.fbx
-  artifactKey: Guid(52eeab1f0ce4d934591972b6df5d179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_03.fbx using Guid(52eeab1f0ce4d934591972b6df5d179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc2a26c2c58a1e816159395a36c7ff5') in 0.032454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_cloud_02.fbx
-  artifactKey: Guid(4432020e36e26f946a400515834f11b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_cloud_02.fbx using Guid(4432020e36e26f946a400515834f11b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7165b379fc122bd2c6487b7d74113fd') in 0.025688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_05.fbx
-  artifactKey: Guid(7d1c542ac0453aa40a248ffb042193c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_05.fbx using Guid(7d1c542ac0453aa40a248ffb042193c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0c223f03019c66260345e5d4add51c') in 0.023676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_cloud_01.fbx
-  artifactKey: Guid(b36c73269c1668c4bbfb76bf41a74b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_cloud_01.fbx using Guid(b36c73269c1668c4bbfb76bf41a74b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac363b7acc10f93fb050c911b137e9b') in 0.027665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_chair_01b.fbx
-  artifactKey: Guid(c23d7dd34e2d29a42bf0998f5f20de59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_chair_01b.fbx using Guid(c23d7dd34e2d29a42bf0998f5f20de59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3b0a5ffba6cd07f6c5cf8dfa42d7ea') in 0.017092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.301122 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Rocks/Rock_1_15.fbx
-  artifactKey: Guid(2086a709089e79a40b719d984491b24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Rocks/Rock_1_15.fbx using Guid(2086a709089e79a40b719d984491b24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44cbbc9dcd693360cdab2b8d2423bba') in 0.025449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Rock10.fbx
-  artifactKey: Guid(d288b039beecd234b907927b55a30107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Rock10.fbx using Guid(d288b039beecd234b907927b55a30107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895671e1c56119d1e3427e9abdea5636') in 0.031564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_bowl_metal_01.fbx
-  artifactKey: Guid(09cc238bd856b5d468789a6d2d0f48ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_bowl_metal_01.fbx using Guid(09cc238bd856b5d468789a6d2d0f48ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bb5d1c98fdf7625bf3b18bcdcc6f5d') in 0.048732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_01.fbx
-  artifactKey: Guid(af5390e2a0373984db3740f21c0ec034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_01.fbx using Guid(af5390e2a0373984db3740f21c0ec034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b03954c589adee2ab91093b20d7a04') in 0.025075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Rock1.fbx
-  artifactKey: Guid(9b23133e3eda78249896e5786ae357a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Rock1.fbx using Guid(9b23133e3eda78249896e5786ae357a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352ddde2d457536b0f0f6d41dd727807') in 0.022934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000625 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Rock9.fbx
-  artifactKey: Guid(72d3bb69f36ca644da1c82e40bc74a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Rock9.fbx using Guid(72d3bb69f36ca644da1c82e40bc74a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de96ba3611d7c8077c6df6d7f7ddef15') in 0.020419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Rock4.fbx
-  artifactKey: Guid(4c3cbb765dc1a514e95c24a788dcf485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Rock4.fbx using Guid(4c3cbb765dc1a514e95c24a788dcf485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e9003530eaec3664f2bfc298a284f7') in 0.020129 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Rock11.fbx
-  artifactKey: Guid(eaac711c8733edd43828a7a4976ee8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Rock11.fbx using Guid(eaac711c8733edd43828a7a4976ee8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153a2d42001f27c9e220e7524ea09978') in 0.019698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/Toon Gas Station/Models/Road_3W.fbx
-  artifactKey: Guid(00575f34657ddac41aab9802adcf5219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Road_3W.fbx using Guid(00575f34657ddac41aab9802adcf5219) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '5d0ef954f1e93b7b93a847bdd5c83982') in 0.024143 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_bench_wood_01.fbx
-  artifactKey: Guid(6bc5a23d8cb251f40b96a1fbf4ddb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_bench_wood_01.fbx using Guid(6bc5a23d8cb251f40b96a1fbf4ddb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78678e9e892b08295a81522cd1baf450') in 0.019005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Rock5.fbx
-  artifactKey: Guid(1c31f4821cebacb4caf43d3a6524741e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Rock5.fbx using Guid(1c31f4821cebacb4caf43d3a6524741e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36b47d12798b3b42b2c5d7358b44f07') in 0.020702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Rock12.fbx
-  artifactKey: Guid(43ee757e6d4e733469e710178cf7e322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Rock12.fbx using Guid(43ee757e6d4e733469e710178cf7e322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7d0ba91b99958586679568bf6eb709') in 0.021256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/Toon Gas Station/Models/Road_3Y.fbx
-  artifactKey: Guid(980d2403742ac794985812742cc8f2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Road_3Y.fbx using Guid(980d2403742ac794985812742cc8f2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '0ef3a656ac68e0ee56f9ca9e888260d3') in 0.032529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_bathtub_wood_01.fbx
-  artifactKey: Guid(1a8449922d22bae4791e0335226fa1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_bathtub_wood_01.fbx using Guid(1a8449922d22bae4791e0335226fa1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6dc690ccdd4a9c837c98ff57fdffa8f') in 0.021928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Rock8.fbx
-  artifactKey: Guid(432dbfb06e4b27c4685dd4b73d12867a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Rock8.fbx using Guid(432dbfb06e4b27c4685dd4b73d12867a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7548d6e7cce455925d9d1b97fb6eb8c0') in 0.024630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Toon Gas Station/Models/Road_3X.fbx
-  artifactKey: Guid(debb5cf0b4233cc408c5721e6df29a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Road_3X.fbx using Guid(debb5cf0b4233cc408c5721e6df29a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '31d1fe5eb0eebef318cd64462f58f780') in 0.023623 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Toon Gas Station/Models/Rock_Cluster_1C.fbx
-  artifactKey: Guid(bfe8bae4cbffca0448679320360995d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Rock_Cluster_1C.fbx using Guid(bfe8bae4cbffca0448679320360995d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '3020e35b17fb2b70a63204f8697eeaa5') in 0.026489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_02.fbx
-  artifactKey: Guid(3ad660daf3a1e02458b9f3eca418861a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_02.fbx using Guid(3ad660daf3a1e02458b9f3eca418861a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4465758b7973d5dbbdc0b67307085df8') in 0.020500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Rock6.fbx
-  artifactKey: Guid(4cfe42c97b386f64db12ed55713310df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Rock6.fbx using Guid(4cfe42c97b386f64db12ed55713310df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9036d818dacd6e5f8b3fbb3fbac548') in 0.025858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Rock7.fbx
-  artifactKey: Guid(2cc59136d903eed44a9abe0c3b52c3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Rock7.fbx using Guid(2cc59136d903eed44a9abe0c3b52c3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9f90c4b416ed3101740951f45bc0a5') in 0.022363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_broom_01.fbx
-  artifactKey: Guid(752014a26efd03145b74d57634ef9245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_broom_01.fbx using Guid(752014a26efd03145b74d57634ef9245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a67e62c4dbd43df7adb41f76805553') in 0.023858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.032007 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Plant1.fbx
-  artifactKey: Guid(1cba636e69e49404b8b39d4573d0a421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Plant1.fbx using Guid(1cba636e69e49404b8b39d4573d0a421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3706acae75c1452763741455293b8c') in 0.023157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Toon Gas Station/Models/Road_1A.fbx
-  artifactKey: Guid(5018cedd389aa8643a3951f684aec8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Road_1A.fbx using Guid(5018cedd389aa8643a3951f684aec8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'e9056836d80dc0673b6ab6977e7a0a71') in 0.025168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Plant3.fbx
-  artifactKey: Guid(bcd65237e57a75348badd8c90f53bcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Plant3.fbx using Guid(bcd65237e57a75348badd8c90f53bcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2ed05bb00ffb66ee81b41870b6eb19') in 0.037452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001677 seconds.
-  path: Assets/Toon Gas Station/Models/Road_1Z.fbx
-  artifactKey: Guid(8eaa77c43da0bb241a1d6b4b8bf458db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Road_1Z.fbx using Guid(8eaa77c43da0bb241a1d6b4b8bf458db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '154e642d327e23187a2063e749a878a1') in 0.030391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.749611 seconds.
-  path: Assets/ToonyTinyPeople/TT_demo/models/TT_demo_male_A.FBX
-  artifactKey: Guid(eb062aa776e44954d94c4c2f76ebc148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_demo/models/TT_demo_male_A.FBX using Guid(eb062aa776e44954d94c4c2f76ebc148) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '211abd4e2fdbd3f4dc6ffc46437f8c26') in 0.086039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/Toon Gas Station/Models/Car_21A.fbx
-  artifactKey: Guid(0956088278b889348bef01895b1c80c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Car_21A.fbx using Guid(0956088278b889348bef01895b1c80c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '037bda6891808421b511703922b27693') in 0.266561 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001427 seconds.
-  path: Assets/ToonyTinyPeople/TT_Zombies/model/m_zombies_customizable.FBX
-  artifactKey: Guid(a1aade9bc7779e24b8219a8ceb948e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_Zombies/model/m_zombies_customizable.FBX using Guid(a1aade9bc7779e24b8219a8ceb948e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '50709e503fec32e6ed01a67bb3890a03') in 0.641460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.007331 seconds.
-  path: Assets/Toon Gas Station/Models/Car_6G.fbx
-  artifactKey: Guid(e29524f3e15f50f40a84ba6ae5a5de10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Car_6G.fbx using Guid(e29524f3e15f50f40a84ba6ae5a5de10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'a054b7a825c1a8badf876af10663dfb0') in 0.102752 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000802 seconds.
-  path: Assets/Toon Gas Station/Models/Car_14I.fbx
-  artifactKey: Guid(3e536b21e16197d4c88495c3949a1a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Car_14I.fbx using Guid(3e536b21e16197d4c88495c3949a1a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '9ed18005b3f4bf7dfa18361a5f0ddc2c') in 0.243026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 89.480412 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Ivy1.fbx
-  artifactKey: Guid(f5c94a9017473824b95fdbc555580349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Ivy1.fbx using Guid(f5c94a9017473824b95fdbc555580349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c120caafa01bed4ba3f21019bb45e8f') in 0.027081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Boxes/Jug_1_1.fbx
-  artifactKey: Guid(0162f283b8ced8d41a27f6cbb117be85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Boxes/Jug_1_1.fbx using Guid(0162f283b8ced8d41a27f6cbb117be85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47820e200a33dbd470c995f4fe09a819') in 0.024962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.083066 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Headstones/Headstone_2_5.fbx
-  artifactKey: Guid(2ba5d70441525184795ba9d880ddb04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Headstones/Headstone_2_5.fbx using Guid(2ba5d70441525184795ba9d880ddb04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485cf039869498933961a95d3d06dfc2') in 0.020495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Houses/House_1_1.fbx
-  artifactKey: Guid(2d6df48318e2c69418e7678730c2fe69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Houses/House_1_1.fbx using Guid(2d6df48318e2c69418e7678730c2fe69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f6ee38a47a41642ca419d137b6ed49') in 0.023513 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.700142 seconds.
-  path: Assets/Low Poly Graveyard/Models/fence.FBX
-  artifactKey: Guid(7e90d28270482f043a447a5dd10de4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Graveyard/Models/fence.FBX using Guid(7e90d28270482f043a447a5dd10de4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5c755106f890e777506472c498f5b9') in 0.034321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/ToonyTinyPeople/TT_demo/models/TT_demo_male_B.FBX
-  artifactKey: Guid(fbbb7e0ccd296444f8f4cb972237bf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_demo/models/TT_demo_male_B.FBX using Guid(fbbb7e0ccd296444f8f4cb972237bf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '13a15719d5b1605b6c2d0fe89f94e19a') in 0.075789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001595 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Grass4.fbx
-  artifactKey: Guid(a2848514d81208b45acb2d6cb8e2953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Grass4.fbx using Guid(a2848514d81208b45acb2d6cb8e2953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd57d46b4b97c32f17e21a09f3274e7b') in 0.022375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Grass1.fbx
-  artifactKey: Guid(5954e88e9d890844e863ec1621dc70a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Grass1.fbx using Guid(5954e88e9d890844e863ec1621dc70a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2847ade96551aea62271ff0a7483a87') in 0.022430 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Gates/Gate_1_1.fbx
-  artifactKey: Guid(aa3f6ba4d5d183c49a799bc292b04632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Gates/Gate_1_1.fbx using Guid(aa3f6ba4d5d183c49a799bc292b04632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8718e3c546ece666517456945e3d7cf7') in 0.088451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.053106 seconds.
-  path: Assets/Toon Gas Station/Models/Gas_Station_1A.fbx
-  artifactKey: Guid(3d6d3d27bd2e2974cb4fe11aa1febd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Gas_Station_1A.fbx using Guid(3d6d3d27bd2e2974cb4fe11aa1febd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '3b454a6429eb0356a36b740c3032742a') in 0.110158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000593 seconds.
-  path: Assets/Toon Gas Station/Models/Colliders/Gas_Station_2A_MeshCollider.fbx
-  artifactKey: Guid(5dcdc2ca5ac709749ab0ddd5b8df0f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Colliders/Gas_Station_2A_MeshCollider.fbx using Guid(5dcdc2ca5ac709749ab0ddd5b8df0f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0a244f0fa34d8fea7de209a6df27f9') in 0.027810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Toon Gas Station/Models/Gas_Tank_2A.fbx
-  artifactKey: Guid(2f0a0eaaa0b685547b1a6d12a950ac8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Gas_Tank_2A.fbx using Guid(2f0a0eaaa0b685547b1a6d12a950ac8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '29cfe70f4fd37fd442f4438b36188e1a') in 0.027405 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.994393 seconds.
-  path: Assets/SimpleLowPolyNature/Models/Flower2.fbx
-  artifactKey: Guid(0c77d10ec0c97b54da131d936ef92059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/Flower2.fbx using Guid(0c77d10ec0c97b54da131d936ef92059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d408011cb56eaaa264ad617eb6c463e') in 0.028754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Toon Gas Station/Models/Gas_Pump_1A.fbx
-  artifactKey: Guid(89d8c5b96bd715c4e8569910516adbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Gas_Pump_1A.fbx using Guid(89d8c5b96bd715c4e8569910516adbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'aea981b1df9965f5036e47e47cdaccbb') in 0.030991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.044503 seconds.
-  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type4 Big.dae
-  artifactKey: Guid(73b1ed3ef1428a24787cba8b7d5ac6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type4 Big.dae using Guid(73b1ed3ef1428a24787cba8b7d5ac6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f75e24e9c76a383813f3c228ceb615b') in 0.624298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005243 seconds.
-  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type6 Small.dae
-  artifactKey: Guid(32ece367df421af48acad3f16120520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type6 Small.dae using Guid(32ece367df421af48acad3f16120520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8056de83c2bbbb8964520e1ef9839b8') in 0.033333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/SimpleLowPolyNature/Models/FireWood.fbx
-  artifactKey: Guid(76e0ad8bbe5fca64f90e1cb33a04e75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Models/FireWood.fbx using Guid(76e0ad8bbe5fca64f90e1cb33a04e75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c9dce9619950b8907719eb2288bdd5') in 0.034435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type6 Big.dae
-  artifactKey: Guid(528e1a5bd85e7dd4781f1fdd6a8cb01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type6 Big.dae using Guid(528e1a5bd85e7dd4781f1fdd6a8cb01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73045575ddcfe6449fdb89619a2a8cb4') in 0.024992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.992689 seconds.
-  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type2 Door.fbx
-  artifactKey: Guid(919734941a900d24090f2925025373f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type2 Door.fbx using Guid(919734941a900d24090f2925025373f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4edd42153ac97d7c0bd1ae5ca7675ca') in 0.040712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000474 seconds.
-  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type3 02.dae
-  artifactKey: Guid(35aff7f9767a6ee429d8bdf31328705f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type3 02.dae using Guid(35aff7f9767a6ee429d8bdf31328705f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ab62cc4f314fbf053ac87aad2dae6e') in 0.029923 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000586 seconds.
-  path: Assets/Kevin Iglesias/Dance Animations/Models/Female Dancer Dummy.fbx
-  artifactKey: Guid(2e97c150fb004f84ba9a30a654e91e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kevin Iglesias/Dance Animations/Models/Female Dancer Dummy.fbx using Guid(2e97c150fb004f84ba9a30a654e91e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4110fe6faca725ed3477fab13f7ce6') in 0.052380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type1 Door.fbx
-  artifactKey: Guid(3bd29fe4ed3569940ac7518a56a0adfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type1 Door.fbx using Guid(3bd29fe4ed3569940ac7518a56a0adfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d0f37f9a91a6b7fc1aaab71bb85e78') in 0.032555 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000621 seconds.
-  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type3 01.dae
-  artifactKey: Guid(7e1ddd08b1b2c354a8ad951245480569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type3 01.dae using Guid(7e1ddd08b1b2c354a8ad951245480569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7fa4e42e700e47bcd016f1a0844437') in 0.018174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Fences/Fence_1_5.fbx
-  artifactKey: Guid(ed2f80e79e4b6bf4aa913c238648ab3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Fences/Fence_1_5.fbx using Guid(ed2f80e79e4b6bf4aa913c238648ab3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd4fc7bdbd93e767def6f4ea4bee3d0') in 0.024920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 96.651023 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Carts/Cart_2_4.fbx
-  artifactKey: Guid(7d209b9ebe39f064f92a59cada7dca87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Carts/Cart_2_4.fbx using Guid(7d209b9ebe39f064f92a59cada7dca87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14309ce4720aeab64e900c4c40111c9') in 0.134077 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001226 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Trees/Bush_2_2.fbx
-  artifactKey: Guid(255ee5191a84cc74683f71b76b48c0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Trees/Bush_2_2.fbx using Guid(255ee5191a84cc74683f71b76b48c0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378be3d3d4f4bdb257786833fabbdf45') in 0.023803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Trees/Bush_3_2.fbx
-  artifactKey: Guid(24a39ec2025646f48ac3940b48989962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Trees/Bush_3_2.fbx using Guid(24a39ec2025646f48ac3940b48989962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e677bfad7fda7f35647d5bf63800b8') in 0.022756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Tiny_Toony_City_Demo/Meshes/Car_B1.fbx
-  artifactKey: Guid(f92ee84dce639884882c4ffddd3b28c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny_Toony_City_Demo/Meshes/Car_B1.fbx using Guid(f92ee84dce639884882c4ffddd3b28c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC4X4 UNorm format is not supported, decompressing texture
- -> (artifact id: '220efb44f20e097a6f629ff5e31ee859') in 0.110037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.797322 seconds.
-  path: Assets/Toon Gas Station/Models/Colliders/Building_7B_MeshCollider.fbx
-  artifactKey: Guid(fdd349c73e340e141b7caa666c90975f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Colliders/Building_7B_MeshCollider.fbx using Guid(fdd349c73e340e141b7caa666c90975f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be00c253b011ff84961460a9a15053e') in 0.029325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000460 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Boxes/Bucket_1_1.fbx
-  artifactKey: Guid(05fa40e5fb8bce74cbeb63737cf4f7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Boxes/Bucket_1_1.fbx using Guid(05fa40e5fb8bce74cbeb63737cf4f7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129393a78acd2ba1e418028bcce6a505') in 0.114423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000750 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Bridges/Bridge_4_2.fbx
-  artifactKey: Guid(5df7984ec7d115e489379d6c5f095d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Bridges/Bridge_4_2.fbx using Guid(5df7984ec7d115e489379d6c5f095d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e496211c2e66463e693f76f51a2bdfd') in 0.019772 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Bridges/Bridge_1_4.fbx
-  artifactKey: Guid(98012eb183305a941aa5cc13b90386cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Bridges/Bridge_1_4.fbx using Guid(98012eb183305a941aa5cc13b90386cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28655913ee9e7fe1507cb093cb8fdcd') in 0.019113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001023 seconds.
-  path: Assets/Toon Gas Station/Models/Building_7C.fbx
-  artifactKey: Guid(a17fa7fd4bfd8ce429a57dde2fc1f3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Building_7C.fbx using Guid(a17fa7fd4bfd8ce429a57dde2fc1f3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '6bf3116ba2bee6c43bd86d4a09ea8b35') in 0.053488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Boxes/Box_1_1.fbx
-  artifactKey: Guid(21dc1e0617907504b9d6aca764f873a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Boxes/Box_1_1.fbx using Guid(21dc1e0617907504b9d6aca764f873a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a147e2f2ea0ae6743f7b8ef56284f8') in 0.019149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.125883 seconds.
-  path: Assets/Low Poly Pack - Environment Lite/Models/Boxes/Barrel_1_5.fbx
-  artifactKey: Guid(804f7745159f9764eac6bd857ee257dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Pack - Environment Lite/Models/Boxes/Barrel_1_5.fbx using Guid(804f7745159f9764eac6bd857ee257dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a6f79efa6b4d3c3b0450aae67498e5') in 0.031539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/BrokenVector/LowPolyShaders/Example/Models/Axe_1.dae
-  artifactKey: Guid(54fbce58060ea7143a49de28a698b266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyShaders/Example/Models/Axe_1.dae using Guid(54fbce58060ea7143a49de28a698b266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c2381f04ee19589076ff1947d7cd84') in 0.026875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Toon Gas Station/Models/Bilboard_1E.fbx
-  artifactKey: Guid(b5fad09f6acdfb74e9e58b7d7ebc6cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Gas Station/Models/Bilboard_1E.fbx using Guid(b5fad09f6acdfb74e9e58b7d7ebc6cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'a64ad1a3186e01ec5ddedd0843ca7e89') in 0.063014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000882 seconds.
-  path: Assets/Low Poly Graveyard/Models/BigTomb2.FBX
-  artifactKey: Guid(dab64ad3e16e8d942b56af5f95a96140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Graveyard/Models/BigTomb2.FBX using Guid(dab64ad3e16e8d942b56af5f95a96140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bc269363ce860c52fc372b5fed9d5c') in 0.037829 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/Tiny_Toony_City_Demo/Meshes/Demo_Asphalt.fbx
-  artifactKey: Guid(bdd8b59fd28ade14d951aeeb4c9644d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny_Toony_City_Demo/Meshes/Demo_Asphalt.fbx using Guid(bdd8b59fd28ade14d951aeeb4c9644d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC4X4 UNorm format is not supported, decompressing texture
- -> (artifact id: 'b5068f729bec00f28f8eaea47282e6c1') in 0.049146 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003082 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.648 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1649ms)
-		BeginReloadAssembly (187ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (83ms)
-		EndReloadAssembly (1328ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (344ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (628ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (473ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3206 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (417.1 KB). Loaded Objects now: 3776.
-Memory consumption went from 397.2 MB to 396.8 MB.
-Total: 5.671172 ms (FindLiveObjects: 0.368615 ms CreateObjectMapping: 0.301090 ms MarkObjects: 4.690916 ms  DeleteObjects: 0.309024 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 17289.847561 seconds.
+  path: Assets/_FreedomForZombie/Sprits/no.png
+  artifactKey: Guid(21266dbc132a34b8f8496d717ec46aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FreedomForZombie/Sprits/no.png using Guid(21266dbc132a34b8f8496d717ec46aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '47dfcc2febb0e7a5f55f24cca898edc5') in 1.047890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 815.373341 seconds.
+  path: Assets/_FreedomForZombie/Sprits/carts.png
+  artifactKey: Guid(1dd8d842d5a1146e6ba26703b3ee49bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FreedomForZombie/Sprits/carts.png using Guid(1dd8d842d5a1146e6ba26703b3ee49bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '0d8c6f1ba9418751007b7c26e3ab4788') in 0.018183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.321974 seconds.
+  path: Assets/_FreedomForZombie/Sprits/carts.png
+  artifactKey: Guid(1dd8d842d5a1146e6ba26703b3ee49bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FreedomForZombie/Sprits/carts.png using Guid(1dd8d842d5a1146e6ba26703b3ee49bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '237d0cd763d2a0d98daa773cbba3c207') in 0.071378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 956.675887 seconds.
+  path: Assets/_FreedomForZombie/Sprits/trolley.png
+  artifactKey: Guid(b65268d73e95141908b6c3d7727f1d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FreedomForZombie/Sprits/trolley.png using Guid(b65268d73e95141908b6c3d7727f1d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'd036c1b404fe35ddbc1da416233c6d0b') in 0.016697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.918946 seconds.
+  path: Assets/_FreedomForZombie/Sprits/trolley.png
+  artifactKey: Guid(b65268d73e95141908b6c3d7727f1d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FreedomForZombie/Sprits/trolley.png using Guid(b65268d73e95141908b6c3d7727f1d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '0147c0375383bac76fd52e05614f1e66') in 0.060079 seconds 

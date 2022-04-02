@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class ZombieGameUI : MonoBehaviour
 {
-
     [SerializeField] private Image _preview;
     [SerializeField] private Text _manaCoast;
     [SerializeField] private Color _activeColor;
@@ -23,8 +22,6 @@ public class ZombieGameUI : MonoBehaviour
     private void OnEnable()
     {
         _border = GetComponent<Image>();
-      
-           
     }
     public void Init(ZombieSO zombieSO, int zombieLvl) {
         _zombieLvl = zombieLvl;
