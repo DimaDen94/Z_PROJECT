@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4299298373732562818
 Transform:
   m_ObjectHideFlags: 0
@@ -169,6 +169,8 @@ MonoBehaviour:
   _pointNumber: 0
   _pointNumberText: {fileID: 4979233607918267247}
   _starsContainer: {fileID: 6757595334092708660}
+  _pointImage: {fileID: 1916401462580335033}
+  _activeSparite: {fileID: -805224739, guid: 2cad1903fa631b247baf6a427038ca0c, type: 3}
 --- !u!1 &5814339926198332741
 GameObject:
   m_ObjectHideFlags: 0

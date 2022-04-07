@@ -116,6 +116,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:ENABLE_PLAYFABSERVER_API
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"/Applications/Unity/Hub/Editor/2021.2.2f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
@@ -328,6 +329,9 @@
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/NavMeshComponents.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/NavMeshComponentsEditor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/PlayFab.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/PlayFabEditorExtensions.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/PlayFabSDKEditor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Rider.Editor.ref.dll"
@@ -351,6 +355,7 @@
 "Assets/AurynSky/Desert Pack/Scripts/ChestDemo.cs"
 "Assets/AurynSky/Desert Pack/Scripts/MaterialMover.cs"
 "Assets/AurynSky/Desert Pack/Scripts/Rotator.cs"
+"Assets/BalanceUI.cs"
 "Assets/BrokenVector/LowPolyFencePack/Scripts/DoorController.cs"
 "Assets/BrokenVector/LowPolyFencePack/Scripts/DoorToggle.cs"
 "Assets/CloseDialogButton.cs"
@@ -385,6 +390,9 @@
 "Assets/EnemyAttackTrigger.cs"
 "Assets/FullZombiesContainer.cs"
 "Assets/GameDialog.cs"
+"Assets/LoginScript.cs"
+"Assets/MapPoints.cs"
+"Assets/MapProgress.cs"
 "Assets/PauseDialog.cs"
 "Assets/PlayerUnitsContainer.cs"
 "Assets/RepeatButton.cs"
@@ -395,16 +403,27 @@
 "Assets/SolClovser/EasyMultipleHealthbar/Scripts/HealthbarController.cs"
 "Assets/StarContainer.cs"
 "Assets/WaveBar.cs"
+"Assets/WinHandler.cs"
 "Assets/ZombieAttackTrigger.cs"
 "Assets/ZombieDescriptionPanel.cs"
 "Assets/ZombieUpgradeUI.cs"
 "Assets/_FreedomForZombie/ScriptableObjects/AllZombiesSO.cs"
+"Assets/_FreedomForZombie/ScriptableObjects/Waves/LvlWaves.cs"
+"Assets/_FreedomForZombie/ScriptableObjects/Waves/MapLvls.cs"
+"Assets/_FreedomForZombie/ScriptableObjects/Waves/Wave.cs"
+"Assets/_FreedomForZombie/ScriptableObjects/Waves/WaveUnit.cs"
 "Assets/_FreedomForZombie/ScriptableObjects/ZombieSO.cs"
 "Assets/_FreedomForZombie/Scripts/BodyEjector.cs"
+"Assets/_FreedomForZombie/Scripts/DataService.cs"
+"Assets/_FreedomForZombie/Scripts/JsonUtil.cs"
 "Assets/_FreedomForZombie/Scripts/Map/MapPoint.cs"
 "Assets/_FreedomForZombie/Scripts/Map/MovingMap.cs"
 "Assets/_FreedomForZombie/Scripts/Map/ScrollMapContainer.cs"
 "Assets/_FreedomForZombie/Scripts/MusicNoDeadScript.cs"
+"Assets/_FreedomForZombie/Scripts/PlayerPrefsUtil.cs"
+"Assets/_FreedomForZombie/Scripts/PlayfabManager.cs"
+"Assets/_FreedomForZombie/Scripts/ProgressPoint.cs"
+"Assets/_FreedomForZombie/Scripts/ProgressStage.cs"
 "Assets/_FreedomForZombie/Scripts/Scenes.cs"
 "Assets/_FreedomForZombie/Scripts/Spawner.cs"
 "Assets/_FreedomForZombie/Scripts/StateMachine/EnemyEntranceChecker.cs"
@@ -445,6 +464,7 @@
 "Assets/_FreedomForZombie/Scripts/Unit/EnemyUnit.cs"
 "Assets/_FreedomForZombie/Scripts/Unit/Unit.cs"
 "Assets/_FreedomForZombie/Scripts/Unit/Zombie.cs"
+"Assets/_FreedomForZombie/Scripts/UserCharacter.cs"
 "Assets/_FreedomForZombie/Scripts/ZombieSpawnArea.cs"
 -langversion:9.0
 

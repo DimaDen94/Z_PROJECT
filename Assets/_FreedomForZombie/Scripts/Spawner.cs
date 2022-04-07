@@ -5,8 +5,7 @@ using UnityEngine.Events;
 
 public class Spawner : MonoBehaviour
 {
-
-    [SerializeField] private Wave[] _wawes;
+    [SerializeField] private MapLvls _allLvls;
     [SerializeField] private List<Unit> _units;
     [SerializeField] private Transform _spawnPointDown;
     [SerializeField] private Transform _spawnPointUp;
@@ -18,6 +17,7 @@ public class Spawner : MonoBehaviour
     [SerializeField] private Unit _targetAltar;
     [SerializeField] private EnemyAltar _nativeAltar;
     private Coroutine _spawnerCoroutine;
+    private Wave[] _wawes;
 
     public UnityEvent<float,float> WaveTimer;
     public UnityEvent<float,float> WaveCounter;
@@ -26,6 +26,7 @@ public class Spawner : MonoBehaviour
 
     private void Start()
     {
+        _wawes = _allLvls.GetCurrentLvl().Wawes;
         _waweCountdown = _timeBetweenWawes;
         _units = new List<Unit>();
         
@@ -118,27 +119,13 @@ public class Spawner : MonoBehaviour
     {
         _units.Remove(unit);
     }
-    [System.Serializable]
-    public class Wave
-    {
-        public string name;
-        public WaveUnit[] waweUnit;
-    }
-    [System.Serializable]
-    public class WaveUnit
-    {
-        public float delay;
-        public Unit enemy;
-        public SpawnPosition spawnPosition;
-    }
+    
+    
     public enum SpawnState
     {
         SPAWNING, WATING, COUNTING, STOP
     }
-    public enum SpawnPosition
-    {
-        UP, DOWN
-    }
+    
     public void KillAllUnits()
     {
         for (int i = _units.Count - 1; i >= 0; i--)
@@ -150,6 +137,7 @@ public class Spawner : MonoBehaviour
     public void StopSpawner()
     {
         _currentState = SpawnState.STOP;
+        if(_spawnerCoroutine != null)
         StopCoroutine(_spawnerCoroutine);
     }
 }

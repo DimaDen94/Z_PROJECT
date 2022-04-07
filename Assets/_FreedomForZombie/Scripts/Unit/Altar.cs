@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Altar : Zombie
 {
-    // Start is called before the first frame update
-    void Start()
+   public int GetStars()
     {
-        
-    }
+        if (_maxHealth == _health)
+            return 3;
+        else if (_maxHealth / 2 < _health)
+            return 2;
+        else
+            return 1;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

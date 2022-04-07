@@ -7,6 +7,7 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
     [SerializeField] private Transform _dragContainer;
     [SerializeField] private Transform _parant;
     [SerializeField] private ZombieUpgradeUI _zombieUpgradeUI;
+   
 
     private Vector3 _startPosition;
     private RectTransform _transform;
@@ -22,24 +23,30 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
     }
     public void OnBeginDrag(PointerEventData eventData)
     {
-        _canvasGroup.blocksRaycasts = false;
-        _transform.parent = _dragContainer;
-        _currentZombie = _zombieUpgradeUI.ZombieSO;
+        if (_zombieUpgradeUI.IsContainsInInventory)
+        {
+            _canvasGroup.blocksRaycasts = false;
+            _transform.parent = _dragContainer;
+            _currentZombie = _zombieUpgradeUI.ZombieSO;
+        }
 
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        _transform.anchoredPosition += eventData.delta / _canvas.scaleFactor;
+        if (_zombieUpgradeUI.IsContainsInInventory)
+            _transform.anchoredPosition += eventData.delta / _canvas.scaleFactor;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        _canvasGroup.blocksRaycasts = true;
-        _transform.parent = _parant;
-        _transform.localPosition = _startPosition;
-        _currentZombie = null;
-
+        if (_zombieUpgradeUI.IsContainsInInventory)
+        {
+            _canvasGroup.blocksRaycasts = true;
+            _transform.parent = _parant;
+            _transform.localPosition = _startPosition;
+            _currentZombie = null;
+        }
     }
 
     public void OnPointerClick(PointerEventData eventData)

@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2021_2_2;UNITY_2021_2;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_2_2;UNITY_2021_2;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;ENABLE_PLAYFABSERVER_API;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -63,6 +63,8 @@
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/States/CelebrationState.cs" />
     <Compile Include="Assets/DragAndDrop/Examples/Shop/Scripts/Item.cs" />
     <Compile Include="Assets/DragAndDrop/Scripts/ObjectContainerList.cs" />
+    <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/Waves/LvlWaves.cs" />
+    <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/Waves/Wave.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Map/MovingMap.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/HealthBar.cs" />
     <Compile Include="Assets/DragAndDrop/Examples/ExampleScripts/EquipScreen.cs" />
@@ -79,6 +81,7 @@
     <Compile Include="Assets/DialogLoader.cs" />
     <Compile Include="Assets/DragAndDrop/Scripts/Slot.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/EntranceChecker.cs" />
+    <Compile Include="Assets/_FreedomForZombie/Scripts/DataService.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/States/DeathState.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/EnemyDistanceToEnemyTransition.cs" />
     <Compile Include="Assets/DragAndDrop/Examples/Shop/Scripts/Inventory.cs" />
@@ -90,10 +93,14 @@
     <Compile Include="Assets/_FreedomForZombie/Scripts/Map/MapPoint.cs" />
     <Compile Include="Assets/BrokenVector/LowPolyFencePack/Scripts/DoorController.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/ZombieStateMachine.cs" />
+    <Compile Include="Assets/_FreedomForZombie/Scripts/JsonUtil.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/States/IdleState.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/StateMachine.cs" />
+    <Compile Include="Assets/_FreedomForZombie/Scripts/PlayfabManager.cs" />
     <Compile Include="Assets/DragAndDrop/Scripts/ToolTips/ToolTipSimple.cs" />
+    <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/Waves/MapLvls.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/ZombieEntranceChecker.cs" />
+    <Compile Include="Assets/MapProgress.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/TargetDieTransition.cs" />
     <Compile Include="Assets/ZombieDescriptionPanel.cs" />
     <Compile Include="Assets/DragAndDrop/Examples/Shop/Scripts/CoinUI.cs" />
@@ -101,9 +108,11 @@
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/DistanceTransition.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/ZombiesGameBar.cs" />
     <Compile Include="Assets/CloseDialogButton.cs" />
+    <Compile Include="Assets/BalanceUI.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/Transition.cs" />
     <Compile Include="Assets/SolClovser/EasyMultipleHealthbar/Scripts/EasyMultipleHealthbar.cs" />
     <Compile Include="Assets/DragAndDrop/Scripts/Draggable.cs" />
+    <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/Waves/WaveUnit.cs" />
     <Compile Include="Assets/WaveBar.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Unit/EnemyUnit.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/States/SpawningState.cs" />
@@ -121,6 +130,7 @@
     <Compile Include="Assets/SolClovser/EasyMultipleHealthbar/Demo/Scripts/DemoEnemy.cs" />
     <Compile Include="Assets/DragAndDrop/Examples/ExampleScripts/PowersUI.cs" />
     <Compile Include="Assets/DragAndDrop/Examples/Shop/Scripts/ItemUI.cs" />
+    <Compile Include="Assets/_FreedomForZombie/Scripts/ProgressPoint.cs" />
     <Compile Include="Assets/DragAndDrop/Scripts/ToolTips/Tooltip.cs" />
     <Compile Include="Assets/DragAndDrop/Examples/ExampleScripts/Power.cs" />
     <Compile Include="Assets/DragAndDrop/Scripts/ObjectContainerArray.cs" />
@@ -128,11 +138,14 @@
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/DeathTransition.cs" />
     <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/ZombieSO.cs" />
     <Compile Include="Assets/DragAndDrop/Scripts/ToolTips/IToolTip.cs" />
+    <Compile Include="Assets/_FreedomForZombie/Scripts/PlayerPrefsUtil.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Unit/Zombie.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Spawner.cs" />
+    <Compile Include="Assets/MapPoints.cs" />
     <Compile Include="Assets/DragAndDrop/Scripts/ObjectContainer.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/ZombieGameUI.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Unit/Altar.cs" />
+    <Compile Include="Assets/_FreedomForZombie/Scripts/ProgressStage.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/TargetAltarDieTransition.cs" />
     <Compile Include="Assets/RepeatButton.cs" />
     <Compile Include="Assets/PauseDialog.cs" />
@@ -147,6 +160,7 @@
     <Compile Include="Assets/ZombieUpgradeUI.cs" />
     <Compile Include="Assets/DragItem.cs" />
     <Compile Include="Assets/DragAndDrop/Examples/ExampleScripts/PowerSetSlot.cs" />
+    <Compile Include="Assets/LoginScript.cs" />
     <Compile Include="Assets/AurynSky/Desert Pack/Scripts/MaterialMover.cs" />
     <Compile Include="Assets/AurynSky/Desert Pack/Scripts/ChestDemo.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Unit/Enemy.cs" />
@@ -154,7 +168,9 @@
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/ManaView.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitFromAreaTransition.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/FlexibleGridLayout.cs" />
+    <Compile Include="Assets/_FreedomForZombie/Scripts/UserCharacter.cs" />
     <Compile Include="Assets/DragAndDrop/Examples/Shop/Scripts/InventoryUI.cs" />
+    <Compile Include="Assets/WinHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Toon Gas Station/ToonShading/Shaders/ToonBasicOutline.shader" />
@@ -885,6 +901,14 @@
       <Project>{6CC98CD6-514D-70A3-67EE-1A6660BE7F51}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
+    <ProjectReference Include="PlayFabSDKEditor.csproj">
+      <Project>{5D3F881D-7AB6-C832-9571-C0CD0157F905}</Project>
+      <Name>PlayFabSDKEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabEditorExtensions.csproj">
+      <Project>{ADFF38D7-27AB-9B3F-7C80-B9F8888B03D0}</Project>
+      <Name>PlayFabEditorExtensions</Name>
+    </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
       <Project>{8BFF402A-AE7B-D71B-332D-4B5DCCE6136A}</Project>
       <Name>NavMeshComponentsEditor</Name>
@@ -892,6 +916,10 @@
     <ProjectReference Include="NavMeshComponents.csproj">
       <Project>{82F89772-CFE5-D272-7615-670D57F5436B}</Project>
       <Name>NavMeshComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFab.csproj">
+      <Project>{56D27AAD-8566-1747-B547-B7FD88CC0DCD}</Project>
+      <Name>PlayFab</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

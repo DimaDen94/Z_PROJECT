@@ -29,9 +29,9 @@ public class PlayerUnitsContainer : MonoBehaviour
     }
 
     private void LoadPlayerUnits() {
-        string[] ids = {"Frank", "Gary", "Bob", "Sofi"};
-        for (int i = 0; i < ids.Length; i++) {
-            _playerUnitInventory.Add(_allZombies.GetZombiByID(ids[i]));
+        List<string> unitSequence = PlayerPrefsUtil.GetUnitSequence();
+        for (int i = 0; i < unitSequence.Count; i++) {
+            _playerUnitInventory.Add(_allZombies.GetZombiByID(unitSequence[i]));
         }
     }
     private void ChangInventoryItem(ZombieSO zombieSO,int position) {
@@ -50,8 +50,15 @@ public class PlayerUnitsContainer : MonoBehaviour
         }
         _zombieUpgardeUIs[position].Init(zombieSO);
 
-       
+        PlayerPrefsUtil.SaveUnitSequence(GenerateUnitSequenceForSave());
 
+    }
+    private List<string> GenerateUnitSequenceForSave() {
+        List<string> unitSequence = new List<string>();
+        foreach (ZombieUpgradeUI zombieUpgradeUI in _zombieUpgardeUIs) {
+            unitSequence.Add(zombieUpgradeUI.ZombieSO.Name);
+        }
+        return unitSequence;
     }
 
 }

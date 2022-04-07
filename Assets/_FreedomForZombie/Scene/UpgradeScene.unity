@@ -134,6 +134,22 @@ PrefabInstance:
       propertyPath: _dragContainer
       value: 
       objectReference: {fileID: 444554758}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.b
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.g
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.r
+      value: 0.36862746
+      objectReference: {fileID: 0}
     - target: {fileID: 7814116460749927368, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
       propertyPath: m_Name
       value: Upgrade Zombie Item (1)
@@ -263,6 +279,22 @@ PrefabInstance:
       propertyPath: _dragContainer
       value: 
       objectReference: {fileID: 444554758}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.b
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.g
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.r
+      value: 0.36862746
+      objectReference: {fileID: 0}
     - target: {fileID: 7814116460749927368, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
       propertyPath: m_Name
       value: Upgrade Zombie Item (1)
@@ -381,6 +413,22 @@ PrefabInstance:
       propertyPath: _dragContainer
       value: 
       objectReference: {fileID: 444554758}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.b
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.g
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.r
+      value: 0.36862746
+      objectReference: {fileID: 0}
     - target: {fileID: 7814116460749927368, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
       propertyPath: m_Name
       value: Upgrade Zombie Item (4)
@@ -836,6 +884,22 @@ PrefabInstance:
       propertyPath: _dragContainer
       value: 
       objectReference: {fileID: 444554758}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.b
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.g
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.r
+      value: 0.36862746
+      objectReference: {fileID: 0}
     - target: {fileID: 7814116460749927368, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
       propertyPath: m_Name
       value: Upgrade Zombie Item (3)
@@ -1398,6 +1462,22 @@ PrefabInstance:
       propertyPath: _dragContainer
       value: 
       objectReference: {fileID: 444554758}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.b
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.g
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.r
+      value: 0.36862746
+      objectReference: {fileID: 0}
     - target: {fileID: 7814116460749927368, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
       propertyPath: m_Name
       value: Upgrade Zombie Item (1)
@@ -1685,6 +1765,22 @@ PrefabInstance:
       propertyPath: _dragContainer
       value: 
       objectReference: {fileID: 444554758}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.b
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.g
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.r
+      value: 0.36862746
+      objectReference: {fileID: 0}
     - target: {fileID: 7814116460749927368, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
       propertyPath: m_Name
       value: Upgrade Zombie Item (3)
@@ -2612,6 +2708,22 @@ PrefabInstance:
       propertyPath: _dragContainer
       value: 
       objectReference: {fileID: 444554758}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.b
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.g
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.r
+      value: 0.36862746
+      objectReference: {fileID: 0}
     - target: {fileID: 7814116460749927368, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
       propertyPath: m_Name
       value: Upgrade Zombie Item (2)
@@ -3008,6 +3120,22 @@ PrefabInstance:
       propertyPath: _dragContainer
       value: 
       objectReference: {fileID: 444554758}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.b
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.g
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.r
+      value: 0.36862746
+      objectReference: {fileID: 0}
     - target: {fileID: 7814116460749927368, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
       propertyPath: m_Name
       value: Upgrade Zombie Item (4)
@@ -3228,6 +3356,22 @@ PrefabInstance:
       propertyPath: _dragContainer
       value: 
       objectReference: {fileID: 444554758}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.b
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.g
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.r
+      value: 0.36862746
+      objectReference: {fileID: 0}
     - target: {fileID: 7814116460749927368, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
       propertyPath: m_Name
       value: Upgrade Zombie Item (4)
@@ -3646,6 +3790,22 @@ PrefabInstance:
       propertyPath: _dragContainer
       value: 
       objectReference: {fileID: 444554758}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.b
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.g
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.r
+      value: 0.36862746
+      objectReference: {fileID: 0}
     - target: {fileID: 7814116460749927368, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
       propertyPath: m_Name
       value: Upgrade Zombie Item (3)
@@ -3764,6 +3924,22 @@ PrefabInstance:
       propertyPath: _dragContainer
       value: 
       objectReference: {fileID: 444554758}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.b
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.g
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.r
+      value: 0.36862746
+      objectReference: {fileID: 0}
     - target: {fileID: 7814116460749927368, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
       propertyPath: m_Name
       value: Upgrade Zombie Item (2)
@@ -4118,6 +4294,22 @@ PrefabInstance:
       propertyPath: _dragContainer
       value: 
       objectReference: {fileID: 444554758}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.b
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.g
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.r
+      value: 0.36862746
+      objectReference: {fileID: 0}
     - target: {fileID: 7814116460749927368, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
       propertyPath: m_Name
       value: Upgrade Zombie Item (1)
@@ -4799,6 +4991,22 @@ PrefabInstance:
       propertyPath: _dragContainer
       value: 
       objectReference: {fileID: 444554758}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.b
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.g
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.r
+      value: 0.36862746
+      objectReference: {fileID: 0}
     - target: {fileID: 7814116460749927368, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
       propertyPath: m_Name
       value: Upgrade Zombie Item (2)
@@ -5097,6 +5305,22 @@ PrefabInstance:
       propertyPath: _dragContainer
       value: 
       objectReference: {fileID: 444554758}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.b
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.g
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.r
+      value: 0.36862746
+      objectReference: {fileID: 0}
     - target: {fileID: 7814116460749927368, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
       propertyPath: m_Name
       value: Upgrade Zombie Item (2)
@@ -5595,6 +5819,22 @@ PrefabInstance:
       propertyPath: _dragContainer
       value: 
       objectReference: {fileID: 444554758}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.b
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.g
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.r
+      value: 0.36862746
+      objectReference: {fileID: 0}
     - target: {fileID: 7814116460749927368, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
       propertyPath: m_Name
       value: Upgrade Zombie Item (4)
@@ -5724,6 +5964,22 @@ PrefabInstance:
       propertyPath: _dragContainer
       value: 
       objectReference: {fileID: 444554758}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.b
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.g
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063400029548529426, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
+      propertyPath: _disableColor.r
+      value: 0.36862746
+      objectReference: {fileID: 0}
     - target: {fileID: 7814116460749927368, guid: ec9d9a0986b104e889aaedabafa43000, type: 3}
       propertyPath: m_Name
       value: Upgrade Zombie Item (3)
@@ -6013,6 +6269,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _preview: {fileID: 3264655167583444138}
   _zombieSO: {fileID: 0}
+  _lvlContainer: {fileID: 0}
+  _lvlNumber: {fileID: 0}
+  _disableColor: {r: 0, g: 0, b: 0, a: 0}
   OnChooseZombie:
     m_PersistentCalls:
       m_Calls: []
@@ -6420,6 +6679,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _preview: {fileID: 7814116460287553217}
   _zombieSO: {fileID: 0}
+  _lvlContainer: {fileID: 0}
+  _lvlNumber: {fileID: 0}
+  _disableColor: {r: 0, g: 0, b: 0, a: 0}
   OnChooseZombie:
     m_PersistentCalls:
       m_Calls: []
@@ -6437,6 +6699,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _preview: {fileID: 7814116461103665750}
   _zombieSO: {fileID: 0}
+  _lvlContainer: {fileID: 0}
+  _lvlNumber: {fileID: 0}
+  _disableColor: {r: 0, g: 0, b: 0, a: 0}
   OnChooseZombie:
     m_PersistentCalls:
       m_Calls: []
@@ -6454,6 +6719,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _preview: {fileID: 7814116462111706174}
   _zombieSO: {fileID: 0}
+  _lvlContainer: {fileID: 0}
+  _lvlNumber: {fileID: 0}
+  _disableColor: {r: 0, g: 0, b: 0, a: 0}
   OnChooseZombie:
     m_PersistentCalls:
       m_Calls: []

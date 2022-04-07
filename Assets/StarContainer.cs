@@ -6,10 +6,7 @@ public class StarContainer : MonoBehaviour
     [SerializeField] private GameObject _midleStar;
     [SerializeField] private GameObject _rightStar;
 
-    private void Start()
-    {
-        RenderStar(3);
-    }
+    
     public void RenderStar(int starCount)
     {
         switch (starCount)
