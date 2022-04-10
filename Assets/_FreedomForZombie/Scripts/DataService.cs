@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using PlayFab.ClientModels;
 
 public class DataService 
 {
@@ -10,6 +12,7 @@ public class DataService
     public static List<UserCharacter> UserCharacters { get => _userCharacters; set => _userCharacters = value; }
     public static List<ProgressStage> Progress { get => _progress; set => _progress = value; }
     public static int LastClickedPoint { get;  set; }
+    public static List<CatalogItem> Catalog { get; set; }
 
     public static UserCharacter TryToFindZombiInInventoryById(string name)
     {
@@ -19,6 +22,15 @@ public class DataService
         return null;
         
     }
+    public static CatalogItem TryToFindZombiInCatalogById(string name)
+    {
+        foreach (CatalogItem catalogItem in Catalog)
+            if (name.Equals(catalogItem.ItemId))
+                return catalogItem;
+        return null;
+
+    }
+
     public static bool TryToSaveProgress(int stars) {
         if (_progress[0].Points.Count == LastClickedPoint)
         {
@@ -36,5 +48,29 @@ public class DataService
             return true;
         }
         return false;
+    }
+
+    public static int GetPriceForCharacterById(string name)
+    {
+       return ((int)TryToFindZombiInCatalogById(name).VirtualCurrencyPrices["CO"]);
+    }
+
+    public static bool CheckAvailabilityZombieInInventory(string name)
+    {
+        foreach (UserCharacter userCharacter in UserCharacters) 
+            if (userCharacter.name.Equals(name))
+                return true;
+        return false;
+    }
+
+    public static void IncrementCharacterById(string name)
+    {
+        if (TryToFindZombiInInventoryById(name) == null)
+        {
+            _userCharacters.Add(new UserCharacter(name, 1));
+        }
+        else {
+            TryToFindZombiInInventoryById(name).lvl++;
+        }
     }
 }

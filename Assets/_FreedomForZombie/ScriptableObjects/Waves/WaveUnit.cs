@@ -6,7 +6,7 @@ public class WaveUnit
 {
     public float delay;
     public int enemyLvl;
-    public Unit enemy;
+    public Enemy enemy;
     public SpawnPosition spawnPosition;
 }
 public enum SpawnPosition

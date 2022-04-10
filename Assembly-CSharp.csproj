@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>9.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,9 +53,6 @@
     <UnityVersion>2021.2.2f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets/DragAndDrop/Examples/ExampleScripts/PowerSet.cs" />
     <Compile Include="Assets/SceneSwitchButton.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/ZombieSpawnArea.cs" />
@@ -72,6 +69,7 @@
     <Compile Include="Assets/DragAndDrop/Examples/ExampleScripts/PowerUI.cs" />
     <Compile Include="Assets/DragAndDrop/Examples/ExampleScripts/Charm.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ZombieDistanceToEnemyTransition.cs" />
+    <Compile Include="Assets/WinHandler.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/SearchEnemyTransition.cs" />
     <Compile Include="Assets/AudioButton.cs" />
     <Compile Include="Assets/SceneLoader.cs" />
@@ -79,6 +77,7 @@
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/States/AttackState.cs" />
     <Compile Include="Assets/DragAndDrop/Examples/ExampleScripts/PowerSetUI.cs" />
     <Compile Include="Assets/DialogLoader.cs" />
+    <Compile Include="Assets/CoinsHandller.cs" />
     <Compile Include="Assets/DragAndDrop/Scripts/Slot.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/EntranceChecker.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/DataService.cs" />
@@ -170,7 +169,8 @@
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/FlexibleGridLayout.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/UserCharacter.cs" />
     <Compile Include="Assets/DragAndDrop/Examples/Shop/Scripts/InventoryUI.cs" />
-    <Compile Include="Assets/WinHandler.cs" />
+    <Compile Include="Assets/UpgradeOrBayBtn.cs" />
+    <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/DamageMultiplierSO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Toon Gas Station/ToonShading/Shaders/ToonBasicOutline.shader" />

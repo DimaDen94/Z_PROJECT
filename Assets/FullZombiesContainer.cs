@@ -14,6 +14,7 @@ public class FullZombiesContainer : MonoBehaviour
         {
             _zombieUpgradeUIs[i].Init(_allZombies.Zombies[i]);
         }
+        ChooseZombie(_zombieUpgradeUIs[0].ZombieSO);
     }
     private void OnEnable()
     {

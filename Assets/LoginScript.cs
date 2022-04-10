@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class LoginScript : MonoBehaviour
 {
     [SerializeField] private Slider _loader;
-    private float _totalLoadPartsCount = 4f;
+    private float _totalLoadPartsCount = 5f;
     private float _currentLoadingProgress = 0f;
 
     public void Start()
@@ -22,6 +22,13 @@ public class LoginScript : MonoBehaviour
         IncrementSlider();
         PlayfabManager.GetCurrencyBalance(UpdateUserBalance);
         PlayfabManager.GetUserData(UpdateUserData);
+        PlayfabManager.LoadUnitsCatalog(UpdateCatalog);
+    }
+
+    private void UpdateCatalog(GetCatalogItemsResult catalog)
+    {
+        DataService.Catalog = catalog.Catalog;
+        IncrementSlider();
     }
 
     private void UpdateUserData(List<UserCharacter> characters, List<ProgressStage> progress)

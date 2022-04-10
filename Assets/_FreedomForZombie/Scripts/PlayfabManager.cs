@@ -5,14 +5,15 @@ using PlayFab;
 using PlayFab.ClientModels;
 using UnityEngine;
 
-public class PlayfabManager 
+public class PlayfabManager
 {
     private const string CURRENCY_CODE = "CO";
     private const string CatalogKey = "Units";
     private const string CharactersKey = "Characters";
     private const string ProgressKey = "Progress";
 
-    public static void Login(Action<LoginResult> OnLoginSuccess) {
+    public static void Login(Action<LoginResult> OnLoginSuccess)
+    {
         var request = new LoginWithCustomIDRequest { CustomId = PlayFabSettings.DeviceUniqueIdentifier, CreateAccount = true };
         PlayFabClientAPI.LoginWithCustomID(request, OnLoginSuccess, OnPlayfabError);
     }
@@ -48,7 +49,7 @@ public class PlayfabManager
                 if (result.Data == null || !result.Data.ContainsKey(ProgressKey) || !result.Data.ContainsKey(CharactersKey))
                 {
                     Debug.Log("No Characters");
-                    SaveUserStartParams(InitDefaultCharacters(),InitDefaultProgress(), userData);
+                    SaveUserStartParams(InitDefaultCharacters(), InitDefaultProgress(), userData);
                 }
                 else
                 {
@@ -57,6 +58,45 @@ public class PlayfabManager
                     userData.Invoke(JsonUtil.DeserializeObject<List<UserCharacter>>(CharactersValue), JsonUtil.DeserializeObject<List<ProgressStage>>(ProgressValue));
                 }
             }, OnPlayfabError);
+    }
+
+    public static void TryToBuyCharacter(UserCharacter userCharacter, Action success, Action error)
+    {
+        //todo UpdateRequest
+        success.Invoke();
+    }
+
+    public static void TryToUpgradeCharacter(UserCharacter userCharacter,int amount, Action success, Action error)
+    {
+        IncrementCharacterLvl (userCharacter.name, amount, list => { success.Invoke(); }, error);
+    }
+    private static void IncrementCharacterLvl(string characterId,int amount, Action<List<UserCharacter>> success, Action error)
+    {
+        var request = new ExecuteCloudScriptRequest()
+        {
+            FunctionName = "IncrementCharacterLvl",
+            FunctionParameter = new
+            {
+                characterId = characterId,
+                amount = amount
+            },
+            GeneratePlayStreamEvent = true
+        };
+        PlayFabClientAPI.ExecuteCloudScript(request, result =>
+        {
+            Debug.Log(result.ToJson().ToString());
+
+            List<UserCharacter> characters = JsonUtil.DeserializeObject<List<UserCharacter>>(result.FunctionResult.ToString());
+            if (characters != null)
+                success.Invoke(characters);
+            else
+                error.Invoke();
+        }, fabError =>
+        {
+            Debug.LogError(fabError.ErrorMessage);
+            error.Invoke();
+        });
+
     }
     private static void SaveUserStartParams(List<UserCharacter> characters, List<ProgressStage> progressStages, Action<List<UserCharacter>, List<ProgressStage>> userChatacters)
     {
@@ -71,7 +111,7 @@ public class PlayfabManager
         PlayFabClientAPI.UpdateUserData(request,
             result =>
             {
-                userChatacters.Invoke(characters,progressStages);
+                userChatacters.Invoke(characters, progressStages);
             }, OnPlayfabError);
     }
     public static void SaveUserProgress(List<ProgressStage> progressStages, Action success, Action error)
@@ -86,7 +126,8 @@ public class PlayfabManager
             result =>
             {
                 success.Invoke();
-            }, errorData => {
+            }, errorData =>
+            {
                 OnPlayfabError(errorData);
                 error.Invoke();
             });

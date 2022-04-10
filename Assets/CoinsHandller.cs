@@ -1,0 +1,16 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.UI;
+
+public class CoinsHandller : MonoBehaviour
+{
+    [SerializeField] private Text _earnedCoinsView;
+    private int _earnedCoins = 0;
+ 
+    public void IncreaseCoins(Enemy enemy) {
+        _earnedCoins += enemy.DeathCost;
+        _earnedCoinsView.text = _earnedCoins.ToString();
+    }
+}

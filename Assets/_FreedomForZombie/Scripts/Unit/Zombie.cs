@@ -15,7 +15,7 @@ public class Zombie :  Unit
     public float Damage  => _damage; 
     private State _currentState;
 
-    internal void SetDefaultParams(int defaultDamage, int defaultHealth, float defaultSpeed)
+    internal void SetDefaultParams(float defaultDamage, int defaultHealth, float defaultSpeed)
     {
         _damage = defaultDamage;
         _maxHealth = defaultHealth;

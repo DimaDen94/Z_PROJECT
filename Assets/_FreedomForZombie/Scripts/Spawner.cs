@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class Spawner : MonoBehaviour
 {
     [SerializeField] private MapLvls _allLvls;
-    [SerializeField] private List<Unit> _units;
+    [SerializeField] private List<Unit> _enemies;
     [SerializeField] private Transform _spawnPointDown;
     [SerializeField] private Transform _spawnPointUp;
     [SerializeField] private float _timeBetweenWawes = 5f;
@@ -23,12 +23,13 @@ public class Spawner : MonoBehaviour
     public UnityEvent<float,float> WaveCounter;
     public UnityEvent<float> WavePause;
     public UnityEvent WaveCompleted;
+    public UnityEvent<Enemy> EnemyDied;
 
     private void Start()
     {
         _wawes = _allLvls.GetCurrentLvl().Wawes;
         _waweCountdown = _timeBetweenWawes;
-        _units = new List<Unit>();
+        _enemies = new List<Unit>();
         
     }
     private void Update()
@@ -87,7 +88,7 @@ public class Spawner : MonoBehaviour
                 currentWaveTime--;
                 yield return new WaitForSeconds(1);
             }
-            SpawnEnemy(unit.enemy, unit.spawnPosition);
+            SpawnEnemy(unit.enemy, unit.spawnPosition, unit.enemyLvl);
         }
 
         _currentState = SpawnState.WATING;
@@ -101,7 +102,7 @@ public class Spawner : MonoBehaviour
             totalDelay += waweUnit.delay;
         return totalDelay;
     }
-    private void SpawnEnemy(Unit enemy, SpawnPosition spawnPosition)
+    private void SpawnEnemy(Enemy enemy, SpawnPosition spawnPosition, int enemyLvl)
     {
         //Spawn Enemy
         Vector3 spawnLocation;
@@ -109,15 +110,21 @@ public class Spawner : MonoBehaviour
             spawnLocation = _spawnPointDown.position;
         else
             spawnLocation = _spawnPointUp.position;
-        Unit spawnedEnemy = Instantiate(enemy, spawnLocation, Quaternion.identity);
+        Enemy spawnedEnemy = Instantiate(enemy, spawnLocation, Quaternion.identity);
         spawnedEnemy.SetTargetAltar(_targetAltar);
         spawnedEnemy.SetNativeAltar(_nativeAltar);
-        spawnedEnemy.Dying.AddListener(unit => { RemoveUnit(unit); });
-        _units.Add(spawnedEnemy);
+        spawnedEnemy.Dying.AddListener(RemoveUnit);
+        spawnedEnemy.Dying.AddListener(OnEnemyDied);
+        spawnedEnemy.SetUnitLvl(enemyLvl);
+        _enemies.Add(spawnedEnemy);
     }
-    private void RemoveUnit(Unit unit)
+    private void OnEnemyDied(Unit enemy) {
+        RemoveUnit(enemy);
+        EnemyDied.Invoke((Enemy)enemy);
+    }
+    private void RemoveUnit(Unit enemy)
     {
-        _units.Remove(unit);
+        _enemies.Remove(enemy);
     }
     
     
@@ -128,10 +135,10 @@ public class Spawner : MonoBehaviour
     
     public void KillAllUnits()
     {
-        for (int i = _units.Count - 1; i >= 0; i--)
+        for (int i = _enemies.Count - 1; i >= 0; i--)
         {
-            if (_units[i] != null)
-                _units[i].Dying.Invoke(_units[i]);
+            if (_enemies[i] != null)
+                _enemies[i].Dying.Invoke(_enemies[i]);
         }
     }
     public void StopSpawner()

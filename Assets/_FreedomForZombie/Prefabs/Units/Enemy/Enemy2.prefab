@@ -2327,6 +2327,7 @@ MonoBehaviour:
   _maxHealth: 50
   _targetEnemy: {fileID: 0}
   _nativeAltar: {fileID: 0}
+  animator: {fileID: 2533943985818635431}
   Dying:
     m_PersistentCalls:
       m_Calls:
@@ -2342,7 +2343,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  animator: {fileID: 2533943985818635431}
+  _defaultDeathCost: 1
 --- !u!114 &4338513097856884216
 MonoBehaviour:
   m_ObjectHideFlags: 0

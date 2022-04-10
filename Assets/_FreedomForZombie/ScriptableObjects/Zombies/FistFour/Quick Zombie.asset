@@ -21,4 +21,4 @@ MonoBehaviour:
   _defaultDamage: 9
   _defaultHealth: 15
   _defaultAtackSpeed: 15
-  _defaultSpeed: 20
+  _defaultSpeed: 10
