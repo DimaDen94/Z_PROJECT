@@ -3907,14 +3907,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c19c1b210f5844658a2a190fd83e9ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieSOs:
-  - {fileID: 11400000, guid: 087a73942a76344a0acc3c0e7138fa3e, type: 2}
-  - {fileID: 11400000, guid: c41793a13ca764e47a1baaaac91a31b3, type: 2}
-  - {fileID: 11400000, guid: acc3ea81f54bb4aa2a34dfb483330a76, type: 2}
-  - {fileID: 11400000, guid: c4ad1610ab11b430b820f54d2cbc7808, type: 2}
+  zombieSOs: []
   _zombieItemPrefab: {fileID: 536688799543819383, guid: 4ab160bd1a4044e52936c970092210e7, type: 3}
   _zombieSpawnArea: {fileID: 397775489}
   _zombis: []
+  _allZombies: {fileID: 11400000, guid: d9ec6540af63a40e7896a589d723cf03, type: 2}
 --- !u!1 &1362614797
 GameObject:
   m_ObjectHideFlags: 0
@@ -7488,69 +7485,6 @@ MonoBehaviour:
   _targetEnemy: {fileID: 0}
   _nativeAltar: {fileID: 0}
   animator: {fileID: 0}
-  Dying:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1362614799}
-        m_TargetAssemblyTypeName: Spawner, Assembly-CSharp
-        m_MethodName: StopSpawner
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1362614799}
-        m_TargetAssemblyTypeName: Spawner, Assembly-CSharp
-        m_MethodName: KillAllUnits
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 397775489}
-        m_TargetAssemblyTypeName: ZombieSpawnArea, Assembly-CSharp
-        m_MethodName: DeactivateSpawnArea
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1682082599}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 2001890517}
-        m_TargetAssemblyTypeName: DeathTransition, Assembly-CSharp
-        m_MethodName: OnUnitDied
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   Dying:
     m_PersistentCalls:
       m_Calls:

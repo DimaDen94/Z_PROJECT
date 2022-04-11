@@ -8,6 +8,7 @@ public class ZombieGameUI : MonoBehaviour
 {
     [SerializeField] private Image _preview;
     [SerializeField] private Text _manaCoast;
+    [SerializeField] private Text _title;
     [SerializeField] private Color _activeColor;
     [SerializeField] private Color _inactiveColor;
 
@@ -26,6 +27,7 @@ public class ZombieGameUI : MonoBehaviour
     public void Init(ZombieSO zombieSO, int zombieLvl) {
         _zombieLvl = zombieLvl;
         _zombieSO = zombieSO;
+        _title.text = zombieSO.Name;
         _preview.sprite = _zombieSO.Preview;
         _manaCoast.text = _zombieSO.DefaultManaCost.ToString();
     }

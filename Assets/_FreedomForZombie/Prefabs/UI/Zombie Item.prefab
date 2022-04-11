@@ -170,6 +170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _preview: {fileID: 536688800968192470}
   _manaCoast: {fileID: 536688801042864476}
+  _title: {fileID: 8034912949380315167}
   _activeColor: {r: 0.7216981, g: 1, b: 0.79591197, a: 1}
   _inactiveColor: {r: 1, g: 1, b: 1, a: 1}
   _zombieSO: {fileID: 11400000, guid: c4ad1610ab11b430b820f54d2cbc7808, type: 2}

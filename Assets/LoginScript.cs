@@ -28,6 +28,9 @@ public class LoginScript : MonoBehaviour
     private void UpdateCatalog(GetCatalogItemsResult catalog)
     {
         DataService.Catalog = catalog.Catalog;
+        Debug.Log("Catalog size - " + catalog.Catalog.Count);
+        foreach (CatalogItem catalogItem in catalog.Catalog)
+                Debug.Log(catalogItem.ItemId);
         IncrementSlider();
     }
 

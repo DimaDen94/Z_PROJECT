@@ -10,11 +10,15 @@ public class FullZombiesContainer : MonoBehaviour
     public UnityEvent<ZombieSO> OnChooseZombie;
     private void Start()
     {
+        UpdateUI();
+        ChooseZombie(_zombieUpgradeUIs[0].ZombieSO);
+    }
+    public void UpdateUI() {
+
         for (int i = 0; i < _allZombies.Zombies.Count; i++)
         {
             _zombieUpgradeUIs[i].Init(_allZombies.Zombies[i]);
         }
-        ChooseZombie(_zombieUpgradeUIs[0].ZombieSO);
     }
     private void OnEnable()
     {

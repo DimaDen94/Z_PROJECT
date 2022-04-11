@@ -14,12 +14,12 @@ public class HealthBar : MonoBehaviour
     {
         _healthBar = GetComponent<Slider>();
         if(_unit)
-            _unit.DamageReceived += OnHealthChange;
+            _unit.HealthChange += OnHealthChange;
     }
     private void OnDisable()
     {
         if (_unit)
-            _unit.DamageReceived -= OnHealthChange;
+            _unit.HealthChange -= OnHealthChange;
     }
     public void OnHealthChange(float maxHealth, float currentHealth) {
         Debug.Log(" " + currentHealth / maxHealth);

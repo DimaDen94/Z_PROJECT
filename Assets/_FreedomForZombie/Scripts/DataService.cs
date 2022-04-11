@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using PlayFab.ClientModels;
+using UnityEngine;
 
 public class DataService 
 {
@@ -14,22 +15,15 @@ public class DataService
     public static int LastClickedPoint { get;  set; }
     public static List<CatalogItem> Catalog { get; set; }
 
-    public static UserCharacter TryToFindZombiInInventoryById(string name)
+    public static UserCharacter TryToFindZombiInInventoryById(string characterId)
     {
         foreach (UserCharacter userCharacter in UserCharacters) 
-            if (name.Equals(userCharacter.name))
+            if (characterId.Equals(userCharacter.name))
                 return userCharacter;
         return null;
         
     }
-    public static CatalogItem TryToFindZombiInCatalogById(string name)
-    {
-        foreach (CatalogItem catalogItem in Catalog)
-            if (name.Equals(catalogItem.ItemId))
-                return catalogItem;
-        return null;
-
-    }
+  
 
     public static bool TryToSaveProgress(int stars) {
         if (_progress[0].Points.Count == LastClickedPoint)
@@ -54,7 +48,20 @@ public class DataService
     {
        return ((int)TryToFindZombiInCatalogById(name).VirtualCurrencyPrices["CO"]);
     }
+    public static CatalogItem TryToFindZombiInCatalogById(string characterId)
+    {
+        Debug.Log("TryToFindZombiInCatalogById - " + characterId);
+        foreach (CatalogItem catalogItem in Catalog)
+        {
+            Debug.Log("catalogItemId - " + catalogItem.ItemId);
+            if (characterId.Equals(catalogItem.ItemId))
+            {
+                return catalogItem;
+            }
+        }
+        return null;
 
+    }
     public static bool CheckAvailabilityZombieInInventory(string name)
     {
         foreach (UserCharacter userCharacter in UserCharacters) 
@@ -72,5 +79,10 @@ public class DataService
         else {
             TryToFindZombiInInventoryById(name).lvl++;
         }
+    }
+
+    internal static void SubtractCoinBalance(int amount)
+    {
+        _coinBalance -= amount;
     }
 }

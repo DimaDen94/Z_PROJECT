@@ -230,6 +230,7 @@ Transform:
   - {fileID: 594863999478468285}
   - {fileID: 4975115676970466090}
   - {fileID: 6598475968805673336}
+  - {fileID: 6601916746489279850}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -279,6 +280,7 @@ MonoBehaviour:
   _maxHealth: 60
   _targetEnemy: {fileID: 0}
   _nativeAltar: {fileID: 0}
+  animator: {fileID: 5254338093366098779}
   Dying:
     m_PersistentCalls:
       m_Calls:
@@ -294,7 +296,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  animator: {fileID: 5254338093366098779}
   _damage: 5
 --- !u!114 &6176197805784752739
 MonoBehaviour:
@@ -3901,6 +3902,65 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &7109990929478040924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6601916746489279850}
+  - component: {fileID: 1590604449910183613}
+  - component: {fileID: 8735399694212238438}
+  m_Layer: 0
+  m_Name: HealerRadius
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6601916746489279850
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7109990929478040924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 856601670117272814}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1590604449910183613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7109990929478040924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a83d12450b7456e927e2083fbb1988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _allDetectedEnemy: []
+--- !u!65 &8735399694212238438
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7109990929478040924}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 24, y: 0.2, z: 24}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8700094653500432218
 GameObject:
   m_ObjectHideFlags: 0

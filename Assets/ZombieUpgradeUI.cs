@@ -42,6 +42,7 @@ public class ZombieUpgradeUI : MonoBehaviour
         }
         else if(_lvlContainer != null)
         {
+            _preview.color = Color.white;
             _lvlContainer.SetActive(true);
             _lvlNumber.text = _zombieLvl.ToString();
         }

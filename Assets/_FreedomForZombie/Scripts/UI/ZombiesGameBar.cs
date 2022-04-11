@@ -9,19 +9,37 @@ public class ZombiesGameBar : MonoBehaviour
     [SerializeField] private ZombieGameUI _zombieItemPrefab;
     [SerializeField] private ZombieSpawnArea _zombieSpawnArea;
     [SerializeField] private List<ZombieGameUI> _zombis;
+    [SerializeField] private AllZombiesSO _allZombies;
     private int _chooseItemNumber = 0;
 
     void Start()
     {
-        foreach (ZombieSO zombie in zombieSOs) {
-            ZombieGameUI item = Instantiate(_zombieItemPrefab, transform);
-            _zombieItemPrefab.Init(zombie, 1);
-            item.ChooseZobmie += _zombieSpawnArea.SwitchZombie;
-            item.ChooseZobmie += DeactivateAnotherItems;
-            _zombis.Add(item);
-        }
+        LoadPlayerUnits();
+        UpdateUI();
         _zombis[0].ClickItem();
        
+    }
+    private void UpdateUI() {
+        foreach (ZombieSO zombie in zombieSOs)
+        {
+            ZombieGameUI item = Instantiate(_zombieItemPrefab, transform);
+            item.Init(zombie, 1);
+            item.ChooseZobmie += _zombieSpawnArea.SwitchZombie;
+            item.ChooseZobmie += DeactivateAnotherItems;
+
+            _zombis.Add(item);
+        }
+    }
+    private void LoadPlayerUnits()
+    {
+        List<string> unitSequence = PlayerPrefsUtil.GetUnitSequence();
+
+        for (int i = 0; i < unitSequence.Count; i++)
+        {
+            zombieSOs.Add(_allZombies.GetZombiByID(unitSequence[i]));
+            Debug.Log(zombieSOs[i].Name);
+            Debug.Log(unitSequence[i]);
+        }
     }
     private void OnDisable()
     {

@@ -60,10 +60,35 @@ public class PlayfabManager
             }, OnPlayfabError);
     }
 
-    public static void TryToBuyCharacter(UserCharacter userCharacter, Action success, Action error)
+    public static void TryToBuyCharacter(string characterId, int amount, Action success, Action error)
     {
-        //todo UpdateRequest
-        success.Invoke();
+        var request = new ExecuteCloudScriptRequest()
+        {
+            FunctionName = "AddCharacter",
+            FunctionParameter = new
+            {
+                characterId = characterId,
+                amount = amount
+            },
+            GeneratePlayStreamEvent = true
+        };
+        PlayFabClientAPI.ExecuteCloudScript(request, result =>
+        {
+            Debug.Log(result.ToJson().ToString());
+
+            List<UserCharacter> characters = JsonUtil.DeserializeObject<List<UserCharacter>>(result.FunctionResult.ToString());
+            DataService.UserCharacters = characters;
+            DataService.SubtractCoinBalance(amount);
+
+            if (characters != null)
+                success.Invoke();
+            else
+                error.Invoke();
+        }, fabError =>
+        {
+            Debug.LogError(fabError.ErrorMessage);
+            error.Invoke();
+        });
     }
 
     public static void TryToUpgradeCharacter(UserCharacter userCharacter,int amount, Action success, Action error)
@@ -87,6 +112,9 @@ public class PlayfabManager
             Debug.Log(result.ToJson().ToString());
 
             List<UserCharacter> characters = JsonUtil.DeserializeObject<List<UserCharacter>>(result.FunctionResult.ToString());
+            //DataService.IncrementCharacterById(_zombieSO.Name);
+            DataService.UserCharacters = characters;
+            DataService.SubtractCoinBalance(amount);
             if (characters != null)
                 success.Invoke(characters);
             else

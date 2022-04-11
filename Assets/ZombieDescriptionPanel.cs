@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class ZombieDescriptionPanel : MonoBehaviour
@@ -13,6 +14,8 @@ public class ZombieDescriptionPanel : MonoBehaviour
     [SerializeField] Text _speed;
     [SerializeField] UpgradeOrBayBtn _upgradeBtn;
     [SerializeField] DamageMultiplierSO _damageMultiplier;
+
+    public UnityEvent UpdateData;
 
     private ZombieSO _zombieSO;
     public void Init(ZombieSO zombieSO) {
@@ -32,7 +35,8 @@ public class ZombieDescriptionPanel : MonoBehaviour
         _health.text = _zombieSO.DefaultHealth.ToString();
         _speed.text = _zombieSO.DefaultSpeed.ToString();
         SetLvl(userCharacter);
-        SetStatuForBayBtn(userCharacter);
+        SetStatusForBayBtn(userCharacter,_zombieSO.Name);
+        UpdateData.Invoke();
     }
     private void SetLvl(UserCharacter userCharacter)
     {
@@ -48,11 +52,11 @@ public class ZombieDescriptionPanel : MonoBehaviour
         _upgradeBtn.SetAction(UpdateNonStaticUI);
 
     }
-    private void SetStatuForBayBtn(UserCharacter userCharacter) {
+    private void SetStatusForBayBtn(UserCharacter userCharacter, string characterId) {
         if (userCharacter != null)
             SetUpgradeStatusData(userCharacter);
         else
-            SetBuyStatusData(userCharacter);
+            SetBuyStatusData(characterId);
     }
 
     private void SetUpgradeStatusData(UserCharacter userCharacter) {
@@ -70,23 +74,24 @@ public class ZombieDescriptionPanel : MonoBehaviour
         else
             _upgradeBtn.SetStatus(UpgradeOrBayBtnStatus.MaxLvl);
     }
-    private void SetBuyStatusData(UserCharacter userCharacter)
+    private void SetBuyStatusData(string characterId)
     {
-        int price = DataService.GetPriceForCharacterById(userCharacter.name);
+        int price = DataService.GetPriceForCharacterById(characterId);
         _upgradeBtn.SetPrice(price);
         bool isEnoughMoney = price <= DataService.CoinBalance;
         SetEnoughMoneyStatus(isEnoughMoney);
         if (isEnoughMoney)
-            TryToBuyCharacter(userCharacter);
+            TryToBuyCharacter(characterId, price);
         else
             PlayWrongAudio();
     }
 
-    private void TryToBuyCharacter(UserCharacter userCharacter)
+    private void TryToBuyCharacter(string characterId, int price)
     {
         SetAction(()=> {
             Debug.Log("TryToBuyCharacter");
-            PlayfabManager.TryToBuyCharacter(userCharacter, SuccessAction, PlayWrongAudio);
+            _upgradeBtn.DeactivateBtn();
+            PlayfabManager.TryToBuyCharacter(characterId, price, SuccessAction, PlayWrongAudio);
         });
         
     }
@@ -95,19 +100,21 @@ public class ZombieDescriptionPanel : MonoBehaviour
     {
         SetAction(() => {
             Debug.Log("TryToUpgradeCharacter");
+            _upgradeBtn.DeactivateBtn();
             PlayfabManager.TryToUpgradeCharacter(userCharacter, GetPriceForNewLvlByCurrentLvl(userCharacter.lvl),SuccessAction, PlayWrongAudio);
         });
     }
     private void PlayWrongAudio()
     {
-        SetAction(() => {
-            //todo playAudio
-        });
+        _upgradeBtn.ActivateBtn();
+        //todo playAudio
+
     }
     private void SuccessAction()
     {
-        DataService.IncrementCharacterById(_zombieSO.Name);
+        
         UpdateNonStaticUI();
+        _upgradeBtn.ActivateBtn();
     }
 
    

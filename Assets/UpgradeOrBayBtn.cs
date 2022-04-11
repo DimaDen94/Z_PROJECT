@@ -37,6 +37,16 @@ public class UpgradeOrBayBtn : MonoBehaviour
     {
         GetComponent<Button>().onClick.RemoveAllListeners();
     }
+
+    internal void DeactivateBtn()
+    {
+        GetComponent<Button>().interactable = false;
+    }
+
+    internal void ActivateBtn()
+    {
+        GetComponent<Button>().interactable = true;
+    }
 }
 public enum UpgradeOrBayBtnStatus {
     EnoughMoney,

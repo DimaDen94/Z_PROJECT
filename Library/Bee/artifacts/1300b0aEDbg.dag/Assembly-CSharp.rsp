@@ -391,6 +391,7 @@
 "Assets/EnemyAttackTrigger.cs"
 "Assets/FullZombiesContainer.cs"
 "Assets/GameDialog.cs"
+"Assets/HealthZone.cs"
 "Assets/LoginScript.cs"
 "Assets/MapPoints.cs"
 "Assets/MapProgress.cs"

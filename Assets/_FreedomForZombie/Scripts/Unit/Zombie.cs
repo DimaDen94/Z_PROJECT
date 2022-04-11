@@ -22,4 +22,6 @@ public class Zombie :  Unit
         _health = defaultHealth;
         GetComponent<NavMeshAgent>().speed = defaultSpeed;
     }
+
+   
 }
