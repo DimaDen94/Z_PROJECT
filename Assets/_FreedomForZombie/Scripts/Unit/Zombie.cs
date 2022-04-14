@@ -8,18 +8,17 @@ using UnityEngine.Events;
 [RequireComponent(typeof(NavMeshAgent))]
 public class Zombie :  Unit
 {
-    [SerializeField] private float _damage;
 
     public State CurrentState => _currentState;
 
-    public float Damage  => _damage; 
     private State _currentState;
-
-    internal void SetDefaultParams(float defaultDamage, int defaultHealth, float defaultSpeed)
+    internal void SetDefaultParams(float defaultDamage, int defaultHealth, float defaultSpeed, int _zombieLvl)
     {
         _damage = defaultDamage;
         _maxHealth = defaultHealth;
         _health = defaultHealth;
+        _lvl = _zombieLvl;
+        LvlUpdate?.Invoke(_lvl);
         GetComponent<NavMeshAgent>().speed = defaultSpeed;
     }
 

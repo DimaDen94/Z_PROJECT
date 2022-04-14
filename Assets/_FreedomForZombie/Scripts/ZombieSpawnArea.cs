@@ -11,11 +11,12 @@ public class ZombieSpawnArea : MonoBehaviour
     private Camera _mainCamera;
     [SerializeField] private Enemy _targetAltar;
     [SerializeField] private Altar _nativeAltar;
-    [SerializeField] private Zombie _tempZombie;
     [SerializeField] private ZombieSO _currentZombie;
     [SerializeField] private Mana _mana;
     [SerializeField] private List<Unit> _zombies;
     private bool _isGameStoped = false;
+    private int _zombieLvl;
+
     void Start()
     {
         _collider = gameObject.GetComponent<Collider>();
@@ -50,7 +51,7 @@ public class ZombieSpawnArea : MonoBehaviour
                         Zombie spawnedZombie = Instantiate(_currentZombie.Prefab, _worldPosition, Quaternion.LookRotation(_targetAltar.transform.position));
                         spawnedZombie.SetTargetAltar(_targetAltar);
                         spawnedZombie.SetNativeAltar(_nativeAltar);
-                        spawnedZombie.SetDefaultParams(_currentZombie.DefaultDamage, _currentZombie.DefaultHealth, _currentZombie.DefaultSpeed);
+                        spawnedZombie.SetDefaultParams(_currentZombie.DefaultDamage, _currentZombie.DefaultHealth, _currentZombie.DefaultSpeed,_zombieLvl);
                         _zombies.Add(spawnedZombie);
                         spawnedZombie.Dying.AddListener(zombie =>
                         {
@@ -79,7 +80,7 @@ public class ZombieSpawnArea : MonoBehaviour
     }
     public void SwitchZombie(ZombieSO zombieSO, int lvl)
     {
-        _tempZombie = zombieSO.Prefab;
         _currentZombie = zombieSO;
+        _zombieLvl = lvl;
     }
 }

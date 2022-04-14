@@ -10,7 +10,13 @@ public abstract class Unit : MonoBehaviour
     [SerializeField] private Unit _targetEnemy;
     [SerializeField] private Unit _nativeAltar;
     [SerializeField] Animator animator;
+    [SerializeField] DamageMultiplierSO _damageMultiplierSO;
+    [SerializeField] protected float _damage;
+
     protected int _lvl;
+
+    public float Damage => _damage * _damageMultiplierSO.MultiplierList[_lvl];
+    public UnityEvent<int> LvlUpdate;
 
     public Unit TargetEnemy => _targetEnemy;
     public Unit NativeAltar => _nativeAltar;
@@ -20,6 +26,7 @@ public abstract class Unit : MonoBehaviour
 
     public void SetUnitLvl( int unitLvl) {
         _lvl = unitLvl;
+        LvlUpdate.Invoke(_lvl);
     }
 
     public void ApplyDamage(float damage)
@@ -45,4 +52,7 @@ public abstract class Unit : MonoBehaviour
     {
         _nativeAltar = altar;
     }
+
+    
 }
+

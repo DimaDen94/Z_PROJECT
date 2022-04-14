@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class ZombieAttackTrigger : MonoBehaviour
 {
-    private int _damage = 5;
+    [SerializeField] Zombie _zombie;
      private void OnTriggerEnter(Collider other)
      {
         Enemy target;
         other.gameObject.TryGetComponent(out target);
         if (target != null)
         {
-            target.ApplyDamage(_damage);
+            target.ApplyDamage(_zombie.Damage);
         }
      }
 

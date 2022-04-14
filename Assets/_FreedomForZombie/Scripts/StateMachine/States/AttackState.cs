@@ -12,7 +12,9 @@ public class AttackState : State
     private void OnEnable()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
-        _navMeshAgent.SetDestination(Target.gameObject.transform.position);
+
+        if(Target != null)
+            _navMeshAgent.SetDestination(Target.gameObject.transform.position);
   
         //_navMeshAgent.
         if (_animator != null)

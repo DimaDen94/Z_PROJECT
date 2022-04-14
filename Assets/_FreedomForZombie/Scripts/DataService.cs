@@ -20,10 +20,14 @@ public class DataService
         foreach (UserCharacter userCharacter in UserCharacters) 
             if (characterId.Equals(userCharacter.name))
                 return userCharacter;
-        return null;
+        return UserCharacters[0];
         
     }
-  
+
+    public static int GetUnitLvlById(string name)
+    {
+        return TryToFindZombiInInventoryById(name).lvl;
+    }
 
     public static bool TryToSaveProgress(int stars) {
         if (_progress[0].Points.Count == LastClickedPoint)

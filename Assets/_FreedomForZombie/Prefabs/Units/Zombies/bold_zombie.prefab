@@ -221,6 +221,24 @@ MonoBehaviour:
   _maxHealth: 60
   _targetEnemy: {fileID: 0}
   _nativeAltar: {fileID: 0}
+  animator: {fileID: 7105182436723277644}
+  _damageMultiplierSO: {fileID: 11400000, guid: 89ae9b7a7e60946fd8c16ce60dc40a4a, type: 2}
+  _damage: 0
+  LvlUpdate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3700862224779141123}
+        m_TargetAssemblyTypeName: LvlContainer, Assembly-CSharp
+        m_MethodName: UpdateLvlText
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   Dying:
     m_PersistentCalls:
       m_Calls:
@@ -236,8 +254,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  animator: {fileID: 7105182436723277644}
-  _damage: 5
 --- !u!114 &6176197805784752739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -498,11 +514,11 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 4
+  m_StoppingDistance: 3.5
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -578,15 +594,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4a8d78a56d0664c03b20e47e43d33c2a, type: 2}
+  m_sharedMaterial: {fileID: 737780094613789892, guid: 4a8d78a56d0664c03b20e47e43d33c2a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280000256
-  m_fontColor: {r: 0, g: 0.6226415, b: 0.10734859, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -603,7 +619,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.85
+  m_fontSize: 30
   m_fontSizeBase: 0.56
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -656,6 +672,7 @@ GameObject:
   - component: {fileID: 637945399300833693}
   - component: {fileID: 7555587425592048460}
   - component: {fileID: 2354280911936834725}
+  - component: {fileID: 3700862224779141123}
   m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
@@ -712,8 +729,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 75356baf2d04046deaeb884e2ba7875f, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -722,6 +739,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3700862224779141123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3428651603597792199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7773a2727f854b7c939ca53b1c878be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3579488780432124478
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,7 +1875,7 @@ Animator:
   m_GameObject: {fileID: 7105182436730651048}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: a1aade9bc7779e24b8219a8ceb948e08, type: 3}
-  m_Controller: {fileID: 9100000, guid: 7abad4475b99643288277ad47d652007, type: 2}
+  m_Controller: {fileID: 9100000, guid: cd51f5042d09c48de95e22d00fba7490, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -2809,6 +2838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd0f7d2eeb724419fa0cfcbef894c6c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _zombie: {fileID: 6685318907720150788}
 --- !u!1 &8700094653500432218
 GameObject:
   m_ObjectHideFlags: 0

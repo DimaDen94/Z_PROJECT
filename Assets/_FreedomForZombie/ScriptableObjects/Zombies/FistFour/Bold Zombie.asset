@@ -18,7 +18,7 @@ MonoBehaviour:
   _descripription: Slow but strong zombie
   _defaultManaCost: 7
   _defaultManyCost: 100
-  _defaultDamage: 8
-  _defaultHealth: 120
+  _defaultDamage: 80
+  _defaultHealth: 1200
   _defaultAtackSpeed: 6
   _defaultSpeed: 2

@@ -18,7 +18,7 @@ public class Mana : MonoBehaviour
     }
 
     public bool TryUseMana(int count) {
-        if (_value > count) {
+        if (_value >= count) {
             ChangeMana(-count);
             return true;
         }

@@ -37,6 +37,15 @@ public class PlayfabManager
         };
         PlayFabClientAPI.GetCatalogItems(request, success, OnPlayfabError);
     }
+    public static void AddVirtualCurrency(int amount, Action<ModifyUserVirtualCurrencyResult> success) {
+        var request = new AddUserVirtualCurrencyRequest()
+        {
+           Amount = amount,
+           VirtualCurrency = CURRENCY_CODE
+        };
+        PlayFabClientAPI.AddUserVirtualCurrency(request, success, OnPlayfabError);
+
+    }
 
     public static void GetUserData(Action<List<UserCharacter>, List<ProgressStage>> userData)
     {

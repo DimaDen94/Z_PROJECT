@@ -1675,7 +1675,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _targetAltar: {fileID: 2001890514}
   _nativeAltar: {fileID: 2775543587083987603}
-  _tempZombie: {fileID: 6685318907720150788, guid: b14953694d54eea4eb66f453e525024c, type: 3}
   _currentZombie: {fileID: 0}
   _mana: {fileID: 1795144999}
   _zombies: []
@@ -7480,11 +7479,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e50f947c39142c59f495aae2e45320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 100
-  _maxHealth: 100
+  _health: 1000
+  _maxHealth: 1000
   _targetEnemy: {fileID: 0}
   _nativeAltar: {fileID: 0}
   animator: {fileID: 0}
+  _damageMultiplierSO: {fileID: 0}
+  _damage: 0
+  LvlUpdate:
+    m_PersistentCalls:
+      m_Calls: []
   Dying:
     m_PersistentCalls:
       m_Calls:
@@ -10111,6 +10115,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2775543585669314392, guid: c5a0f92157ac8498380e44b25b9a209d, type: 3}
+      propertyPath: _health
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2775543585669314392, guid: c5a0f92157ac8498380e44b25b9a209d, type: 3}
+      propertyPath: _maxHealth
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2775543585669314392, guid: c5a0f92157ac8498380e44b25b9a209d, type: 3}
       propertyPath: Dying.m_PersistentCalls.m_Calls.Array.size
       value: 5
       objectReference: {fileID: 0}
@@ -10998,6 +11010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _starContainer: {fileID: 163585286}
   _altar: {fileID: 2775543587083987603}
+  _coinsHandller: {fileID: 1967050868}
 --- !u!224 &6944453737827594076
 RectTransform:
   m_ObjectHideFlags: 0

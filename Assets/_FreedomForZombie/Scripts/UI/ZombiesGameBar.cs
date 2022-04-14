@@ -23,7 +23,7 @@ public class ZombiesGameBar : MonoBehaviour
         foreach (ZombieSO zombie in zombieSOs)
         {
             ZombieGameUI item = Instantiate(_zombieItemPrefab, transform);
-            item.Init(zombie, 1);
+            item.Init(zombie, DataService.GetUnitLvlById(zombie.Name));
             item.ChooseZobmie += _zombieSpawnArea.SwitchZombie;
             item.ChooseZobmie += DeactivateAnotherItems;
 

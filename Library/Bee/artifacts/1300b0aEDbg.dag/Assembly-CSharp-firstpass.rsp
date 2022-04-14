@@ -325,6 +325,8 @@
 -r:"/Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"/Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
 -r:"/Users/Dmitry/Unity/Z Project/Library/PackageCache/com.unity.visualscripting@1.7.5/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Assets/Parse/Plugins/dotNet45/Unity.Compat.dll"
+-r:"Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll"
 -r:"Assets/Plugins/Demigiant/DOTween/DOTween.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/NavMeshComponents.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/NavMeshComponentsEditor.ref.dll"
