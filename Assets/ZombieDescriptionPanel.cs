@@ -129,7 +129,7 @@ public class ZombieDescriptionPanel : MonoBehaviour
     private int GetPriceForNewLvlByCurrentLvl(int lvl) {
         switch (lvl) {
             case 1:
-                return 10;
+                return 100;
             case 2:
                 return 200;
             case 3:

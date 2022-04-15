@@ -11,6 +11,7 @@ public class Spawner : MonoBehaviour
     [SerializeField] private Transform _spawnPointUp;
     [SerializeField] private float _timeBetweenWawes = 5f;
     [SerializeField] private float _waweCountdown;
+    [SerializeField] private float _timeBetweenStartWave;
     [SerializeField] private SpawnState _currentState = SpawnState.COUNTING;
 
     [SerializeField] private int _currentWaweIndex = 0;
@@ -28,7 +29,7 @@ public class Spawner : MonoBehaviour
     private void Start()
     {
         _wawes = _allLvls.GetCurrentLvl().Wawes;
-        _waweCountdown = _timeBetweenWawes;
+        _waweCountdown = _timeBetweenStartWave;
         _enemies = new List<Unit>();
         
     }

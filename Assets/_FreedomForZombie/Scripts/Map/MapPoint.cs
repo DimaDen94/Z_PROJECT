@@ -28,6 +28,8 @@ public class MapPoint : MonoBehaviour
     }
     private void OnMouseUpAsButton()
     {
+        if (!MapService.MapIsActive)
+            return;
         if (isActive)
         {
             DataService.LastClickedPoint = _pointNumber;

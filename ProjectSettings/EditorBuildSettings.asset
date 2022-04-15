@@ -12,9 +12,9 @@ EditorBuildSettings:
     path: Assets/_FreedomForZombie/Scene/MainGameScene.unity
     guid: a41ec0084383947a29107d14d7df60fe
   - enabled: 1
-    path: Assets/_FreedomForZombie/Scene/UpgradeScene.unity
+    path: Assets/_FreedomForZombie/Scene/OldScens/UpgradeScene.unity
     guid: 9a96b7187ebd545bf839d335eb204c87
   - enabled: 1
-    path: Assets/_FreedomForZombie/Scene/ShopScene.unity
+    path: Assets/_FreedomForZombie/Scene/OldScens/ShopScene.unity
     guid: 56f1986aeb70f4dfa875023c567834ff
   m_configObjects: {}

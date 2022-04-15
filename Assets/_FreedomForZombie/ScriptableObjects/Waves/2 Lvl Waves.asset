@@ -24,18 +24,43 @@ MonoBehaviour:
       spawnPosition: 0
     - delay: 5
       enemyLvl: 1
+      enemy: {fileID: 4338513097856884217, guid: 14a0e93de773446a982b15d1bff78abd, type: 3}
+      spawnPosition: 1
+    - delay: 0
+      enemyLvl: 2
+      enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
+      spawnPosition: 0
+    - delay: 2
+      enemyLvl: 2
+      enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
+      spawnPosition: 0
+    - delay: 2
+      enemyLvl: 1
+      enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
+      spawnPosition: 0
+  - waweUnit:
+    - delay: 0
+      enemyLvl: 2
+      enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
+      spawnPosition: 1
+    - delay: 0
+      enemyLvl: 2
+      enemy: {fileID: 4338513097856884217, guid: 14a0e93de773446a982b15d1bff78abd, type: 3}
+      spawnPosition: 0
+    - delay: 5
+      enemyLvl: 1
       enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
       spawnPosition: 1
     - delay: 0
       enemyLvl: 1
-      enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
+      enemy: {fileID: 4338513097856884217, guid: 14a0e93de773446a982b15d1bff78abd, type: 3}
       spawnPosition: 0
     - delay: 2
       enemyLvl: 1
       enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
       spawnPosition: 0
     - delay: 2
-      enemyLvl: 1
+      enemyLvl: 2
       enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
       spawnPosition: 0
   - waweUnit:
@@ -53,38 +78,13 @@ MonoBehaviour:
       spawnPosition: 1
     - delay: 0
       enemyLvl: 1
-      enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
+      enemy: {fileID: 4338513097856884217, guid: 14a0e93de773446a982b15d1bff78abd, type: 3}
       spawnPosition: 0
     - delay: 2
-      enemyLvl: 1
-      enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
+      enemyLvl: 2
+      enemy: {fileID: 4338513097856884217, guid: 14a0e93de773446a982b15d1bff78abd, type: 3}
       spawnPosition: 0
     - delay: 2
-      enemyLvl: 1
-      enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
-      spawnPosition: 0
-  - waweUnit:
-    - delay: 0
-      enemyLvl: 1
-      enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
-      spawnPosition: 1
-    - delay: 0
-      enemyLvl: 1
-      enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
-      spawnPosition: 0
-    - delay: 5
-      enemyLvl: 1
-      enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
-      spawnPosition: 1
-    - delay: 0
-      enemyLvl: 1
-      enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
-      spawnPosition: 0
-    - delay: 2
-      enemyLvl: 1
-      enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
-      spawnPosition: 0
-    - delay: 2
-      enemyLvl: 1
+      enemyLvl: 2
       enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
       spawnPosition: 0

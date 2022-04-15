@@ -17,8 +17,8 @@ MonoBehaviour:
   _name: Sofi
   _descripription: Restores health of nearby zombies
   _defaultManaCost: 6
-  _defaultManyCost: 100
-  _defaultDamage: 30
+  _defaultDamage: 0
+  _healPower: 5
   _defaultHealth: 350
-  _defaultAtackSpeed: 7
+  _defaultAtackSpeed: 0
   _defaultSpeed: 2

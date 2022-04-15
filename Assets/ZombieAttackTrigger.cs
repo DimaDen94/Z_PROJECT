@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ZombieAttackTrigger : MonoBehaviour
 {
     [SerializeField] Zombie _zombie;
+    public UnityEvent Attacked;
      private void OnTriggerEnter(Collider other)
      {
         Enemy target;
@@ -12,6 +14,7 @@ public class ZombieAttackTrigger : MonoBehaviour
         if (target != null)
         {
             target.ApplyDamage(_zombie.Damage);
+            Attacked?.Invoke();
         }
      }
 

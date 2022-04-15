@@ -32,6 +32,8 @@ public class ScrollMapContainer : MonoBehaviour
     }
     private void Update()
     {
+        if (!MapService.MapIsActive)
+            return;
         if (Input.GetMouseButton(0))
         {
             _currentMousePos = _mainCamera.ScreenToWorldPoint(Input.mousePosition);
@@ -67,6 +69,7 @@ public class ScrollMapContainer : MonoBehaviour
 
         if (!Input.GetMouseButton(0))
         {
+            
             if (Math.Abs(_inerction) > 0.1)
             {
                 Move(_inerction * Time.deltaTime);
@@ -77,6 +80,7 @@ public class ScrollMapContainer : MonoBehaviour
 
     public void Move(float delta)
     {
+        
         for (var i = 0; i < _movingMaps.Count; i++)
         {
             delta = _movingMaps[i].GetMaxDelta(delta, _movingMaps.Count - 1);
@@ -85,5 +89,6 @@ public class ScrollMapContainer : MonoBehaviour
         {
             _movingMaps[i].Move(delta);
         }
+
     }
 }

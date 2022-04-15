@@ -16,9 +16,9 @@ MonoBehaviour:
   _preview: {fileID: 21300000, guid: b8fb37171d988470b935dbcdbd2fe334, type: 3}
   _name: Bob
   _descripription: Slow but strong zombie
-  _defaultManaCost: 7
-  _defaultManyCost: 100
-  _defaultDamage: 80
-  _defaultHealth: 1200
+  _defaultManaCost: 8
+  _defaultDamage: 70
+  _healPower: 0
+  _defaultHealth: 900
   _defaultAtackSpeed: 6
   _defaultSpeed: 2

@@ -56,8 +56,12 @@
     <Compile Include="Assets/SceneSwitchButton.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/ZombieSpawnArea.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Scenes.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX/Scripts/CFX_LightIntensityFade.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/States/CelebrationState.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX3_AutoStopLoopedEffect.cs" />
     <Compile Include="Assets/HealthZone.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX/Scripts/CFX_AutodestructWhenNoChildren.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX/Spawn System/CFX_SpawnSystem.cs" />
     <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/Waves/LvlWaves.cs" />
     <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/Waves/Wave.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Map/MovingMap.cs" />
@@ -79,6 +83,7 @@
     <Compile Include="Assets/SolClovser/EasyMultipleHealthbar/Scripts/HealthbarController.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Unit/Unit.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/Mana.cs" />
+    <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/States/HealingState.cs" />
     <Compile Include="Assets/AurynSky/Desert Pack/Scripts/Rotator.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Map/MapPoint.cs" />
     <Compile Include="Assets/BrokenVector/LowPolyFencePack/Scripts/DoorController.cs" />
@@ -92,12 +97,15 @@
     <Compile Include="Assets/MapProgress.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/TargetDieTransition.cs" />
     <Compile Include="Assets/ZombieDescriptionPanel.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX/Scripts/CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/MusicNoDeadScript.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX3_Demo_Translate.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/DistanceTransition.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/ZombiesGameBar.cs" />
     <Compile Include="Assets/CloseDialogButton.cs" />
     <Compile Include="Assets/BalanceUI.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/Transition.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX_Demo_RotateCamera.cs" />
     <Compile Include="Assets/SolClovser/EasyMultipleHealthbar/Scripts/EasyMultipleHealthbar.cs" />
     <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/DamageMultiplierSO.cs" />
     <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/Waves/WaveUnit.cs" />
@@ -120,6 +128,7 @@
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/DeathTransition.cs" />
     <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/ZombieSO.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/PlayerPrefsUtil.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX3_Demo.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Unit/Zombie.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Spawner.cs" />
     <Compile Include="Assets/MapPoints.cs" />
@@ -132,11 +141,13 @@
     <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/AllZombiesSO.cs" />
     <Compile Include="Assets/BrokenVector/LowPolyFencePack/Scripts/DoorToggle.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/States/State.cs" />
+    <Compile Include="Assets/LvlContainer.cs" />
     <Compile Include="Assets/FullZombiesContainer.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitChecker.cs" />
     <Compile Include="Assets/Demo/Scripts/CollectionDemo.cs" />
     <Compile Include="Assets/PlayerUnitsContainer.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Map/ScrollMapContainer.cs" />
+    <Compile Include="Assets/JMO Assets/Cartoon FX/Scripts/CFX_ShurikenThreadFix.cs" />
     <Compile Include="Assets/ZombieUpgradeUI.cs" />
     <Compile Include="Assets/DragItem.cs" />
     <Compile Include="Assets/LoginScript.cs" />
@@ -148,37 +159,30 @@
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitFromAreaTransition.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/FlexibleGridLayout.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/UserCharacter.cs" />
-    <Compile Include="Assets/LvlContainer.cs" />
-    <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/States/HealingState.cs" />
-    <Compile Include="Assets/JMO Assets/Cartoon FX/Scripts/CFX_ShurikenThreadFix.cs" />
-    <Compile Include="Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX_Demo_RotateCamera.cs" />
-    <Compile Include="Assets/JMO Assets/Cartoon FX/Scripts/CFX_LightIntensityFade.cs" />
-    <Compile Include="Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX3_AutoStopLoopedEffect.cs" />
-    <Compile Include="Assets/JMO Assets/Cartoon FX/Scripts/CFX_AutodestructWhenNoChildren.cs" />
-    <Compile Include="Assets/JMO Assets/Cartoon FX/Scripts/CFX_AutoDestructShuriken.cs" />
-    <Compile Include="Assets/JMO Assets/Cartoon FX/Spawn System/CFX_SpawnSystem.cs" />
-    <Compile Include="Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX3_Demo_Translate.cs" />
-    <Compile Include="Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX3_Demo.cs" />
+    <Compile Include="Assets/_FreedomForZombie/Scripts/MapService.cs" />
+    <Compile Include="Assets/MapDeactivator.cs" />
+    <Compile Include="Assets/UnitSoundManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Toon Gas Station/ToonShading/Shaders/ToonBasicOutline.shader" />
-    <None Include="Assets/Free Pack/Tropical Moments/Tropical Moments readme.txt" />
+    <None Include="Assets/Sounds/Free Pack/Tropical Moments/Tropical Moments readme.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
-    <None Include="Assets/Free Pack/Rock Stingers Pack/Unity Readme.txt" />
+    <None Include="Assets/Sounds/Free Pack/Rock Stingers Pack/Unity Readme.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets/JMO Assets/Cartoon FX/Shaders/CFX3 Multiply Color.shader" />
     <None Include="Assets/Parse/Plugins/Unity.Compat.dll" />
-    <None Include="Assets/Free Pack/Door SFX Pack/Readme.txt" />
+    <None Include="Assets/Sounds/Free Pack/Door SFX Pack/Readme.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
-    <None Include="Assets/Free Pack/Metal Loop Pack/readme Unity.txt" />
+    <None Include="Assets/Sounds/Free Pack/Metal Loop Pack/readme Unity.txt" />
     <None Include="Assets/Parse/Plugins/Unity.Tasks.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
-    <None Include="Assets/Free Pack/Rock Loops Pack/Unity Readme.txt" />
+    <None Include="Assets/Sounds/Free Pack/Rock Loops Pack/Unity Readme.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/JMO Assets/Cartoon FX/CartoonFX3 Readme.txt" />
     <None Include="Assets/Toon Gas Station/ToonShading/Shaders/ToonBasic.shader" />
     <None Include="Assets/JMO Assets/Cartoon FX Easy Editor/CartoonFX Easy Editor Readme.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/Sounds/ZombieHorrorPackageFree/Note.txt" />
     <None Include="Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/Double Sided Standard Diffuse Bump.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
     <None Include="Assets/Toon Gas Station/ToonShading/Shaders/ToonLit.shader" />
@@ -449,20 +453,20 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>/Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="DOTween">
-      <HintPath>Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Tasks">
       <HintPath>Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library/PackageCache/com.unity.visualscripting@1.7.5/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Compat">
       <HintPath>Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2021.2.2f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

@@ -22,6 +22,8 @@ public abstract class Unit : MonoBehaviour
     public Unit NativeAltar => _nativeAltar;
 
     public UnityEvent<Unit> Dying;
+    public UnityEvent TakeDamage;
+
     public event UnityAction<float, float> HealthChange;
 
     public void SetUnitLvl( int unitLvl) {
@@ -33,6 +35,7 @@ public abstract class Unit : MonoBehaviour
     {
         _health -= damage;
         HealthChange?.Invoke(_maxHealth, _health);
+        TakeDamage?.Invoke();
         if (_health <= 0 && gameObject != null)
             Dying?.Invoke(this);
     }

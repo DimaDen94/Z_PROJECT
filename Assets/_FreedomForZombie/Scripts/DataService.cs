@@ -20,7 +20,7 @@ public class DataService
         foreach (UserCharacter userCharacter in UserCharacters) 
             if (characterId.Equals(userCharacter.name))
                 return userCharacter;
-        return UserCharacters[0];
+        return null;
         
     }
 
