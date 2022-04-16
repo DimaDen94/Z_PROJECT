@@ -5,9 +5,10 @@ using UnityEngine.AI;
 using DG.Tweening;
 public class DeathState : State
 {
-    [SerializeField] private Animator _animator;
+    private Animator _animator;
     void Start()
-    {   
+    {
+        _animator = GetComponent<Unit>().Animator;
         Destroy(GetComponent<ZombieStateMachine>());
         Destroy(GetComponent<Unit>());
         Destroy(GetComponent<NavMeshAgent>());

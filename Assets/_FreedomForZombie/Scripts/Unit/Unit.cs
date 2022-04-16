@@ -12,20 +12,53 @@ public abstract class Unit : MonoBehaviour
     [SerializeField] Animator animator;
     [SerializeField] DamageMultiplierSO _damageMultiplierSO;
     [SerializeField] protected float _damage;
-
     protected int _lvl;
+    [SerializeField] private float _damageDebuf = 1;
+    [SerializeField]private float _damageDebufCounter = 0;
+    private float _damageDebufPower = 0;
+    private float _healthPower = 0;
 
-    public float Damage => _damage * _damageMultiplierSO.MultiplierList[_lvl];
+
+    public float Damage => _damage * _damageMultiplierSO.MultiplierList[_lvl] * _damageDebuf;
+    public float DamageDebufMultiplier => 1 - (_damageDebufPower / 100);
+    public float HealthPower => _healthPower; 
+
     public UnityEvent<int> LvlUpdate;
 
     public Unit TargetEnemy => _targetEnemy;
     public Unit NativeAltar => _nativeAltar;
+
+    public Animator Animator => animator;
+
 
     public UnityEvent<Unit> Dying;
     public UnityEvent TakeDamage;
 
     public event UnityAction<float, float> HealthChange;
 
+    private void Update()
+    {
+        if (_damageDebuf == 1)
+            return;
+        if (_damageDebufCounter > 0)
+        {
+            _damageDebufCounter -= Time.deltaTime;
+        }
+        else {
+            _damageDebuf = 1;
+        }
+    }
+    public void SetDamageDebuf(float time, float damageMultiplier) {
+        _damageDebufCounter = time;
+        _damageDebuf = damageMultiplier;
+    }
+    public void SetDamageDebufPower(float power) {
+        _damageDebufPower = power;
+    }
+    public void SetHealthPower(float healthPower)
+    {
+        _healthPower = healthPower;
+    }
     public void SetUnitLvl( int unitLvl) {
         _lvl = unitLvl;
         LvlUpdate.Invoke(_lvl);
@@ -56,6 +89,7 @@ public abstract class Unit : MonoBehaviour
         _nativeAltar = altar;
     }
 
-    
+  
+
 }
 

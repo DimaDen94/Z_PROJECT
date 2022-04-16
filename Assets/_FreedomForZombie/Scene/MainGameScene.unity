@@ -7693,7 +7693,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.78, y: 6.05, z: 9.72}
+  m_Size: {x: 7, y: 5.87, z: 7.79}
   m_Center: {x: -0, y: 2.205002, z: -4.26}
 --- !u!114 &2001890514
 MonoBehaviour:
@@ -7711,7 +7711,7 @@ MonoBehaviour:
   _maxHealth: 1000
   _targetEnemy: {fileID: 0}
   _nativeAltar: {fileID: 0}
-  animator: {fileID: 0}
+  animator: {fileID: 33797530757060027}
   _damageMultiplierSO: {fileID: 0}
   _damage: 0
   LvlUpdate:
@@ -7780,6 +7780,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  TakeDamage:
+    m_PersistentCalls:
+      m_Calls: []
   _defaultDeathCost: 0
 --- !u!4 &2001890515
 Transform:
@@ -7811,7 +7814,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _transitions: []
-  _animator: {fileID: 33797530757060027}
 --- !u!114 &2001890517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7839,7 +7841,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _transitions:
   - {fileID: 2001890517}
-  _animator: {fileID: 33797530757060027}
 --- !u!195 &2001890521
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -10092,6 +10093,10 @@ PrefabInstance:
       value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 2775543585669314392, guid: c5a0f92157ac8498380e44b25b9a209d, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1618769105}
+    - target: {fileID: 2775543585669314392, guid: c5a0f92157ac8498380e44b25b9a209d, type: 3}
       propertyPath: _maxHealth
       value: 1000
       objectReference: {fileID: 0}
@@ -10286,7 +10291,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _transitions: []
-  _animator: {fileID: 1618769105}
 --- !u!114 &2775543587083987608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10301,7 +10305,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _transitions:
   - {fileID: 2775543587083987606}
-  _animator: {fileID: 1618769105}
 --- !u!114 &2775543587083987609
 MonoBehaviour:
   m_ObjectHideFlags: 0

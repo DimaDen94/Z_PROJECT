@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>9.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,6 +53,9 @@
     <UnityVersion>2021.2.2f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets/SceneSwitchButton.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/ZombieSpawnArea.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Scenes.cs" />
@@ -83,7 +86,7 @@
     <Compile Include="Assets/SolClovser/EasyMultipleHealthbar/Scripts/HealthbarController.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Unit/Unit.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/Mana.cs" />
-    <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/States/HealingState.cs" />
+    <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/States/ShamanizeState.cs" />
     <Compile Include="Assets/AurynSky/Desert Pack/Scripts/Rotator.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Map/MapPoint.cs" />
     <Compile Include="Assets/BrokenVector/LowPolyFencePack/Scripts/DoorController.cs" />
@@ -94,6 +97,7 @@
     <Compile Include="Assets/_FreedomForZombie/Scripts/PlayfabManager.cs" />
     <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/Waves/MapLvls.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/ZombieEntranceChecker.cs" />
+    <Compile Include="Assets/_FreedomForZombie/Scripts/MapService.cs" />
     <Compile Include="Assets/MapProgress.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/TargetDieTransition.cs" />
     <Compile Include="Assets/ZombieDescriptionPanel.cs" />
@@ -113,6 +117,7 @@
     <Compile Include="Assets/_FreedomForZombie/Scripts/Unit/EnemyUnit.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/States/SpawningState.cs" />
     <Compile Include="Assets/GameDialog.cs" />
+    <Compile Include="Assets/SelfHealing.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/HealthBarRotationLeveler.cs" />
     <Compile Include="Assets/EnemyAttackTrigger.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/BodyEjector.cs" />
@@ -120,6 +125,7 @@
     <Compile Include="Assets/DropItem.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/EnemyEntranceChecker.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/EnemyStateMachine.cs" />
+    <Compile Include="Assets/MapDeactivator.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/States/MoveState.cs" />
     <Compile Include="Assets/SolClovser/EasyMultipleHealthbar/Demo/Scripts/DemoEnemy.cs" />
     <Compile Include="Assets/UpgradeOrBayBtn.cs" />
@@ -128,6 +134,7 @@
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/DeathTransition.cs" />
     <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/ZombieSO.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/PlayerPrefsUtil.cs" />
+    <Compile Include="Assets/UnitSoundManager.cs" />
     <Compile Include="Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX3_Demo.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Unit/Zombie.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Spawner.cs" />
@@ -141,6 +148,7 @@
     <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/AllZombiesSO.cs" />
     <Compile Include="Assets/BrokenVector/LowPolyFencePack/Scripts/DoorToggle.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/States/State.cs" />
+    <Compile Include="Assets/DamageDebufZone.cs" />
     <Compile Include="Assets/LvlContainer.cs" />
     <Compile Include="Assets/FullZombiesContainer.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitChecker.cs" />
@@ -158,10 +166,8 @@
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/ManaView.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitFromAreaTransition.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/FlexibleGridLayout.cs" />
+    <Compile Include="Assets/FarmerKnife.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/UserCharacter.cs" />
-    <Compile Include="Assets/_FreedomForZombie/Scripts/MapService.cs" />
-    <Compile Include="Assets/MapDeactivator.cs" />
-    <Compile Include="Assets/UnitSoundManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Toon Gas Station/ToonShading/Shaders/ToonBasicOutline.shader" />

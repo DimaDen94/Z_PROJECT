@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class IdleState : State
 {
-    [SerializeField] private Animator _animator;
+    private Animator _animator;
 
  
     private void OnEnable()
     {
+        _animator = GetComponent<Unit>().Animator;
         _animator.SetTrigger("Idle");
     }
     private void Update()

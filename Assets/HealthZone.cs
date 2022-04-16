@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class HealthZone : EntranceChecker
 {
+    [SerializeField] Unit _unit;
     private float _timeBetweenHealth = 1f;
     private float _countdown;
-    private float _health = 2;
+    [SerializeField] private float _healthPower = 0;
+
+    private void Start()
+    {
+        if (_healthPower == 0)
+            _healthPower = _unit.HealthPower;
+    }
     private void OnTriggerEnter(Collider other)
     {
         Zombie target;
@@ -34,8 +41,9 @@ public class HealthZone : EntranceChecker
         _countdown += Time.deltaTime;
         if (_countdown >= _timeBetweenHealth) {
             _countdown = 0;
-            foreach(Zombie zombie in _allDetectedEnemy) {
-                zombie.ApplyHealth(_health);
+          
+            foreach (Zombie zombie in _allDetectedEnemy) {
+                zombie.ApplyHealth(_healthPower);
             }
         }
     }

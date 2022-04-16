@@ -17,8 +17,9 @@ MonoBehaviour:
   _name: Frank
   _descripription: Simple and reliable zombie
   _defaultManaCost: 5
-  _defaultManyCost: 100
   _defaultDamage: 40
+  _healthPower: 0
+  _debufPower: 0
   _defaultHealth: 500
   _defaultAtackSpeed: 10
   _defaultSpeed: 3.5

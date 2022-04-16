@@ -17,8 +17,9 @@ MonoBehaviour:
   _name: Bob
   _descripription: Slow but strong zombie
   _defaultManaCost: 8
-  _defaultDamage: 70
-  _healPower: 0
-  _defaultHealth: 900
+  _defaultDamage: 65
+  _healthPower: 0
+  _debufPower: 0
+  _defaultHealth: 850
   _defaultAtackSpeed: 6
   _defaultSpeed: 2

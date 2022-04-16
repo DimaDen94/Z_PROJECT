@@ -6,9 +6,10 @@ using UnityEngine.AI;
 public class MoveState : State
 {
     private NavMeshAgent _navMeshAgent;
-    [SerializeField]private Animator _animator;
+    private Animator _animator;
     private void OnEnable()
     {
+        _animator = GetComponent<Unit>().Animator;
         _navMeshAgent = GetComponent<NavMeshAgent>();
         _animator.SetTrigger("Walk");
     }

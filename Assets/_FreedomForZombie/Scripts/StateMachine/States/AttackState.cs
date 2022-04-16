@@ -7,13 +7,13 @@ public class AttackState : State
 {
 
     private NavMeshAgent _navMeshAgent;
-    [SerializeField] private Animator _animator;
+    private Animator _animator;
     private float _lastAttackTime;
     private void OnEnable()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
-
-        if(Target != null)
+        _animator = GetComponent<Unit>().Animator;
+        if (Target != null)
             _navMeshAgent.SetDestination(Target.gameObject.transform.position);
   
         //_navMeshAgent.

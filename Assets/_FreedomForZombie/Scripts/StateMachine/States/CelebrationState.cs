@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class CelebrationState : State
 {
-    [SerializeField]private Animator _animator;
+    private Animator _animator;
 
     private NavMeshAgent _navMeshAgent;
     // Start is called before the first frame update
@@ -13,6 +13,7 @@ public class CelebrationState : State
     private void OnEnable()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
+        _animator = GetComponent<Unit>().Animator;
         _navMeshAgent.stoppingDistance = 100;
         _navMeshAgent.enabled = false;
         _animator.SetTrigger("Idle");

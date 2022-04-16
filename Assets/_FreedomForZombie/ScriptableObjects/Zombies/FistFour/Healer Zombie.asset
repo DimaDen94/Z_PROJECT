@@ -18,7 +18,8 @@ MonoBehaviour:
   _descripription: Restores health of nearby zombies
   _defaultManaCost: 6
   _defaultDamage: 0
-  _healPower: 5
+  _healthPower: 10
+  _debufPower: 0
   _defaultHealth: 350
   _defaultAtackSpeed: 0
   _defaultSpeed: 2
