@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,11 +18,13 @@ public abstract class Unit : MonoBehaviour
     [SerializeField]private float _damageDebufCounter = 0;
     private float _damageDebufPower = 0;
     private float _healthPower = 0;
+    private float _resurrectChance = 0;
 
 
     public float Damage => _damage * _damageMultiplierSO.MultiplierList[_lvl] * _damageDebuf;
     public float DamageDebufMultiplier => 1 - (_damageDebufPower / 100);
     public float HealthPower => _healthPower; 
+    public float ResurrectChance => _resurrectChance; 
 
     public UnityEvent<int> LvlUpdate;
 
@@ -30,9 +33,16 @@ public abstract class Unit : MonoBehaviour
 
     public Animator Animator => animator;
 
+    public int Lvl  => _lvl;
 
     public UnityEvent<Unit> Dying;
     public UnityEvent TakeDamage;
+
+
+    private bool _isResurrected = false;
+
+    public bool IsResurrected { get => _isResurrected; set => _isResurrected = value; }
+
 
     public event UnityAction<float, float> HealthChange;
 
@@ -58,6 +68,10 @@ public abstract class Unit : MonoBehaviour
     public void SetHealthPower(float healthPower)
     {
         _healthPower = healthPower;
+    }
+    public void SetResurrectChance(float chance)
+    {
+        _resurrectChance = chance;
     }
     public void SetUnitLvl( int unitLvl) {
         _lvl = unitLvl;

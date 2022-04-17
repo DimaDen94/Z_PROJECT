@@ -54,6 +54,7 @@ public class ZombieSpawnArea : MonoBehaviour
                         spawnedZombie.SetDefaultParams(_currentZombie.DefaultDamage, _currentZombie.DefaultHealth, _currentZombie.DefaultSpeed,_zombieLvl);
                         spawnedZombie.SetDamageDebufPower(_currentZombie.DebufPower);
                         spawnedZombie.SetHealthPower(_currentZombie.HealthPower);
+                        spawnedZombie.SetResurrectChance(_currentZombie.ResurrectChance);
                         _zombies.Add(spawnedZombie);
                         spawnedZombie.Dying.AddListener(zombie =>
                         {

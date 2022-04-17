@@ -12,13 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8511b73bea48e42b9a119764d0119393, type: 3}
   m_Name: Priest Zombie
   m_EditorClassIdentifier: 
-  _prefab: {fileID: 6685318907720150788, guid: 358f3ef5b82d244dd84b4f4749dd250f, type: 3}
-  _preview: {fileID: 21300000, guid: b926804ab64c64a3ca6b370d48627a3a, type: 3}
-  _name: Frank
-  _descripription: Simple and reliable zombie
-  _defaultManaCost: 6
-  _defaultManyCost: 100
-  _defaultDamage: 4
+  _prefab: {fileID: 6685318907720150788, guid: af6819406c0f94524923473dbc20eeea, type: 3}
+  _preview: {fileID: 21300000, guid: 0716aaa0dcdec4eed834bba1a90afbe0, type: 3}
+  _name: Thomas
+  _descripription: Zombie priest is able to summon new zombies at the place of killed
+    enemies
+  _defaultManaCost: 8
+  _defaultDamage: 0
+  _healthPower: 0
+  _debufPower: 0
+  _resurrectChance: 50
   _defaultHealth: 50
-  _defaultAtackSpeed: 10
-  _defaultSpeed: 10
+  _defaultAtackSpeed: 0
+  _defaultSpeed: 2

@@ -284,6 +284,8 @@ MonoBehaviour:
   animator: {fileID: 5254338093366098779}
   _damageMultiplierSO: {fileID: 11400000, guid: 89ae9b7a7e60946fd8c16ce60dc40a4a, type: 2}
   _damage: 0
+  _damageDebuf: 1
+  _damageDebufCounter: 0
   LvlUpdate:
     m_PersistentCalls:
       m_Calls:
@@ -18103,7 +18105,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 864c9750f84ba2f4ca1a460a75af9cb2, type: 2}
+  - {fileID: 2100000, guid: b84aa919c49ac494eac6bfc0c791a24c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23225,7 +23227,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f61151e0d2f89264582eb0f567b29847, type: 2}
+  - {fileID: 2100000, guid: b84aa919c49ac494eac6bfc0c791a24c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -28052,7 +28054,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f61151e0d2f89264582eb0f567b29847, type: 2}
+  - {fileID: 2100000, guid: 8870bc32fcf2e4749a397b7efee3194c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

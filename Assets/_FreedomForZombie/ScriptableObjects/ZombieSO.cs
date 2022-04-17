@@ -10,6 +10,8 @@ public class ZombieSO : ScriptableObject
     [SerializeField] private float _defaultDamage;
     [SerializeField] private float _healthPower;
     [SerializeField] private float _debufPower;
+    [SerializeField] private float _resurrectChance;
+
     [SerializeField] private int _defaultHealth;
     [SerializeField] private int _defaultAtackSpeed;
     [SerializeField] private float _defaultSpeed;
@@ -25,4 +27,5 @@ public class ZombieSO : ScriptableObject
     public float DefaultSpeed => _defaultSpeed;
     public float HealthPower => _healthPower;
     public float DebufPower => _debufPower; 
+    public float ResurrectChance => _resurrectChance; 
 }

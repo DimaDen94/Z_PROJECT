@@ -1,26 +1,23 @@
 ﻿<Properties StartupConfiguration="{2F161492-41F6-49ED-7E1C-AC11E52EA722}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DamageDebufZone.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_FreedomForZombie/ScriptableObjects/ZombieSO.cs">
     <Files>
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/HealingState.cs" Line="6" Column="31" IsPinned="True" />
-      <File FileName="Assets/ZombieAttackTrigger.cs" Line="19" Column="7" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/SpawningState.cs" Line="5" Column="30" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/SpawnEndTransition.cs" Line="6" Column="41" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/Unit/Unit.cs" Line="22" Column="22" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/Unit/Zombie.cs" Line="9" Column="27" />
-      <File FileName="Assets/EnemyAttackTrigger.cs" Line="17" Column="47" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/Spawner.cs" Line="114" Column="8" />
+      <File FileName="Assets/HealthZone.cs" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/AttackState.cs" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/CelebrationState.cs" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/DeathState.cs" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/IdleState.cs" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/MoveState.cs" />
+      <File FileName="Assets/_FreedomForZombie/ScriptableObjects/ZombieSO.cs" Line="14" Column="1" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/ZombieSpawnArea.cs" Line="57" Column="80" />
+      <File FileName="Assets/Exploding.cs" Line="15" Column="67" />
+      <File FileName="Assets/JMO Assets/Cartoon FX/Scripts/CFX_AutoDestructShuriken.cs" Line="1" Column="1" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitChecker.cs" Line="6" Column="5" />
+      <File FileName="Assets/ToxicZone.cs" Line="45" Column="47" />
+      <File FileName="Assets/ResurrectedZone.cs" Line="5" Column="14" />
+      <File FileName="Assets/DamageDebufZone.cs" Line="5" Column="47" />
+      <File FileName="Assets/_FreedomForZombie/Scripts/Unit/Unit.cs" Line="16" Column="14" />
       <File FileName="Assets/_FreedomForZombie/Scripts/Unit/Enemy.cs" Line="6" Column="24" />
-      <File FileName="Assets/SelfHealing.cs" Line="7" Column="5" />
-      <File FileName="Assets/FarmerKnife.cs" Line="15" Column="50" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/Spawner.cs" Line="13" Column="50" />
-      <File FileName="Assets/HealthZone.cs" Line="15" Column="46" />
-      <File FileName="Assets/DamageDebufZone.cs" Line="25" Column="1" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/AttackState.cs" Line="15" Column="51" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/CelebrationState.cs" Line="16" Column="51" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/DeathState.cs" Line="11" Column="51" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/IdleState.cs" Line="17" Column="1" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/StateMachine/States/MoveState.cs" Line="12" Column="51" />
-      <File FileName="Assets/_FreedomForZombie/ScriptableObjects/ZombieSO.cs" Line="26" Column="29" />
-      <File FileName="Assets/_FreedomForZombie/Scripts/ZombieSpawnArea.cs" Line="56" Column="49" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -30,6 +27,7 @@
               <Node name="_FreedomForZombie" expanded="True">
                 <Node name="ScriptableObjects" expanded="True">
                   <Node name="Waves" expanded="True" />
+                  <Node name="ZombieSO.cs" selected="True" />
                 </Node>
                 <Node name="Scripts" expanded="True">
                   <Node name="Map" expanded="True" />
@@ -41,7 +39,11 @@
                   <Node name="Unit" expanded="True" />
                 </Node>
               </Node>
-              <Node name="DamageDebufZone.cs" selected="True" />
+              <Node name="JMO Assets" expanded="True">
+                <Node name="Cartoon FX" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
@@ -50,7 +52,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6d53f554-7bd6-43c5-be10-c66900072a29" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6f84c999-51a1-4a51-9b1c-ceb67a64313e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/Dmitry/Unity/Z Project/Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitFromAreaTransition.cs" relfile="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitFromAreaTransition.cs" line="20" column="1" />
