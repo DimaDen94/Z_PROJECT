@@ -16,9 +16,19 @@ MonoBehaviour:
   _preview: {fileID: 21300000, guid: 603701cd3b71b40d093f53a4415e878c, type: 3}
   _name: Gary
   _descripription: Weak but fast zombie
-  _defaultManaCost: 4
-  _defaultDamage: 35
-  _healPower: 0
-  _defaultHealth: 150
-  _defaultAtackSpeed: 15
-  _defaultSpeed: 7
+  _parameters:
+  - isStaticParameter: 1
+    parameterType: 0
+    Value: 4
+  - isStaticParameter: 0
+    parameterType: 1
+    Value: 150
+  - isStaticParameter: 0
+    parameterType: 2
+    Value: 35
+  - isStaticParameter: 1
+    parameterType: 3
+    Value: 14
+  - isStaticParameter: 1
+    parameterType: 4
+    Value: 15

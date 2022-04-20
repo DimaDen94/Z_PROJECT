@@ -258,6 +258,7 @@ GameObject:
   - component: {fileID: 6119701638699028824}
   - component: {fileID: 6119701638699028839}
   - component: {fileID: 6119701638699028825}
+  - component: {fileID: 7355579804629547779}
   m_Layer: 5
   m_Name: ShopPanel
   m_TagString: Untagged
@@ -338,6 +339,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99efb5d67f9554ca090b33f28c8cf6ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &7355579804629547779
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6119701638699028837}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 562558e947790463fa601369692bb628, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6119701638713620285
 GameObject:
   m_ObjectHideFlags: 0
@@ -5368,7 +5389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c5feb2747e654070b13c0e9d242f98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialog: {fileID: 6119701638699028837}
+  _animator: {fileID: 7355579804629547779}
 --- !u!1 &6119701640477301964
 GameObject:
   m_ObjectHideFlags: 0

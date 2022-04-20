@@ -6,14 +6,14 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Button))]
 public class CloseDialogButton : MonoBehaviour
 {
-    [SerializeField] private GameObject _dialog;
+    [SerializeField] private Animator _animator;
     void Start()
     {
         GetComponent<Button>().onClick.AddListener(CloseDialog);
     }
     private void CloseDialog()
     {
-        _dialog.SetActive(false);
+        _animator.Play("MoveToTop");
 
     }
 }

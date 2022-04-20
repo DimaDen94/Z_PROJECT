@@ -11,7 +11,6 @@ public abstract class Unit : MonoBehaviour
     [SerializeField] private Unit _targetEnemy;
     [SerializeField] private Unit _nativeAltar;
     [SerializeField] Animator animator;
-    [SerializeField] DamageMultiplierSO _damageMultiplierSO;
     [SerializeField] protected float _damage;
     protected int _lvl;
     [SerializeField] private float _damageDebuf = 1;
@@ -21,7 +20,7 @@ public abstract class Unit : MonoBehaviour
     private float _resurrectChance = 0;
 
 
-    public float Damage => _damage * _damageMultiplierSO.MultiplierList[_lvl] * _damageDebuf;
+    public float Damage => _damage * _damageDebuf;
     public float DamageDebufMultiplier => 1 - (_damageDebufPower / 100);
     public float HealthPower => _healthPower; 
     public float ResurrectChance => _resurrectChance; 

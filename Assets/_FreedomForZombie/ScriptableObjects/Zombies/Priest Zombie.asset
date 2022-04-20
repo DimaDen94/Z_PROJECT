@@ -17,11 +17,16 @@ MonoBehaviour:
   _name: Thomas
   _descripription: Zombie priest is able to summon new zombies at the place of killed
     enemies
-  _defaultManaCost: 8
-  _defaultDamage: 0
-  _healthPower: 0
-  _debufPower: 0
-  _resurrectChance: 50
-  _defaultHealth: 50
-  _defaultAtackSpeed: 0
-  _defaultSpeed: 2
+  _parameters:
+  - isStaticParameter: 1
+    parameterType: 0
+    Value: 8
+  - isStaticParameter: 0
+    parameterType: 1
+    Value: 500
+  - isStaticParameter: 1
+    parameterType: 3
+    Value: 4
+  - isStaticParameter: 0
+    parameterType: 7
+    Value: 500

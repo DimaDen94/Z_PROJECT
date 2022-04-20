@@ -42,7 +42,7 @@ public class ResurrectedZone : EntranceChecker
             Zombie spawnedZombie = Instantiate(_zombieTemplate.Prefab, unit.transform.position, Quaternion.identity);
             spawnedZombie.SetTargetAltar(_unit.TargetEnemy);
             spawnedZombie.SetNativeAltar(_unit.NativeAltar);
-            spawnedZombie.SetDefaultParams(_zombieTemplate.DefaultDamage, _zombieTemplate.DefaultHealth, _zombieTemplate.DefaultSpeed, unit.Lvl);
+            spawnedZombie.SetDefaultParams(_zombieTemplate.GetDamageByLvl(unit.Lvl), _zombieTemplate.GetHealthByLvl(unit.Lvl), _zombieTemplate.DefaultSpeed, unit.Lvl);
         }
     }
 }

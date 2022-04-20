@@ -781,8 +781,9 @@ MonoBehaviour:
   _targetEnemy: {fileID: 0}
   _nativeAltar: {fileID: 0}
   animator: {fileID: 8518646598142087497}
-  _damageMultiplierSO: {fileID: 11400000, guid: 89ae9b7a7e60946fd8c16ce60dc40a4a, type: 2}
   _damage: 0
+  _damageDebuf: 1
+  _damageDebufCounter: 0
   LvlUpdate:
     m_PersistentCalls:
       m_Calls:
@@ -883,7 +884,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _targetState: {fileID: 936484020594947456}
-  _animator: {fileID: 8518646598142087497}
   SpawnEnd:
     m_PersistentCalls:
       m_Calls:
@@ -916,7 +916,6 @@ MonoBehaviour:
   - {fileID: 2777363259967368708}
   - {fileID: 8902080674368644794}
   - {fileID: 4514434694616600490}
-  _animator: {fileID: 8518646598142087497}
 --- !u!114 &2777363259967368708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -949,7 +948,6 @@ MonoBehaviour:
   - {fileID: 5530746628185942694}
   - {fileID: 8902080674368644794}
   - {fileID: 8259143240205423354}
-  _animator: {fileID: 8518646598142087497}
 --- !u!114 &4514434694616600490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1023,7 +1021,6 @@ MonoBehaviour:
   - {fileID: 5389991354764986020}
   - {fileID: 8902080674368644794}
   - {fileID: 5403317396475003133}
-  _animator: {fileID: 8518646598142087497}
 --- !u!114 &5403317396475003133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1077,7 +1074,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _transitions: []
-  _animator: {fileID: 8518646598142087497}
 --- !u!114 &1992873636122471127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1104,7 +1100,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _transitions: []
-  _animator: {fileID: 8518646598142087497}
 --- !u!195 &1395337143050121214
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2844,7 +2839,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 40
   m_fontSizeBase: 0.56
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2987,8 +2982,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: 30}
+  m_AnchoredPosition: {x: -20, y: 0}
+  m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7555587425592048460
 CanvasRenderer:

@@ -66,6 +66,7 @@
     <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/Waves/Wave.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Map/MovingMap.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/HealthBar.cs" />
+    <Compile Include="Assets/ParametersIcon.cs" />
     <Compile Include="Assets/StarContainer.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ZombieDistanceToEnemyTransition.cs" />
     <Compile Include="Assets/WinHandler.cs" />
@@ -98,11 +99,13 @@
     <Compile Include="Assets/MapProgress.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/TargetDieTransition.cs" />
     <Compile Include="Assets/ZombieDescriptionPanel.cs" />
+    <Compile Include="Assets/UnitParameter.cs" />
     <Compile Include="Assets/JMO Assets/Cartoon FX/Scripts/CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/MusicNoDeadScript.cs" />
     <Compile Include="Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX3_Demo_Translate.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/DistanceTransition.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/ZombiesGameBar.cs" />
+    <Compile Include="Assets/ParamatersContainer.cs" />
     <Compile Include="Assets/CloseDialogButton.cs" />
     <Compile Include="Assets/BalanceUI.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/Transition.cs" />
@@ -131,6 +134,9 @@
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/GoToAltarTransition.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/DeathTransition.cs" />
     <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/ZombieSO.cs" />
+    <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/ParametersIconListSO.cs" />
+    <Compile Include="Assets/UnitParametersValue.cs" />
+    <Compile Include="Assets/FullUnitParametersValue.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/PlayerPrefsUtil.cs" />
     <Compile Include="Assets/UnitSoundManager.cs" />
     <Compile Include="Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX3_Demo.cs" />
@@ -146,6 +152,7 @@
     <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/AllZombiesSO.cs" />
     <Compile Include="Assets/BrokenVector/LowPolyFencePack/Scripts/DoorToggle.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/States/State.cs" />
+    <Compile Include="Assets/UnitParameterView.cs" />
     <Compile Include="Assets/DamageDebufZone.cs" />
     <Compile Include="Assets/LvlContainer.cs" />
     <Compile Include="Assets/FullZombiesContainer.cs" />
@@ -158,6 +165,8 @@
     <Compile Include="Assets/DragItem.cs" />
     <Compile Include="Assets/LoginScript.cs" />
     <Compile Include="Assets/AurynSky/Desert Pack/Scripts/MaterialMover.cs" />
+    <Compile Include="Assets/ToxicZone.cs" />
+    <Compile Include="Assets/ResurrectedZone.cs" />
     <Compile Include="Assets/AurynSky/Desert Pack/Scripts/ChestDemo.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Unit/Enemy.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/Unit/EnemyAltar.cs" />
@@ -166,8 +175,8 @@
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/FlexibleGridLayout.cs" />
     <Compile Include="Assets/FarmerKnife.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/UserCharacter.cs" />
-    <Compile Include="Assets/ToxicZone.cs" />
-    <Compile Include="Assets/ResurrectedZone.cs" />
+    <Compile Include="Assets/_FreedomForZombie/Scripts/MultiplierService.cs" />
+    <Compile Include="Assets/DisableAffrerAnim.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Toon Gas Station/ToonShading/Shaders/ToonBasicOutline.shader" />

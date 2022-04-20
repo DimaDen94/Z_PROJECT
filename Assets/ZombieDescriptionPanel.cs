@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -9,11 +10,9 @@ public class ZombieDescriptionPanel : MonoBehaviour
     [SerializeField] Text _name;
     [SerializeField] Text _description;
     [SerializeField] Text _lvl;
-    [SerializeField] Text _damage;
-    [SerializeField] Text _health;
-    [SerializeField] Text _speed;
+    [SerializeField] ParamatersContainer _parametersContainer;
+ 
     [SerializeField] UpgradeOrBayBtn _upgradeBtn;
-    [SerializeField] DamageMultiplierSO _damageMultiplier;
 
     public UnityEvent UpdateData;
 
@@ -22,22 +21,28 @@ public class ZombieDescriptionPanel : MonoBehaviour
         _preview.sprite = zombieSO.Preview;
         _name.text = zombieSO.Name;
         _description.text = zombieSO.Descripription;
-        this._zombieSO = zombieSO;
+        _zombieSO = zombieSO;
         UpdateNonStaticUI();
     }
     private void UpdateNonStaticUI() {
         UserCharacter userCharacter = DataService.TryToFindZombiInInventoryById(_zombieSO.Name);
-        float damageMultiplier = 1;
-        if (userCharacter != null)
-            damageMultiplier = _damageMultiplier.MultiplierList[userCharacter.lvl];
-
-        _damage.text = ((int)(_zombieSO.DefaultDamage * damageMultiplier)).ToString();
-        _health.text = _zombieSO.DefaultHealth.ToString();
-        _speed.text = _zombieSO.DefaultSpeed.ToString();
         SetLvl(userCharacter);
         SetStatusForBayBtn(userCharacter,_zombieSO.Name);
         UpdateData.Invoke();
+
+        if(userCharacter != null)
+            _parametersContainer.Render(GenerateFullParams(_zombieSO.Parameters,userCharacter.lvl));
+        else
+            _parametersContainer.Render(GenerateFullParams(_zombieSO.Parameters));
     }
+    private List<FullUnitParametersValue> GenerateFullParams(List<UnitParametersValue> parameters, int lvl = -1) {
+        List<FullUnitParametersValue> fullUnitParameters = new List<FullUnitParametersValue>();
+        foreach (UnitParametersValue parameter in parameters) {
+            fullUnitParameters.Add(new FullUnitParametersValue(MultiplierService.GetValueByParameterAndLvl(parameter, lvl),parameter.parameterType, MultiplierService.GetNewLvlBonusValueByParameterAndLvl(parameter,lvl)));
+        }
+        return fullUnitParameters;
+    }
+    
     private void SetLvl(UserCharacter userCharacter)
     {
         if (userCharacter != null)
@@ -62,7 +67,7 @@ public class ZombieDescriptionPanel : MonoBehaviour
     private void SetUpgradeStatusData(UserCharacter userCharacter) {
         if (userCharacter.lvl <= 10)
         {
-            int price = GetPriceForNewLvlByCurrentLvl(userCharacter.lvl);
+            int price = MultiplierService.GetPriceForNewLvlByCurrentLvl(userCharacter.lvl);
             _upgradeBtn.SetPrice(price);
             bool isEnoughMoney = price <= DataService.CoinBalance;
             SetEnoughMoneyStatus(isEnoughMoney);
@@ -101,7 +106,7 @@ public class ZombieDescriptionPanel : MonoBehaviour
         SetAction(() => {
             Debug.Log("TryToUpgradeCharacter");
             _upgradeBtn.DeactivateBtn();
-            PlayfabManager.TryToUpgradeCharacter(userCharacter, GetPriceForNewLvlByCurrentLvl(userCharacter.lvl),SuccessAction, PlayWrongAudio);
+            PlayfabManager.TryToUpgradeCharacter(userCharacter, MultiplierService.GetPriceForNewLvlByCurrentLvl(userCharacter.lvl),SuccessAction, PlayWrongAudio);
         });
     }
     private void PlayWrongAudio()
@@ -126,31 +131,6 @@ public class ZombieDescriptionPanel : MonoBehaviour
             _upgradeBtn.SetStatus(UpgradeOrBayBtnStatus.NotEnoughMoney);
     }
 
-    private int GetPriceForNewLvlByCurrentLvl(int lvl) {
-        switch (lvl) {
-            case 1:
-                return 100;
-            case 2:
-                return 200;
-            case 3:
-                return 500;
-            case 4:
-                return 1000;
-            case 5:
-                return 2000;
-            case 6:
-                return 5000;
-            case 7:
-                return 10000;
-            case 8:
-                return 20000;
-            case 9:
-                return 50000;
-            case 10:
-                return 100000;
-            default:
-                return 0;
-        }
-    }
+    
 
 }

@@ -373,7 +373,7 @@ MonoBehaviour:
   _zombieSO: {fileID: 0}
   _lvlContainer: {fileID: 791643651475131914}
   _lvlNumber: {fileID: 804172080245489029}
-  _disableColor: {r: 0, g: 0, b: 0, a: 0}
+  _disableColor: {r: 0.5294118, g: 0.3019608, b: 0.3019608, a: 1}
   OnChooseZombie:
     m_PersistentCalls:
       m_Calls: []

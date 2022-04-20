@@ -45,16 +45,16 @@ public class ZombieSpawnArea : MonoBehaviour
                 if (_collider.Raycast(_mainCamera.ScreenPointToRay(Input.mousePosition), out hit, _maxDistance))
                 {
                     _worldPosition = hit.point;
-                    if (_mana.TryUseMana(_currentZombie.DefaultManaCost))
+                    if (_mana.TryUseMana(_currentZombie.PowerCost))
                     {
 
                         Zombie spawnedZombie = Instantiate(_currentZombie.Prefab, _worldPosition, Quaternion.LookRotation(_targetAltar.transform.position));
                         spawnedZombie.SetTargetAltar(_targetAltar);
                         spawnedZombie.SetNativeAltar(_nativeAltar);
-                        spawnedZombie.SetDefaultParams(_currentZombie.DefaultDamage, _currentZombie.DefaultHealth, _currentZombie.DefaultSpeed,_zombieLvl);
-                        spawnedZombie.SetDamageDebufPower(_currentZombie.DebufPower);
-                        spawnedZombie.SetHealthPower(_currentZombie.HealthPower);
-                        spawnedZombie.SetResurrectChance(_currentZombie.ResurrectChance);
+                        spawnedZombie.SetDefaultParams(_currentZombie.GetDamageByLvl(_zombieLvl), _currentZombie.GetHealthByLvl(_zombieLvl), _currentZombie.DefaultSpeed,_zombieLvl);
+                        spawnedZombie.SetDamageDebufPower(_currentZombie.GetDamageByLvl(_zombieLvl));
+                        spawnedZombie.SetHealthPower(_currentZombie.GetHealingPowerByLvl(_zombieLvl));
+                        spawnedZombie.SetResurrectChance(_currentZombie.GetResurrectChanceByLvl(_zombieLvl));
                         _zombies.Add(spawnedZombie);
                         spawnedZombie.Dying.AddListener(zombie =>
                         {

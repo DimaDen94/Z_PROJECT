@@ -32,8 +32,10 @@ public class ScrollMapContainer : MonoBehaviour
     }
     private void Update()
     {
-        if (!MapService.MapIsActive)
+        if (!MapService.MapIsActive) {
+            _lastXMousePos = null;
             return;
+        }
         if (Input.GetMouseButton(0))
         {
             _currentMousePos = _mainCamera.ScreenToWorldPoint(Input.mousePosition);

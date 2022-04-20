@@ -1,31 +1,59 @@
+using System.Collections.Generic;
 using UnityEngine;
 [CreateAssetMenu(menuName = "Zombies/New Zombie", order = 51)]
 public class ZombieSO : ScriptableObject
 {
+    [Header("Title")]
     [SerializeField] private Zombie _prefab;
     [SerializeField] private Sprite _preview;
     [SerializeField] private string _name;
     [SerializeField] private string _descripription;
-    [SerializeField] private int _defaultManaCost;
-    [SerializeField] private float _defaultDamage;
-    [SerializeField] private float _healthPower;
-    [SerializeField] private float _debufPower;
-    [SerializeField] private float _resurrectChance;
 
-    [SerializeField] private int _defaultHealth;
-    [SerializeField] private int _defaultAtackSpeed;
-    [SerializeField] private float _defaultSpeed;
+    [Header("Params")]
+    [SerializeField] private List<UnitParametersValue> _parameters;
+
+    public List<UnitParametersValue> Parameters => _parameters;
+
+
 
     public Zombie Prefab => _prefab;
     public Sprite Preview => _preview;
     public string Name => _name;
     public string Descripription => _descripription;
-    public int DefaultManaCost => _defaultManaCost;
-    public float DefaultDamage => _defaultDamage;
-    public int DefaultHealth => _defaultHealth;
-    public int DefaultAtackSpeed => _defaultAtackSpeed;
-    public float DefaultSpeed => _defaultSpeed;
-    public float HealthPower => _healthPower;
-    public float DebufPower => _debufPower; 
-    public float ResurrectChance => _resurrectChance; 
+
+    public int PowerCost => (int)FindValueByParameterType(UnitParameter.POWER_COST);
+    public int DefaultAtackSpeed => (int)FindValueByParameterType(UnitParameter.ATTACK_SPEED);
+    public float DefaultSpeed => FindValueByParameterType(UnitParameter.SPEED) / 2;//значение зарание увеличено для визуального отображения на экране апдейта (что бы число выглядило внушительней)
+
+
+    public int GetDamageByLvl(int lvl) {
+        return  MultiplierService.GetNewParameterValueByLvlAndValue(lvl, FindValueByParameterType(UnitParameter.DAMAGE));
+    }
+    public int GetHealthByLvl(int lvl)
+    {
+        return MultiplierService.GetNewParameterValueByLvlAndValue(lvl, FindValueByParameterType(UnitParameter.HEALTH));
+    }
+    public int GetHealingPowerByLvl(int lvl)
+    {
+        return MultiplierService.GetNewParameterValueByLvlAndValue(lvl, FindValueByParameterType(UnitParameter.HEALING_POWER));
+    }
+    public int GetDamageDebuffPowerByLvl(int lvl)
+    {
+        return MultiplierService.GetNewParameterValueByLvlAndValue(lvl, FindValueByParameterType(UnitParameter.DAMAGE_DEBUFF_POWER));
+    }
+    public int GetResurrectChanceByLvl(int lvl)
+    {
+        return MultiplierService.GetResurrectChanceByLvl(lvl);
+    }
+
+
+    private float FindValueByParameterType(UnitParameter type)
+    {
+        foreach (UnitParametersValue value in _parameters)
+        {
+            if (value.parameterType == type)
+                return value.Value;
+        }
+        return 0;
+    }
 }
