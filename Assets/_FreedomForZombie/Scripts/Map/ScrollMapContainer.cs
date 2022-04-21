@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ScrollMapContainer : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class ScrollMapContainer : MonoBehaviour
 
     private int _maxDistance = 1000;
     private Camera _mainCamera;
-
+    public UnityEvent StartPositionSet;
     private void Awake()
     {
         _mainCamera = Camera.main;
@@ -22,6 +23,8 @@ public class ScrollMapContainer : MonoBehaviour
     private void Start()
     {
         SetupStartPosition();
+        StartPositionSet?.Invoke();
+
     }
     private void SetupStartPosition()
     {

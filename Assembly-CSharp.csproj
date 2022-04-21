@@ -110,6 +110,7 @@
     <Compile Include="Assets/BalanceUI.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/Transition.cs" />
     <Compile Include="Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX_Demo_RotateCamera.cs" />
+    <Compile Include="Assets/_FreedomForZombie/Scripts/MultiplierService.cs" />
     <Compile Include="Assets/SolClovser/EasyMultipleHealthbar/Scripts/EasyMultipleHealthbar.cs" />
     <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/DamageMultiplierSO.cs" />
     <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/Waves/WaveUnit.cs" />
@@ -156,6 +157,7 @@
     <Compile Include="Assets/DamageDebufZone.cs" />
     <Compile Include="Assets/LvlContainer.cs" />
     <Compile Include="Assets/FullZombiesContainer.cs" />
+    <Compile Include="Assets/DisableAffrerAnim.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/StateMachine/Transitions/ExitChecker.cs" />
     <Compile Include="Assets/Demo/Scripts/CollectionDemo.cs" />
     <Compile Include="Assets/PlayerUnitsContainer.cs" />
@@ -175,8 +177,12 @@
     <Compile Include="Assets/_FreedomForZombie/Scripts/UI/FlexibleGridLayout.cs" />
     <Compile Include="Assets/FarmerKnife.cs" />
     <Compile Include="Assets/_FreedomForZombie/Scripts/UserCharacter.cs" />
-    <Compile Include="Assets/_FreedomForZombie/Scripts/MultiplierService.cs" />
-    <Compile Include="Assets/DisableAffrerAnim.cs" />
+    <Compile Include="Assets/MoverToCurrentPoint.cs" />
+    <Compile Include="Assets/UISoundManager.cs" />
+    <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/AudioSO.cs" />
+    <Compile Include="Assets/_FreedomForZombie/ScriptableObjects/SoundType.cs" />
+    <Compile Include="Assets/_FreedomForZombie/Scripts/AudioItem.cs" />
+    <Compile Include="Assets/ButtonSoundPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Toon Gas Station/ToonShading/Shaders/ToonBasicOutline.shader" />

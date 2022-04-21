@@ -1,6 +1,7 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -11,6 +12,7 @@ public class MapPoint : MonoBehaviour
     [SerializeField] private StarContainer _starsContainer;
     [SerializeField] private SpriteRenderer _pointImage;
     [SerializeField] private Sprite _activeSparite;
+    public UnityAction ChoosePoint;
     private bool isActive = false;
     private void Start()
     {
@@ -32,6 +34,7 @@ public class MapPoint : MonoBehaviour
             return;
         if (isActive)
         {
+            ChoosePoint?.Invoke();
             DataService.LastClickedPoint = _pointNumber;
             SceneManager.LoadScene(Scenes.MainGameScene.ToString());
         }

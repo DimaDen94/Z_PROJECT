@@ -13,6 +13,7 @@ public class ZombieDescriptionPanel : MonoBehaviour
     [SerializeField] ParamatersContainer _parametersContainer;
  
     [SerializeField] UpgradeOrBayBtn _upgradeBtn;
+    [SerializeField] UISoundManager _soundManager;
 
     public UnityEvent UpdateData;
 
@@ -111,14 +112,17 @@ public class ZombieDescriptionPanel : MonoBehaviour
     }
     private void PlayWrongAudio()
     {
-        _upgradeBtn.ActivateBtn();
-        //todo playAudio
+        SetAction(() => {
+            _upgradeBtn.ActivateBtn();
+            _soundManager.PlaySound(SoundType.WrongUpgrade);
+        });
+     
 
     }
     private void SuccessAction()
     {
-        
         UpdateNonStaticUI();
+        _soundManager.PlaySound(SoundType.Upgrade);
         _upgradeBtn.ActivateBtn();
     }
 

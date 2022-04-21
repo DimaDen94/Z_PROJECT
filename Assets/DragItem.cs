@@ -7,6 +7,7 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
     [SerializeField] private Transform _dragContainer;
     [SerializeField] private Transform _parant;
     [SerializeField] private ZombieUpgradeUI _zombieUpgradeUI;
+    [SerializeField] private UISoundManager _soundManager;
    
 
     private Vector3 _startPosition;
@@ -25,6 +26,7 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
     {
         if (_zombieUpgradeUI.IsContainsInInventory)
         {
+            _soundManager.PlaySound(SoundType.StartDragItem);
             _canvasGroup.blocksRaycasts = false;
             _transform.parent = _dragContainer;
             _currentZombie = _zombieUpgradeUI.ZombieSO;
@@ -42,6 +44,7 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
     {
         if (_zombieUpgradeUI.IsContainsInInventory)
         {
+            _soundManager.PlaySound(SoundType.EndDragItem);
             _canvasGroup.blocksRaycasts = true;
             _transform.parent = _parant;
             _transform.localPosition = _startPosition;
@@ -51,6 +54,7 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        _soundManager.PlaySound(SoundType.SelectItem);
         GetComponentInParent<Button>().onClick.Invoke();
     }
 }
