@@ -28,10 +28,11 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: a6649ba80bc9b41f58cd6881d2fd9a15, type: 3}
-    totalSpriteSurfaceArea: 3146916
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -65,6 +66,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: cbdf7be52cd434c9988ea9ff58fc9177, type: 3}
   - {fileID: 21300000, guid: 186b8c465cdf84496a20ad3f7ec3f7bf, type: 3}
   - {fileID: 21300000, guid: e5165a565b8c043009ef2190298fad84, type: 3}
+  - {fileID: 21300000, guid: 9a2bdd56187f34129893090635e20c17, type: 3}
   - {fileID: 21300000, guid: 595d6ef653266409bac50f5771a48667, type: 3}
   - {fileID: 21300000, guid: 969e08c755c0046d6bf40d924d106ace, type: 3}
   - {fileID: 21300000, guid: 3261af6840aae4ed2833bde4ab125d55, type: 3}
@@ -154,6 +156,7 @@ SpriteAtlas:
   - icon_gun
   - status_btn_add_red_n
   - medal_11
+  - silder_item_fill_red full
   - icon_Large_lock
   - silder_item_fill_black
   - toggle_bar
@@ -214,5 +217,6 @@ SpriteAtlas:
   - toggle_btn_medium_on
   - toggle_btn_large_on
   - icon_Large_bomb
+  m_RenderDataMap: {}
   m_Tag: _Common
   m_IsVariant: 0

@@ -28,10 +28,11 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: cd2312100889644fa83bffe3a0ad257a, type: 3}
-    totalSpriteSurfaceArea: 147559
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -56,5 +57,6 @@ SpriteAtlas:
   - icon_time
   - icon_coin
   - icon_heart
+  m_RenderDataMap: {}
   m_Tag: Item
   m_IsVariant: 0

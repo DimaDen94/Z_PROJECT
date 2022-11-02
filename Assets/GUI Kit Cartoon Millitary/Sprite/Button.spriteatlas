@@ -28,10 +28,11 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 1428e005a636b44c0bf5209d01d5fd42, type: 3}
-    totalSpriteSurfaceArea: 2127840
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -100,6 +101,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: fda4fa2839ab34229b75d4cf5366473d, type: 3}
   - {fileID: 21300000, guid: 4d382338aa68e438fb98e2b53bc82cc4, type: 3}
   - {fileID: 21300000, guid: cb52e1582c6994f00a70617ed8bbefec, type: 3}
+  - {fileID: 21300000, guid: c96ec3785f01249d48bba96493476f47, type: 3}
   - {fileID: 21300000, guid: a3b44c88810fa42f4b9b4d37c42c2e54, type: 3}
   - {fileID: 21300000, guid: 93fb8bb8251704032b1e1a87dd9b719b, type: 3}
   - {fileID: 21300000, guid: a97aedb89d5c34f5ab998f9c9ca688a6, type: 3}
@@ -121,6 +123,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 6fc777eaec6f84b2abbece2bce79e77d, type: 3}
   - {fileID: 21300000, guid: 496988fa14b614eea841beead95e500e, type: 3}
   - {fileID: 21300000, guid: 17b3080b9cc7049ef97b13fc89e56da5, type: 3}
+  - {fileID: 21300000, guid: a88c362bb7868421e823b7db6614586b, type: 3}
   - {fileID: 21300000, guid: 123dfa5b871ce4e15b274e129f355029, type: 3}
   - {fileID: 21300000, guid: 9f001c5b885cb42a2b8fa666de82a366, type: 3}
   - {fileID: 21300000, guid: bd9a128b14ee3486ea1d130011c381c8, type: 3}
@@ -139,6 +142,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: fccd83dca44d5453a8fb6f9ecdf0cb7d, type: 3}
   - {fileID: 21300000, guid: 9050360de6bd245379bb2124c013d120, type: 3}
   - {fileID: 21300000, guid: 91537c1d633984f99a9eb397ae47ea0a, type: 3}
+  - {fileID: 21300000, guid: 783c852ddfc094f9ab6e7746e3f3b9c3, type: 3}
   - {fileID: 21300000, guid: d980f53d5a6174a1abe58a0576336080, type: 3}
   - {fileID: 21300000, guid: 2591557d4a8924ae6b08be76e451084f, type: 3}
   - {fileID: 21300000, guid: e517467de4ee44bfcbafaade093176cd, type: 3}
@@ -221,6 +225,7 @@ SpriteAtlas:
   - btn_sound_on_n
   - btn_restart_n
   - btn_next_f
+  - btn_music_off_n
   - btn_next_n
   - btn_trash_f
   - btn_play_f
@@ -242,6 +247,7 @@ SpriteAtlas:
   - btn_facebook_n
   - btn_position_n
   - btn_check_f
+  - 'btn_music_on_n '
   - btn_menu_n
   - btn_rw_n
   - btn_flag_n
@@ -260,6 +266,7 @@ SpriteAtlas:
   - btn_mission_f
   - btn_menu_f
   - btn_play_f
+  - btn_manu_store_n
   - btn_ff_f
   - btn_play_n
   - btn_home_f
@@ -278,5 +285,6 @@ SpriteAtlas:
   - btn_friends_f
   - btn_sound_on_f
   - btn_download_f
+  m_RenderDataMap: {}
   m_Tag: Button
   m_IsVariant: 0

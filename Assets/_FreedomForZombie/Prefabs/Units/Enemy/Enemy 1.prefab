@@ -442,7 +442,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2533943985825899311}
   - component: {fileID: 2533943985818635431}
-  - component: {fileID: 7909545346796604735}
   m_Layer: 0
   m_Name: EnemyBody
   m_TagString: Untagged
@@ -485,27 +484,15 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: e1345f231bddd7a488397fb5ca71c0cb, type: 3}
   m_Controller: {fileID: 9100000, guid: 3c90d75d090136b429461873af7f9f1f, type: 2}
-  m_CullingMode: 1
+  m_CullingMode: 2
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7909545346796604735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2533943985825939151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 940e9f840ecfc4ee48aaad3b2937c128, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2533943985825939201
 GameObject:
   m_ObjectHideFlags: 0
@@ -2500,10 +2487,10 @@ MonoBehaviour:
   _health: 400
   _maxHealth: 400
   _targetEnemy: {fileID: 0}
+  _targetEnemyAltar: {fileID: 0}
   _nativeAltar: {fileID: 0}
   animator: {fileID: 2533943985818635431}
-  _damageMultiplierSO: {fileID: 11400000, guid: 89ae9b7a7e60946fd8c16ce60dc40a4a, type: 2}
-  _damage: 45
+  _damage: 40
   _damageDebuf: 1
   _damageDebufCounter: 0
   LvlUpdate:
@@ -2539,6 +2526,21 @@ MonoBehaviour:
       - m_Target: {fileID: 676049945631245018}
         m_TargetAssemblyTypeName: UnitSoundManager, Assembly-CSharp
         m_MethodName: PlayDyingSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Celebration:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2275628822683245999}
+        m_TargetAssemblyTypeName: TargetAltarDieTransition, Assembly-CSharp
+        m_MethodName: StartCelebration
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2754,7 +2756,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ff339922cda24c43ad2bab1dbea19b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _transitions: []
+  _transitions:
+  - {fileID: 6852195829736465030}
 --- !u!114 &6852195829736465030
 MonoBehaviour:
   m_ObjectHideFlags: 0

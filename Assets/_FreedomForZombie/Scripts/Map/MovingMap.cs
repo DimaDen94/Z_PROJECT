@@ -21,13 +21,14 @@ public class MovingMap : MonoBehaviour
         else if (_mapNumber == lastPageConut && moveX < 0)
         {
             if (transform.position.x + moveX <= -(_spriteWidth / 2 - _pixelWidth.x))
-                return 0;
+                return -(_spriteWidth / 2 - _pixelWidth.x) - transform.position.x;
         }
         return moveX;
     }
 
-    public void MoveToStartPosition() {
-        transform.position = new Vector3((_spriteWidth /2 - _pixelWidth.x) + (_spriteWidth * _mapNumber), transform.position.y, transform.position.z);
+    public void MoveToStartPosition()
+    {
+        transform.position = new Vector3((_spriteWidth / 2 - _pixelWidth.x) + (_spriteWidth * _mapNumber), transform.position.y, transform.position.z);
     }
 
     public void Move(float moveX)

@@ -2,10 +2,11 @@ using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class MapPoint : MonoBehaviour
+public class MapPoint : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] private int _pointNumber;
     [SerializeField] private TextMeshPro _pointNumberText;
@@ -30,6 +31,12 @@ public class MapPoint : MonoBehaviour
     }
     private void OnMouseUpAsButton()
     {
+        
+
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
         if (!MapService.MapIsActive)
             return;
         if (isActive)
@@ -38,6 +45,5 @@ public class MapPoint : MonoBehaviour
             DataService.LastClickedPoint = _pointNumber;
             SceneManager.LoadScene(Scenes.MainGameScene.ToString());
         }
-
     }
 }

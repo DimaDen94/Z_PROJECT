@@ -33,6 +33,7 @@ public class ScrollMapContainer : MonoBehaviour
             _movingMaps[i].MoveToStartPosition();
         }
     }
+
     private void Update()
     {
         if (!MapService.MapIsActive) {
@@ -82,13 +83,15 @@ public class ScrollMapContainer : MonoBehaviour
             }
         }
     }
-
+    
     public void Move(float delta)
     {
         
         for (var i = 0; i < _movingMaps.Count; i++)
         {
             delta = _movingMaps[i].GetMaxDelta(delta, _movingMaps.Count - 1);
+            Debug.Log("delta - " + delta);
+
         }
         for (var i = 0; i < _movingMaps.Count; i++)
         {

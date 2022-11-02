@@ -1164,10 +1164,12 @@ MonoBehaviour:
   _health: 800
   _maxHealth: 800
   _targetEnemy: {fileID: 0}
+  _targetEnemyAltar: {fileID: 0}
   _nativeAltar: {fileID: 0}
   animator: {fileID: 2571558170277770957}
-  _damageMultiplierSO: {fileID: 11400000, guid: 89ae9b7a7e60946fd8c16ce60dc40a4a, type: 2}
-  _damage: 70
+  _damage: 60
+  _damageDebuf: 1
+  _damageDebufCounter: 0
   LvlUpdate:
     m_PersistentCalls:
       m_Calls:
@@ -1210,6 +1212,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  Celebration:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2275628822683245999}
+        m_TargetAssemblyTypeName: TargetAltarDieTransition, Assembly-CSharp
+        m_MethodName: StartCelebration
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   TakeDamage:
     m_PersistentCalls:
       m_Calls:
@@ -1225,7 +1242,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  _defaultDeathCost: 10
+  _defaultDeathCost: 15
 --- !u!114 &4338513097856884216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1259,7 +1276,6 @@ MonoBehaviour:
   - {fileID: 2275628822683245999}
   - {fileID: 6852195829736465030}
   - {fileID: 5790785585563850183}
-  _animator: {fileID: 2571558170277770957}
 --- !u!114 &5790785585563850183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1334,7 +1350,6 @@ MonoBehaviour:
   - {fileID: 4338513097856884162}
   - {fileID: 2275628822683245999}
   - {fileID: 6852195829736465030}
-  _animator: {fileID: 2571558170277770957}
 --- !u!114 &4338513097856884163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1380,7 +1395,6 @@ MonoBehaviour:
   - {fileID: 4338513097856884220}
   - {fileID: 2275628822683245999}
   - {fileID: 6852195829736465030}
-  _animator: {fileID: 2571558170277770957}
 --- !u!114 &4338513097856884220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1419,8 +1433,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ff339922cda24c43ad2bab1dbea19b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _transitions: []
-  _animator: {fileID: 2571558170277770957}
+  _transitions:
+  - {fileID: 6852195829736465030}
 --- !u!114 &6852195829736465030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1447,7 +1461,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _transitions: []
-  _animator: {fileID: 2571558170277770957}
 --- !u!1 &4338513098039151947
 GameObject:
   m_ObjectHideFlags: 0
@@ -2755,7 +2768,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 3c90d75d090136b429461873af7f9f1f, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 

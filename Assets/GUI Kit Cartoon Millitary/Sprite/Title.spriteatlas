@@ -28,10 +28,11 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 1b36bac051b3d46e692c80f9c8888825, type: 3}
-    totalSpriteSurfaceArea: 486906
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -46,7 +47,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 0f1caa094d100457587bcec704619c2c, type: 3}
   - {fileID: 21300000, guid: fc8d552c0dc484fb9bed3079ad4bd9b2, type: 3}
   - {fileID: 21300000, guid: 971adfdc0681e4e289701b7adf6a2dab, type: 3}
-  - {fileID: 21300000, guid: 783c852ddfc094f9ab6e7746e3f3b9c3, type: 3}
   - {fileID: 21300000, guid: 9b57bbadfd0be4042a166f45af13dccd, type: 3}
   - {fileID: 21300000, guid: 820a8d5eab37b45b59b9f6ae096e568b, type: 3}
   - {fileID: 21300000, guid: b2727c2fa09e74facbac861e99301c80, type: 3}
@@ -61,10 +61,10 @@ SpriteAtlas:
   - btn_manu_setting_n
   - title_title_text
   - btn_manu_message_f
-  - btn_manu_store_n
   - btn_play_n
   - btn_facebook
   - btn_manu_message_n
   - btn_manu_mission_n
+  m_RenderDataMap: {}
   m_Tag: Title
   m_IsVariant: 0

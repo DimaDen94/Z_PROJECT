@@ -28,10 +28,11 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 45f035ed2930547f398d15656acfc9ad, type: 3}
-    totalSpriteSurfaceArea: 135459
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -44,5 +45,6 @@ SpriteAtlas:
   - title_login_text
   - bottom_bg_check
   - input_box
+  m_RenderDataMap: {}
   m_Tag: Login
   m_IsVariant: 0

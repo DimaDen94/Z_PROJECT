@@ -28,10 +28,11 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: ff515480c1f3e4a8db3df998fb7288d6, type: 3}
-    totalSpriteSurfaceArea: 634574
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -56,5 +57,6 @@ SpriteAtlas:
   - death
   - gameover
   - bonus_time
+  m_RenderDataMap: {}
   m_Tag: ActionText
   m_IsVariant: 0

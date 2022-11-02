@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 879a9e93f871c4466b974fc445d325d9, type: 3}
+  m_Name: 15 Lvl Waves
+  m_EditorClassIdentifier: 
+  _altarModel: {fileID: 11400000, guid: 6dfd7403ad2b44996bd18b8195ff1c37, type: 2}
+  _wawes:
+  - waweUnit:
+    - delay: 0
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: b55a05bfa95e34413ab0dcb1d16e4c8a, type: 3}
+      spawnPosition: 1
+    - delay: 2
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
+      spawnPosition: 0
+    - delay: 0
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
+      spawnPosition: 1
+    - delay: 4
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: aacd73234ee6f4232b0a1b43ce3193ce, type: 3}
+      spawnPosition: 0
+    - delay: 0
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: 14a0e93de773446a982b15d1bff78abd, type: 3}
+      spawnPosition: 1
+    - delay: 6
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: e1d15153d80ec45cdb1f03378950f1db, type: 3}
+      spawnPosition: 0
+    - delay: 0
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: e1d15153d80ec45cdb1f03378950f1db, type: 3}
+      spawnPosition: 1
+    - delay: 9
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: 5cb20be13e27844c28c2404c95ad7f6d, type: 3}
+      spawnPosition: 0
+    - delay: 0
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: 5cb20be13e27844c28c2404c95ad7f6d, type: 3}
+      spawnPosition: 1
+    - delay: 12
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: e1d15153d80ec45cdb1f03378950f1db, type: 3}
+      spawnPosition: 1
+    - delay: 0
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: e1d15153d80ec45cdb1f03378950f1db, type: 3}
+      spawnPosition: 0
+    - delay: 18
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: e1d15153d80ec45cdb1f03378950f1db, type: 3}
+      spawnPosition: 1
+    - delay: 0
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: e1d15153d80ec45cdb1f03378950f1db, type: 3}
+      spawnPosition: 0
+    - delay: 20
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: e1d15153d80ec45cdb1f03378950f1db, type: 3}
+      spawnPosition: 0
+    - delay: 0
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: e1d15153d80ec45cdb1f03378950f1db, type: 3}
+      spawnPosition: 1
+    - delay: 30
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: e1d15153d80ec45cdb1f03378950f1db, type: 3}
+      spawnPosition: 1
+    - delay: 0
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: e1d15153d80ec45cdb1f03378950f1db, type: 3}
+      spawnPosition: 0
+    - delay: 30
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: e1d15153d80ec45cdb1f03378950f1db, type: 3}
+      spawnPosition: 1
+    - delay: 0
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: e1d15153d80ec45cdb1f03378950f1db, type: 3}
+      spawnPosition: 0
+    - delay: 30
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: e1d15153d80ec45cdb1f03378950f1db, type: 3}
+      spawnPosition: 1
+    - delay: 0
+      enemyLvl: 6
+      enemy: {fileID: 4338513097856884217, guid: e1d15153d80ec45cdb1f03378950f1db, type: 3}
+      spawnPosition: 0

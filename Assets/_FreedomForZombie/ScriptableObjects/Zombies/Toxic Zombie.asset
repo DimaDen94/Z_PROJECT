@@ -17,10 +17,11 @@ MonoBehaviour:
   _name: Ada
   _descripription: Toxic Zombie Chemist deals caustic smoke damage to nearby enemies.
     Damage is dealt every second and is equal to the Chemist's damage.
+  price: 2500
   _parameters:
   - isStaticParameter: 1
     parameterType: 0
-    Value: 7
+    Value: 6
   - isStaticParameter: 0
     parameterType: 1
     Value: 750

@@ -4803,7 +4803,6 @@ GameObject:
   m_Component:
   - component: {fileID: 856601670117272814}
   - component: {fileID: 6787307350760744546}
-  - component: {fileID: 7197366257055240187}
   - component: {fileID: 6685318907720150788}
   - component: {fileID: 6176197805784752739}
   - component: {fileID: 6005232063290335732}
@@ -4823,6 +4822,7 @@ GameObject:
   - component: {fileID: 1992873636122471127}
   - component: {fileID: 7396237398688296482}
   - component: {fileID: 1395337143050121214}
+  - component: {fileID: 5339342501363642386}
   m_Layer: 0
   m_Name: toxic_zombie
   m_TagString: Untagged
@@ -4858,28 +4858,12 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 856601670117699726}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.7
   m_Height: 4
   m_Direction: 1
   m_Center: {x: 0, y: 2, z: 0}
---- !u!54 &7197366257055240187
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 856601670117699726}
-  serializedVersion: 2
-  m_Mass: 0.001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!114 &6685318907720150788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4895,6 +4879,7 @@ MonoBehaviour:
   _health: 60
   _maxHealth: 60
   _targetEnemy: {fileID: 0}
+  _targetEnemyAltar: {fileID: 0}
   _nativeAltar: {fileID: 0}
   animator: {fileID: 2033437748389811968}
   _damage: 0
@@ -4942,6 +4927,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  Celebration:
+    m_PersistentCalls:
+      m_Calls: []
   TakeDamage:
     m_PersistentCalls:
       m_Calls:
@@ -5238,6 +5226,22 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!54 &5339342501363642386
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856601670117699726}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2033437748382414622
 GameObject:
   m_ObjectHideFlags: 0
@@ -6336,7 +6340,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: e523f3e802f984091bdd429ef725c741, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 

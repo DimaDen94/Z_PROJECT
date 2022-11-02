@@ -17,10 +17,11 @@ MonoBehaviour:
   _name: Thomas
   _descripription: Zombie priest is able to summon new zombies at the place of killed
     enemies
+  price: 5000
   _parameters:
   - isStaticParameter: 1
     parameterType: 0
-    Value: 8
+    Value: 7
   - isStaticParameter: 0
     parameterType: 1
     Value: 500

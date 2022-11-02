@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac042cd9ec9904252b4c27e1e96161e6, type: 3}
+  m_Name: Restore Full Power SO
+  m_EditorClassIdentifier: 
+  _name: Power Recovery
+  _descripription: Clicking on the ability fully restores strength
+  _preview: {fileID: 21300000, guid: 29fe565d49407461cb64c9ae19ba2072, type: 3}
+  _parameters:
+  - isStaticParameter: 0
+    parameterType: 8
+    Value: 60
